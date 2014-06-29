@@ -1,0 +1,41 @@
+input,
+select,
+textarea,
+button {
+  @extend %font-weight-text;
+  @extend %line-height;
+  @extend %font-family-text;
+  @extend %background-white;
+}
+
+input,
+select,
+textarea { @extend %font-size-base; }
+
+button {
+  @extend %font-size-medium;
+  @extend %background-primary;
+  @extend %color-text-invert;
+}
+
+@include breakpoint($mobile-small) {
+  input,
+  select,
+  button {
+    @extend %padding-reset-mobile-small;
+    @extend %height-line-height-mobile-small;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    @extend %margin-reset-mobile-small;
+    @extend %border-reset-mobile-small;
+    @extend %padding-right-mobile-small;
+    @extend %padding-left-mobile-small;
+    @extend %width-full-mobile-small;
+  }
+
+  textarea { @extend %padding-block-mobile-small; }
+}

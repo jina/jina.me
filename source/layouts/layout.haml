@@ -1,0 +1,56 @@
+!!!
+%html.no-js
+  %head
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %title= page_title
+    %meta(content="" name="description")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    = stylesheet_link_tag "jina"
+    = javascript_include_tag  "vendor/modernizr.2.8.2.custom"
+    = javascript_include_tag  "//use.typekit.net/msm6abf.js"
+    :javascript
+      try{Typekit.load();}catch(e){}
+
+  %body{class: page_classes}
+    %aside.complementary(role="complementary")
+      .portrait
+        %p= image_tag "jina.jpg", alt: "Photo of Jina"
+
+    %main.main(role="main")
+      .main-content
+        %nav.navigation(role="navigation")
+          .navigation-content
+            %ul.list-menu
+              %li= link_to "About",   "/"
+              %li= link_to "Speaking",   "/speaking"
+              %li= link_to "Contact", "/contact"
+
+        .body
+          .body-content= Typogruby.improve(yield)
+
+        %footer.contentinfo(role="contentinfo")
+          .contentinfo-content
+            %ul.list-menu
+              %li= link_to "Twitter",   "http://twitter.com/jina"
+              %li= link_to "Instagram", "http://instagram.com/jina"
+              %li= link_to "Dribbble",  "http://dribbble.com/jina"
+              %li= link_to "Github",    "http://github.com/jina"
+
+            %p
+              Copyright &copy; 2000&ndash;2014 Jina, all rights reserved.
+              = link_to "http://www.mediatemple.net#a_aid=501cfa93bffd3", title: "Hosted by Media Temple" do
+                (mt)
+
+    = javascript_include_tag  "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    :javascript
+      window.jQuery || document.write('<script src="/assets/js/vendor/jquery-2.1.1.js"><\/script>')
+    = javascript_include_tag  "jina"
+    :javascript
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-19273722-2');ga('send','pageview');
+

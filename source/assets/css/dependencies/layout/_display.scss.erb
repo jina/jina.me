@@ -1,0 +1,11 @@
+/* ---------------------------------------------------------------------------
+/* DISPLAY */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %display-block-<%= resolution.target %>      { display: block     ; }
+    %display-table-<%= resolution.target %>      { display: table     ; }
+    %display-table-row-<%= resolution.target %>  { display: table-row ; }
+    %display-table-cell-<%= resolution.target %> { display: table-cell; }
+  }
+<% end %>

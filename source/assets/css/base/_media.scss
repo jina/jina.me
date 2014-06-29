@@ -1,0 +1,11 @@
+// ===========================================================================
+// MEDIA
+
+hr {
+  @extend %margin-reset-mobile-small;
+  @extend %margin-hr-mobile-small;
+  @extend %border-top-width-mobile-small;
+  @extend %border-color;
+}
+
+img { @extend %interpolation-mode; }

@@ -1,0 +1,10 @@
+.caps {
+  @extend %font-size-reduce;
+  @extend %letter-spacing;
+  @extend %text-transform;
+}
+
+.fleurish {
+  @extend %font-size-reduce;
+  @extend %line-height-reset;
+}

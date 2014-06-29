@@ -1,4 +1,4 @@
-jina.github.io
-==============
+jina.me
+=======
 
 Personal page

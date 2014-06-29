@@ -1,0 +1,20 @@
+@include breakpoint($tablet-large) {
+  .main {
+    @extend %display-table-cell-tablet-large;
+    @extend %vertical-align-middle-tablet-large;
+  }
+
+  .main-content {
+    @extend %display-table-tablet-large;
+    @extend %width-full-tablet-large;
+    @extend %height-full-tablet-large;
+  }
+
+  .body { @extend %display-table-row-tablet-large; }
+
+  .body-content {
+    @extend %display-table-cell-tablet-large;
+    @extend %height-full-tablet-large;
+    @extend %vertical-align-middle-tablet-large;
+  }
+}

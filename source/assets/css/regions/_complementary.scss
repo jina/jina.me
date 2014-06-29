@@ -1,0 +1,10 @@
+.complementary {
+  @extend %border-bottom-width-mobile-small;
+  @extend %border-bottom-solid-mobile-small;
+  @extend %border-color;
+
+  @include breakpoint($tablet-large) {
+    @extend %display-table-cell-tablet-large;
+    @extend %vertical-align-bottom-tablet-large;
+  }
+}

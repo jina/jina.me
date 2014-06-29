@@ -1,0 +1,13 @@
+/* ---------------------------------------------------------------------------
+/* WIDTH */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %width-full-<%= resolution.target %>    { width: 100%    ; }
+    %width-half-<%= resolution.target %>    { width: 50%     ; }
+    %width-third-<%= resolution.target %>   { width: 100% / 3; }
+    %width-quarter-<%= resolution.target %> { width: 25%     ; }
+    %width-auto-<%= resolution.target %>    { width: auto    ; }
+    %width-1-<%= resolution.target %>       { width: 1px     ; }
+  }
+<% end %>

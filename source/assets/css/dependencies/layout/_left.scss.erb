@@ -1,0 +1,8 @@
+/* ---------------------------------------------------------------------------
+/* LEFT */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %left-<%= resolution.target %> { left: 0; }
+  }
+<% end %>

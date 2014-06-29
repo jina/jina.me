@@ -1,0 +1,14 @@
+/* ---------------------------------------------------------------------------
+/* HEIGHT */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %height-full-<%= resolution.target %> { height: 100%; }
+    %height-auto-<%= resolution.target %> { height: auto; }
+    %height-1-<%= resolution.target %>    { height: 1px ; }
+
+    %height-line-height-<%= resolution.target %> {
+      @include rem('height', $base-line-height * 2);
+    }
+  }
+<% end %>

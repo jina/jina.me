@@ -1,0 +1,9 @@
+/* ---------------------------------------------------------------------------
+/* CLIP */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %clip-reset-<%= resolution.target %> { clip: rect(0 0 0 0); }
+    %clip-auto-<%= resolution.target %>  { clip: auto         ; }
+  }
+<% end %>

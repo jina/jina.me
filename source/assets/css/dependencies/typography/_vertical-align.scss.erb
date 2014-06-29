@@ -1,0 +1,16 @@
+/* ---------------------------------------------------------------------------
+/* VERTICAL-ALIGN */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %vertical-align-top-<%= resolution.target %> { vertical-align: top; }
+
+    %vertical-align-middle-<%= resolution.target %> {
+      vertical-align: middle;
+    }
+
+    %vertical-align-bottom-<%= resolution.target %> {
+      vertical-align: bottom;
+    }
+  }
+<% end %>

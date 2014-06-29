@@ -1,0 +1,7 @@
+/* ---------------------------------------------------------------------------
+/* FONT-STYLE */
+
+%font-style-text {
+  @extend %font-family-text-italic;
+  font-style: italic;
+}

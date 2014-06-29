@@ -1,0 +1,8 @@
+/* ---------------------------------------------------------------------------
+/* LIST-STYLE */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %list-style-reset-<%= resolution.target %> { list-style: none; }
+  }
+<% end %>

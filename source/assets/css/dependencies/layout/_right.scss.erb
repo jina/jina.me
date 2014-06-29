@@ -1,0 +1,8 @@
+/* ---------------------------------------------------------------------------
+/* RIGHT */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %right-<%= resolution.target %> { right: 50%; }
+  }
+<% end %>

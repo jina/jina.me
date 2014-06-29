@@ -1,0 +1,10 @@
+/* ---------------------------------------------------------------------------
+/* CLEAR */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %clear-right-<%= resolution.target %> { clear: right; }
+    %clear-left-<%= resolution.target %>  { clear: left ; }
+    %clear-both-<%= resolution.target %>  { clear: both ; }
+  }
+<% end %>

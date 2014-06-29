@@ -1,0 +1,13 @@
+.navigation {
+  @extend %font-weight-navigation;
+  @extend %font-family-navigation;
+}
+
+@include breakpoint($mobile-small) {
+  .navigation-content { @extend %padding-block-large-mobile-small; }
+}
+
+@include breakpoint($tablet-large) {
+  .navigation         { @extend %display-table-row-tablet-large ; }
+  .navigation-content { @extend %display-table-cell-tablet-large; }
+}

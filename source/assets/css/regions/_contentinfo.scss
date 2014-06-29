@@ -1,0 +1,15 @@
+.contentinfo {
+  @extend %font-family-contentinfo;
+
+  ul { @extend %font-weight-contentinfo-strong; }
+}
+
+.contentinfo-content { @extend %padding-block-large-mobile-small; }
+
+@include breakpoint($tablet-large) {
+  .contentinfo {
+    @extend %display-table-row-tablet-large;
+  }
+
+  .contentinfo-content { @extend %display-table-cell-tablet-large; }
+}

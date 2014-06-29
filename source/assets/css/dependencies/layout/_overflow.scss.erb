@@ -1,0 +1,11 @@
+/* ---------------------------------------------------------------------------
+/* OVERFLOW */
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %overflow-auto-<%= resolution.target %>    { overflow:   auto   ; }
+    %overflow-hidden-<%= resolution.target %>  { overflow:   hidden ; }
+    %overflow-visible-<%= resolution.target %> { overflow:   visible; }
+    %overflow-y-auto-<%= resolution.target %>  { overflow-y: auto   ; }
+  }
+<% end %>

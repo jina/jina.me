@@ -1,0 +1,9 @@
+// ===========================================================================
+// LAYOUT
+
+$gutter-width: $base-font-size;
+$breakpoint-to-ems: true;
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+$<%= resolution.target %>: <%= resolution.width %>px;
+<% end %>

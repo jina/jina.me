@@ -1,0 +1,30 @@
+.list-details li { @extend %padding-block-mobile-small; }
+
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+  @include breakpoint($<%= resolution.target %>) {
+    %horizontal-list-<%= resolution.target %> {
+      @extend %clearfix-<%= resolution.target %>;
+      @extend %margin-right-shrink-large-<%= resolution.target %>;
+      @extend %margin-left-shrink-large-<%= resolution.target %>;
+      @extend %list-style-reset-<%= resolution.target %>;
+
+      li {
+        @extend %float-left-<%= resolution.target %>;
+        @extend %padding-right-large-<%= resolution.target %>;
+        @extend %padding-left-large-<%= resolution.target %>;
+      }
+    }
+  }
+<% end %>
+
+@include breakpoint($tablet-small) {
+  .list-menu { @extend %horizontal-list-tablet-small; }
+}
+
+@include breakpoint($tablet-large) {
+  .list-details {
+    @extend %horizontal-list-tablet-large;
+
+    li { @extend %width-half-tablet-large; }
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  &,
+  &:before,
+  &:after { @extend %box-sizing-mobile-small; }
+}
+
+html {
+  @extend %padding-right-large-mobile-small;
+  @extend %padding-left-large-mobile-small;
+  @extend %overflow-auto-mobile-small;
+  @extend %font-size-root;
+  @extend %background-color;
+  @extend %color-text;
+}
+
+body {
+  @extend %font-weight-text;
+  @extend %font-size-base;
+  @extend %line-height;
+  @extend %font-family-text;
+  @extend %background-color-transparent;
+}
+
+::-moz-selection { @include background-color-selection; }
+::selection      { @include background-color-selection; }
+
+@include breakpoint($tablet-large) {
+  html,
+  body {
+    @extend %width-full-tablet-large;
+    @extend %height-full-tablet-large;
+  }
+
+  body {
+    @extend %display-table-tablet-large;
+    @extend %table-layout-tablet-large;
+  }
+}
