@@ -1,0 +1,21 @@
+books:
+  - name: 'Fancy Form Design'
+    link: 'http://www.amazon.com/gp/product/0980576849/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980576849&linkCode=as2&tag=jinabolcom-20&linkId=DBSDFZO725CRYPKG'
+    authors: 'Jina Bolton, Tim Connell, <span class="fleurish">&amp;</span>&nbsp;Derek Featherstone'
+    role: 'Co-author'
+  - name: 'The Art <span class="fleurish">&amp;</span> Science <i class="fleurish">of</i> CSS'
+    link: 'http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W'
+    authors: 'Cameron Adams, Jina Bolton, David Johnson, Steve Smith, <span class="fleurish">&amp;</span>&nbsp;Jonathan Snook'
+    role: 'Co-author'
+  - name: 'Sass <i class="fleurish">for</i>  Web Designers'
+    link: 'http://www.amazon.com/gp/product/193755712X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193755712X&linkCode=as2&tag=jinabolcom-20&linkId=M5MF4B3LH2GVKXG7'
+    authors: 'Dan Cederholm'
+    role: 'Technical Editor'
+  - name: 'Sexy Web Design'
+    link: 'http://www.amazon.com/gp/product/0980455235/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980455235&linkCode=as2&tag=jinabolcom-20&linkId=V74HGVS4LTAWDD32'
+    authors: 'Elliot Jay Stocks'
+    role: 'Technical Editor, Wrote outline & Foreword'
+
+articles:
+  - name: 'Foo Camp'
+    link: 'Sebastopol, California'

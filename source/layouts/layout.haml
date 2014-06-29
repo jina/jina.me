@@ -3,7 +3,9 @@
   %head
     %meta(charset="utf-8")/
     %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
-    %title= page_title
+    %title
+      = page_title
+      | ₍˄ุ.͡˳̫.˄ุ₎
     %meta(content="" name="description")/
     %meta(content="width=device-width, initial-scale=1" name="viewport")/
     = stylesheet_link_tag "jina"
@@ -22,9 +24,10 @@
         %nav.navigation(role="navigation")
           .navigation-content
             %ul.list-menu
-              %li= link_to "About",   "/"
-              %li= link_to "Speaking",   "/speaking"
-              %li= link_to "Contact", "/contact"
+              %li= link_to "About",        "/"
+              %li= link_to "Speaking",     "/speaking"
+              %li= link_to "Publications", "/publications"
+              %li= link_to "Contact",      "/contact"
 
         .body
           .body-content= Typogruby.improve(yield)

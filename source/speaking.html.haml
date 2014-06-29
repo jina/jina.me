@@ -4,26 +4,13 @@ title: Speaking
 
 %h1 Upcoming Events
 %ul.list-details
-  %li
-    %strong= link_to 'Made <i class="fleurish">by</i> Few', "http://madebyfew.com/"
-    %br/
-    August 22<sup>nd</sup>&ndash;23<sup>rd</sup>
-    %br/
-    Little Rock, Arkansas
-
-  %li
-    %strong= link_to "Nordic.js", "http://nordicjs.com/"
-    %br/
-    September 18<sup>th</sup>&ndash;19<sup>th</sup>
-    %br/
-    Stockholm, Sweden
-
-  %li
-    %strong= link_to "Creative Works", "http://www.creativeworks.co/"
-    %br/
-    October 3<sup>rd</sup>&ndash;5<sup>th</sup>
-    %br/
-    Memphis, Tennessee
+  - data.speaking.upcoming.each do |event|
+    %li
+      %strong= link_to event.name, event.link
+      %br/
+      = event.date
+      %br/
+      = event.location
 
 %hr/
 
@@ -32,246 +19,85 @@ title: Speaking
 %h2 2014
 
 %ul.list-details
-  %li
-    %strong Foo Camp
-    %br/
-    Sebastopol, California
-
-  %li
-    %strong DevConFu
-    %br/
-    Jūrmala, Latvia
-
-  %li
-    %strong ConvergeSE
-    %br/
-    Columbia, South Carolina
-
-  %li
-    %strong Codemotion
-    %br/
-    Roma, Italia
+  - data.speaking.y2014.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2013
 
 %ul.list-details
-  %li
-    %strong HTML5 Dev Conf
-    %br/
-    San Francisco, California
-
-  %li
-    %strong SassConf
-    %br/
-    New York, New York
-
-  %li
-    %strong
-      Future
-      %i.fleurish of
-      Web Design
-    %br/
-    New York, New York
-
-  %li
-    %strong BlendConf
-    %br/
-    Charlotte, North Carolina
-
-  %li
-    %strong Distill
-    %br/
-    San Francisco, California
-
-  %li
-    %strong Open Web Camp V
-    %br/
-    San Jose, California
-
-  %li
-    %strong Nordic Ruby
-    %br/
-    Stockholm, Sweden
-
-  %li
-    %strong HTML5 Dev Conf
-    %br/
-    San Francisco, California
+  - data.speaking.y2013.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2012
 
 %ul.list-details
-  %li
-    %strong CSS Dev Conf
-    %br/
-    Honolulu, Hawaii
-
-  %li
-    %strong HTML5 Dev Conf
-    %br/
-    San Francisco, California
-
-  %li
-    %strong ConvergeFL
-    %br/
-    Tallahassee, Florida
-
-  %li
-    %strong Refresh LX
-    %br/
-    Lisbon, Portugal
-
-  %li
-    %strong CSS Summit
-    %br/
-    Online
-
-  %li
-    %strong Interlink
-    %br/
-    Vancouver, Canada
-
-  %li
-    %strong Front-Trends
-    %br/
-    Warsaw, Poland
+  - data.speaking.y2012.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2011
 
 %ul.list-details
-  %li
-    %strong Keeping It Realtime
-    %br/
-    Portland, Oregon
-
-  %li
-    %strong Madison Ruby
-    %br/
-    Madison, Wisconsin
-
-  %li
-    %strong ValioCon
-    %br/
-    Carlsbad, California
-
-  %li
-    %strong AIGA: ThinkTank
-    %br/
-    Nashville, Tennessee
+  - data.speaking.y2011.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2010
 
 %ul.list-details
-  %li
-    %strong Web Design World
-    %br/
-    Las Vegas, Nevada
-
-  %li
-    %strong Think Vitamin: CSS3
-    %br/
-    Online
-
-  %li
-    %strong Fronteers
-    %br/
-    Amsterdam, Netherlands
-
-  %li
-    %strong Frontend
-    %br/
-    Oslo, Norway
-
-  %li
-    %strong Front-End Design
-    %br/
-    St. Petersburg, Florida
-
-  %li
-    %strong Think Vitamin: CSS3
-    %br/
-    Online
-
-  %li
-    %strong SXSW Interactive
-    %br/
-    Austin, Texas
+  - data.speaking.y2010.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2009
 
 %ul.list-details
-  %li
-    %strong Delve:UI
-    %br/
-    Brooklyn, New York
-
-  %li
-    %strong Web Visions
-    %br/
-    Portland, Oregon
-
-  %li
-    %strong Web Directions North
-    %br/
-    Denver, Colorado
-
-  %li
-    %strong Webmaster Jam Session
-    %br/
-    Atlanta, Georgia
+  - data.speaking.y2009.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2008
 
 %ul.list-details
-  %li
-    %strong Web Directions South
-    %br/
-    Sydney, Australia
-
-  %li
-    %strong
-      Future
-      %i.fleurish of
-      Web Design
-    %br/
-    London, England
-
-  %li
-    %strong SXSW Interactive
-    %br/
-    Austin, Texas
+  - data.speaking.y2008.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location
 
 %hr/
 
 %h2 2007
 
 %ul.list-details
-  %li
-    %strong
-      Future
-      %i.fleurish of
-      Web Design
-    %br/
-    New York, New York
-
-  %li
-    %strong An Event Apart
-    %br/
-    San Francisco, California
-
-  %li
-    %strong Web Visions
-    %br/
-    Portland, Oregon
+  - data.speaking.y2007.each do |event|
+    %li
+      %strong= event.name
+      %br/
+      = event.location

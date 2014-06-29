@@ -1,0 +1,15 @@
+---
+title: Publications
+---
+
+%h1 Books
+%ul.list-details
+  - data.publications.books.each do |book|
+    %li
+      %strong= link_to book.name, book.link
+      %br/
+      %i.fleurish by
+      = book.authors
+      %br/
+      %i.fleurish My role:
+      = book.role

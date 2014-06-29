@@ -2,7 +2,7 @@ require "pathname"
 
 module JinaHelpers
   def page_title
-    title = "[jina] "
+    title = "jina | "
     if data.page.title
       title << data.page.title
     else
