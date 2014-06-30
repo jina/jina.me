@@ -25,6 +25,10 @@
   .list-details {
     @extend %horizontal-list-tablet-large;
 
-    li { @extend %width-half-tablet-large; }
+    li {
+      @extend %width-half-tablet-large;
+
+      &:nth-child(odd) { clear: both; }
+    }
   }
 }

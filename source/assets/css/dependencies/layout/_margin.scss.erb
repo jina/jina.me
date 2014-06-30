@@ -16,6 +16,11 @@
       @include rem('margin-bottom', $base-line-height - 1);
     }
 
+    %margin-block-<%= resolution.target %> {
+      @include rem('margin-top',    $base-line-height / 2);
+      @include rem('margin-bottom', $base-line-height / 2);
+    }
+
     %margin-right-shrink-<%= resolution.target %> {
       @include rem('margin-right', -$gutter-width);
     }

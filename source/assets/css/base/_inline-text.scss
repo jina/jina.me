@@ -2,27 +2,14 @@
 // INLINE TEXT
 
 a,
-abbr {
-  @extend %border-bottom-width-mobile-small;
-  @extend %border-bottom-dotted-mobile-small;
-  @extend %border-color;
-}
+abbr { @extend %border-color; }
 
 a {
   @extend %text-decoration;
   @extend %color-link;
-  @extend %padding-bottom-1-mobile-small;
 
   &:hover,
-  &:focus {
-    @extend %color-link-hover;
-    @extend %border-bottom-solid-mobile-small;
-  }
-
-  &:focus { @extend %outline-dotted-mobile-small }
-
-  &:hover,
-  &:active { @extend %outline-reset-mobile-small; }
+  &:focus { @extend %color-link-hover; }
 
   &:active { @extend %color-link-active; }
 }
@@ -31,4 +18,27 @@ abbr[title] { @extend %cursor-help; }
 
 strong { @extend %font-weight-text-strong; }
 
-i { @extend %font-style-text; }
+i,
+em { @extend %font-style-text; }
+
+
+
+@include breakpoint($mobile-small) {
+  a,
+  abbr {
+    @extend %border-bottom-width-mobile-small;
+    @extend %border-bottom-dotted-mobile-small;
+  }
+
+  a {
+    @extend %padding-bottom-1-mobile-small;
+
+    &:hover,
+    &:focus { @extend %border-bottom-solid-mobile-small; }
+
+    &:focus { @extend %outline-dotted-mobile-small }
+
+    &:hover,
+    &:active { @extend %outline-reset-mobile-small; }
+  }
+}

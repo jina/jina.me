@@ -1,6 +1,8 @@
 @include breakpoint($tablet-large) {
   .main {
     @extend %display-table-cell-tablet-large;
+    @extend %padding-right-large-tablet-large;
+    @extend %padding-left-large-tablet-large;
     @extend %vertical-align-middle-tablet-large;
   }
 

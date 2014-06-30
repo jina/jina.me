@@ -2,7 +2,10 @@
 title: Publications
 ---
 
-%h1 Books
+%h1 Writing
+
+%h2 Books
+%p= link_to "Amazon Author Page", "http://amazon.com/author/jina"
 %ul.list-details
   - data.publications.books.each do |book|
     %li
@@ -13,3 +16,14 @@ title: Publications
       %br/
       %i.fleurish My role:
       = book.role
+%hr/
+
+%h2 Articles
+%ul.list-details
+  - data.publications.articles.each do |article|
+    %li
+      %strong= link_to article.name, article.link
+      %br/
+      = article.publication
+      %br/
+      = article.date

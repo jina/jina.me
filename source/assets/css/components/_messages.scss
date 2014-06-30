@@ -1,0 +1,61 @@
+div#lanyrd-topbar {
+  @extend %text-align;
+  @extend %color-text;
+
+  &,
+  &:hover { @extend %background-white; }
+
+  &:hover { @extend %background-image-none; }
+
+  p { @extend %line-height; }
+
+  *,
+  span,
+  abbr,
+  a:link,
+  a:visited,
+  a:hover,
+  a:focus,
+  a:active { @extend %font-weight-text; }
+
+  a {
+    &:link,
+    &:visited,
+    &:hover,
+    &:focus,
+    &:active { @extend %text-decoration; }
+
+    &:link,
+    &:visited { @extend %color-link; }
+
+
+    &:hover,
+    &:focus { @extend %color-link-hover; }
+
+    &:active { @extend %color-link-active; }
+  }
+}
+
+
+
+@include breakpoint($mobile-small) {
+  .lanyrd-type-speaking { @extend %display-none-mobile-small; }
+}
+
+
+
+@include breakpoint($tablet-large) {
+  div#lanyrd-topbar {
+    @extend %display-table-row-tablet-large;
+    @extend %margin-reset-tablet-large;
+    @extend %padding-reset-tablet-large;
+
+    p {
+      @extend %display-table-cell-tablet-large;
+      @extend %padding-block-tablet-large;
+      @extend %padding-right-large-tablet-large;
+      @extend %padding-left-large-tablet-large;
+      @extend %vertical-align-middle-tablet-large;
+    }
+  }
+}

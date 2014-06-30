@@ -3,7 +3,6 @@ require "builder"
 require 'susy'
 require 'typogruby'
 
-activate :automatic_image_sizes
 activate :directory_indexes
 activate :livereload
 activate :relative_assets

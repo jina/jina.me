@@ -2,7 +2,15 @@
 title: Speaking
 ---
 
-%h1 Upcoming Events
+%h1 Speaking
+%p
+  If you would like me to speak at your event, please
+  = link_to "contact me", "contact"
+  with details.
+
+%hr/
+
+%h2 Upcoming Events
 %ul.list-details
   - data.speaking.upcoming.each do |event|
     %li
@@ -11,93 +19,51 @@ title: Speaking
       = event.date
       %br/
       = event.location
+-#.lanyrd-target-splat= link_to "My conferences on Lanyrd", "http://lanyrd.com/profile/jina/", class: "lanyrd-splat lanyrd-number-10 lanyrd-context-future", rel: "me"
+
+
 
 %hr/
 
-%h1 Past Events
+%h2 Past Events
+-#.lanyrd-target-splat= link_to "My conferences on Lanyrd", "http://lanyrd.com/profile/jina/", class: "lanyrd-splat lanyrd-number-100 lanyrd-type-speaking lanyrd-context-past lanyrd-template-detailed", rel: "me"
+- data.speaking.past.years.each do |past|
+  %h3= past.year
+  %ul.list-details
+    - past.details.each do |event|
+      %li
+        %strong= event.name
+        %br/
+        = event.location
 
-%h2 2014
+        - if event.talk?
+          %br
+          %em= event.talk
 
-%ul.list-details
-  - data.speaking.y2014.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
+        - if event.video?
+          %br/
+          = link_to "Video", event.video
+          - if event.audio?
+            |
+            = link_to "Audio", event.audio
+          - if event.slides?
+            |
+            = link_to "Slides", event.slides
 
-%hr/
+        - elsif event.video?
+          %br/
+          = link_to "Audio", event.audio
+          - if event.slides?
+            |
+            = link_to "Slides", event.slides
 
-%h2 2013
+        - elsif event.slides?
+          %br/
+          = link_to "Slides", event.slides
+  %hr/
 
-%ul.list-details
-  - data.speaking.y2013.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2012
-
-%ul.list-details
-  - data.speaking.y2012.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2011
-
-%ul.list-details
-  - data.speaking.y2011.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2010
-
-%ul.list-details
-  - data.speaking.y2010.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2009
-
-%ul.list-details
-  - data.speaking.y2009.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2008
-
-%ul.list-details
-  - data.speaking.y2008.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
-
-%hr/
-
-%h2 2007
-
-%ul.list-details
-  - data.speaking.y2007.each do |event|
-    %li
-      %strong= event.name
-      %br/
-      = event.location
+%ul.list-menu
+  %li= link_to "Lanyrd",       "lanyrd.com/profile/jina/"
+  %li= link_to "Speakerdeck",  "http://speakerdeck.com/jina"
+  %li= link_to "Speakerpedia", "http://speakerpedia.com/speakers/jina-bolton"
+  %li= link_to "Speakerrate",  "http://speakerrate.com/speakers/158-jina-bolton"

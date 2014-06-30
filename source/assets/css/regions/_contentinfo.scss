@@ -4,7 +4,9 @@
   ul { @extend %font-weight-contentinfo-strong; }
 }
 
-.contentinfo-content { @extend %padding-block-large-mobile-small; }
+@include breakpoint($mobile-small) {
+  .contentinfo-content { @extend %padding-block-large-mobile-small; }
+}
 
 @include breakpoint($tablet-large) {
   .contentinfo {

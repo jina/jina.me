@@ -3,29 +3,48 @@
 
 h1,
 h2,
+h3,
 p,
 ul,
 ol {
-  @extend %margin-reset-mobile-small;
-  @extend %padding-reset-mobile-small;
-  @extend %padding-block-mobile-small;
   @extend %text-rendering;
   @extend %text-wrap;
   @extend %orphans;
   @extend %widows;
-
-  &:first-child { @extend %padding-reset-top-mobile-small   ; }
-  &:last-child  { @extend %padding-reset-bottom-mobile-small; }
 }
 
 h1,
-h2 {
-  @extend %font-weight-heading;
-  @extend %font-family-heading;
-}
+h2,
+h3 { @extend %font-family-heading; }
+
+h1,
+h2 { @extend %font-weight-heading; }
 
 h1 { @extend %font-size-large ; }
 h2 { @extend %font-size-medium; }
 
-nav ul,
-form ol { @extend %list-style-reset-mobile-small; }
+h3 {
+  @extend %font-weight-text-strong;
+  @extend %font-size-base;
+}
+
+
+
+@include breakpoint($mobile-small) {
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  ol {
+    @extend %margin-reset-mobile-small;
+    @extend %padding-reset-mobile-small;
+    @extend %padding-block-mobile-small;
+
+    &:first-child { @extend %padding-reset-top-mobile-small   ; }
+    &:last-child  { @extend %padding-reset-bottom-mobile-small; }
+  }
+
+  nav ul,
+  form ol { @extend %list-style-reset-mobile-small; }
+}

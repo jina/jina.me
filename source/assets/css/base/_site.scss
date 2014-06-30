@@ -5,9 +5,6 @@
 }
 
 html {
-  @extend %padding-right-large-mobile-small;
-  @extend %padding-left-large-mobile-small;
-  @extend %overflow-auto-mobile-small;
   @extend %font-size-root;
   @extend %background-color;
   @extend %color-text;
@@ -23,6 +20,8 @@ body {
 
 ::-moz-selection { @include background-color-selection; }
 ::selection      { @include background-color-selection; }
+
+
 
 @include breakpoint($tablet-large) {
   html,
