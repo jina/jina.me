@@ -2,7 +2,6 @@
 title: Speaking
 ---
 
-%h1 Speaking
 %p
   If you would like me to speak at your event, please
   = link_to "contact me", "contact"
@@ -38,7 +37,7 @@ title: Speaking
 
         - if event.talk?
           %br
-          %em= event.talk
+          = event.talk
 
         - if event.video?
           %br/

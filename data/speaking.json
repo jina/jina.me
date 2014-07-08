@@ -1,10 +1,18 @@
 {
   "upcoming": [
     {
-      "name": "Made <i class='fleurish'>by</i> Few",
+      "name": "Made by Few",
       "location": "Little Rock, Arkansas",
       "date": "August 22<sup>nd</sup>&ndash;23<sup>rd</sup>",
       "link": "http://madebyfew.com/"
+    },
+
+    {
+      "name": "CSSconf EU",
+      "location": "Berlin, Germany",
+      "date": "September 12<sup>th</sup>",
+      "talk": "Living Design Systems",
+      "link": "http://2014.cssconf.eu/"
     },
 
     {
@@ -99,7 +107,7 @@
             "video": "http://vimeo.com/86306816"
           },
           {
-            "name": "Future <i class='fleurish'>of</i> Web Design",
+            "name": "Future <i class='caps'>of</i> Web Design",
             "location": "New York, New York",
             "talk": "Refactoring Web Interfaces",
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
@@ -313,13 +321,13 @@
             "audio": "http://www.webdirections.org/podcasts/WD08/WDS08-Jina-Bolton.mp3"
           },
           {
-            "name": "Future <i class='fleurish'>of</i> Web Design",
+            "name": "Future <i class='caps'>of</i> Web Design",
             "location": "London, England",
             "talk": "Workshop: Creating Sexy Stylesheets",
             "video": "http://vimeo.com/933068"
           },
           {
-            "name": "Future <i class='fleurish'>of</i> Web Design",
+            "name": "Future <i class='caps'>of</i> Web Design",
             "location": "London, England",
             "talk": "Panel: Photoshop Battle of the Sexes",
             "video": "http://vimeo.com/933068"
@@ -341,13 +349,13 @@
         "year": "2007",
         "details": [
           {
-            "name": "Future <i class='fleurish'>of</i> Web Design",
+            "name": "Future <i class='caps'>of</i> Web Design",
             "location": "New York, New York",
             "talk": "CSS3 and What Could Be",
             "slides": "http://www.slideshare.net/carsonified/jina-bolton"
           },
           {
-            "name": "Future <i class='fleurish'>of</i> Web Design",
+            "name": "Future <i class='caps'>of</i> Web Design",
             "location": "New York, New York",
             "talk": "Workshop: Advanced CSS"
           },

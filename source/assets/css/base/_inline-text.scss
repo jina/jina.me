@@ -18,9 +18,6 @@ abbr[title] { @extend %cursor-help; }
 
 strong { @extend %font-weight-text-strong; }
 
-i,
-em { @extend %font-style-text; }
-
 
 
 @include breakpoint($mobile-small) {

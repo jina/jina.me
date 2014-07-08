@@ -7,6 +7,5 @@
   font-family: "source-sans-pro", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-%font-family-text-italic { @extend %font-family-heading; }
 %font-family-navigation  { @extend %font-family-heading; }
 %font-family-contentinfo { @extend %font-family-heading; }
