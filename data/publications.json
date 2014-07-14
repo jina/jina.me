@@ -1,0 +1,102 @@
+{
+  "articles": [
+    {
+      "name": "Interaction Design Demystified",
+      "publication": "SitePoint",
+      "date": "February 2011",
+      "link": "http://www.sitepoint.com/interaction-design-demystified/"
+    },
+
+    {
+      "name": "Front-end Maintainability with Sass & Style Guides",
+      "publication": "Engine Yard Blog",
+      "date": "January 2011",
+      "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
+    },
+
+    {
+      "name": "Make Out Like a Bandit",
+      "publication": "24 Ways",
+      "date": "December 2009",
+      "link": "http://24ways.org/2009/make-out-like-a-bandit/"
+    },
+
+    {
+      "name": "The Foolproof Form Design Formula",
+      "publication": "SitePoint",
+      "date": "October 2009",
+      "link": "http://www.sitepoint.com/foolproof-form-design-formula/"
+    },
+
+    {
+      "name": "Make it Modular",
+      "publication": ".net Magazine",
+      "date": "September 2008",
+      "link": "http://www.netmag.co.uk/zine/opinion/make-it-modular"
+    },
+
+    {
+      "name": "23 Beautiful Examples of Web Site Archives",
+      "publication": "SitePoint",
+      "date": "August 2008",
+      "link": "http://www.sitepoint.com/beautiful-web-site-archives/"
+    },
+
+    {
+      "name": "Writing an Interface Style Guide",
+      "publication": "A List Apart",
+      "date": "June 2008",
+      "link": "http://alistapart.com/article/writingainterfacestyleguide"
+    },
+
+    {
+      "name": "Breaking Out of the Box with CSS Layouts",
+      "publication": "SitePoint",
+      "date": "June 2008",
+      "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
+    },
+
+    {
+      "name": "Creating Sexy Stylesheets",
+      "publication": "Treehouse",
+      "date": "December 2007",
+      "link": "http://blog.teamtreehouse.com/creating-sexy-stylesheets"
+    }
+  ],
+
+  "books": {
+    "roles": [
+      {
+        "role": "Co-author",
+        "details": [
+          {
+            "name": "Fancy Form Design",
+            "link": "http://www.amazon.com/gp/product/0980576849/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980576849&linkCode=as2&tag=jinabolcom-20&linkId=DBSDFZO725CRYPKG",
+            "authors": "Jina Bolton, Tim Connell, &amp;&nbsp;Derek Featherstone"
+          },
+          {
+            "name": "The Art & Science of CSS",
+            "link": "http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W",
+            "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, &amp;&nbsp;Jonathan Snook"
+          }
+        ]
+      },
+      {
+        "role": "Technical Editor",
+        "details": [
+          {
+            "name": "Sass for Web Designers",
+            "link": "http://www.amazon.com/gp/product/193755712X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193755712X&linkCode=as2&tag=jinabolcom-20&linkId=M5MF4B3LH2GVKXG7",
+            "authors": "Dan Cederholm"
+          },
+          {
+            "name": "Sexy Web Design",
+            "link": "http://www.amazon.com/gp/product/0980455235/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980455235&linkCode=as2&tag=jinabolcom-20&linkId=V74HGVS4LTAWDD32",
+            "authors": "Elliot Jay Stocks",
+            "also": "wrote outline & foreword"
+          }
+        ]
+      }
+    ]
+  }
+}

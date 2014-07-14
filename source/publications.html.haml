@@ -3,25 +3,44 @@ title: Publications
 ---
 
 %h2 Books
-%p= link_to "Amazon Author Page", "http://amazon.com/author/jina"
-%ul.list-details
-  - data.publications.books.each do |book|
-    %li
-      %strong= link_to book.name, book.link
-      %br/
-      %span.caps by
-      = book.authors
-      %br/
-      %span.caps My role:
-      = book.role
+
+- data.publications.books.roles.each do |books|
+  %h3= books.role
+
+  %ul.list-details
+    - books.details.each do |book|
+      %li
+        %strong= link_to book.name, book.link
+
+        %br/
+
+        %span.caps by
+
+        = book.authors
+
+        %br/
+
+        - if book.also?
+          %span.caps Also:
+          = book.also
+%p
+  See my
+  = succeed "." do
+    = link_to "Amazon Author Page", "http://amazon.com/author/jina"
+
 %hr/
 
 %h2 Articles
+
 %ul.list-details
   - data.publications.articles.each do |article|
     %li
       %strong= link_to article.name, article.link
+
       %br/
+
       = article.publication
+
       %br/
+
       = article.date
