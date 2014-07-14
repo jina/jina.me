@@ -15,7 +15,18 @@
       try{Typekit.load();}catch(e){}
 
   %body{class: page_classes}
-    = link_to "My conferences on Lanyrd", "http://lanyrd.com/profile/jina/", class: "lanyrd-topbar lanyrd-type-speaking lanyrd-noblank", rel: "me"
+    .message
+      %p
+        - data.speaking.upcoming.each_with_index do |event, index|
+          - if index == 0
+            See me speak at
+            %strong= link_to event.name, event.link
+            on
+            = succeed "," do
+              =event.date
+            2014
+            in
+            = event.location
 
     .page
       .page-content
