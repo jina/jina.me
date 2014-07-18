@@ -1,0 +1,111 @@
+---
+title: Featured
+---
+
+%h2 Video
+%ul.list-details
+  - data.featured.video.each do |mention|
+    %li
+      %strong= link_to mention.name, mention.link
+
+      - if mention.publication?
+        %br/
+
+        = mention.publication
+
+      - if mention.event?
+        %br/
+
+        = mention.event
+
+      %br/
+
+      = mention.date
+
+%hr/
+
+%h2 Audio
+%ul.list-details
+  - data.featured.audio.each do |mention|
+    %li
+      %strong= link_to mention.name, mention.link
+
+      - if mention.publication?
+        %br/
+
+        = mention.publication
+
+      - if mention.event?
+        %br/
+
+        = mention.event
+
+      %br/
+
+      = mention.date
+
+%hr/
+
+%h2 Written
+%ul.list-details
+  - data.featured.written.each do |mention|
+    %li
+      %strong= link_to mention.name, mention.link
+
+      - if mention.publication?
+        %br/
+
+        = mention.publication
+
+      - if mention.event?
+        %br/
+
+        = mention.event
+
+      %br/
+
+      = mention.date
+
+%hr/
+
+%h2 Quoted
+%ul.list-details
+  - data.featured.quoted.each do |mention|
+    %li
+      %strong= link_to mention.name, mention.link
+
+      - if mention.publication?
+        %br/
+
+        = mention.publication
+
+      - if mention.event?
+        %br/
+
+        = mention.event
+
+      %br/
+
+      = mention.date
+
+%hr/
+
+%h2 Mentions
+%ul.list-details
+  - data.featured.mentions.each do |mention|
+    %li
+      %strong= link_to mention.name, mention.link
+
+      - if mention.publication?
+        %br/
+
+        = mention.publication
+
+      - if mention.event?
+        %br/
+
+        = mention.event
+
+      %br/
+
+      = mention.date
