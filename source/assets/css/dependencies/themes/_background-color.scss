@@ -6,6 +6,4 @@
 %background-primary           { background-color: $color-primary   ; }
 %background-color-transparent { background-color: transparent      ; }
 
-@mixin background-color-selection { background: lighten($color-primary, 50); }
-
 %background-image-none { background-image: none; }

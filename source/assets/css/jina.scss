@@ -1,20 +1,23 @@
-/* ===========================================================================
-/* jina.me */
+/*! jina.me
+ *  by @jina
+ */
 
 
 
+// ---------------------------------------------------------------------------
 // VENDOR LIBRARIES
+
 @import
   "compass"
 , "susy"
 , "breakpoint"
-, "normalize-rails"
-, "vendor/html5boilerplate/base"
 ;
 
 
 
-// FRAMEWORK
+// ---------------------------------------------------------------------------
+// DEPENDENCIES
+
 @import
   "vendor/rem"
 , "dependencies/*"
@@ -22,50 +25,57 @@
 
 
 
-/* ===========================================================================
-/* TYPOGRAPHY */
-
-@import "dependencies/typography/*";
-
-
-
-/* ===========================================================================
-/* MEDIA */
-
-@import "dependencies/media/*";
-
-
-
-/* ===========================================================================
-/* LAYOUT */
-
-@import "dependencies/layout/*";
-
-
-
-/* ===========================================================================
-/* THEMES */
-
-@import "dependencies/themes/*";
-
-
-
-/* ===========================================================================
-/* INTERACTION */
-
-@import "dependencies/interaction/*";
+// ---------------------------------------------------------------------------
+// BASE
 
 @import
-  "base/site"
+  "normalize-rails"
+, "vendor/html5boilerplate/base"
+, "dependencies/typography/*"
+, "dependencies/media/*"
+, "dependencies/layout/*"
+, "dependencies/themes/*"
+, "dependencies/interaction/*"
+, "base/site"
 , "base/block-text"
 , "base/inline-text"
 , "base/media"
 , "base/forms"
+;
+
+
+
+// ---------------------------------------------------------------------------
+// COMPONENTS
+
+@import
+  "vendor/html5boilerplate/browsehappy"
 , "components/type"
 , "components/lists"
 , "components/messages"
 , "components/fancy-forms"
-, "regions/*"
-, "helpers/*"
-, "vendor/html5boilerplate/print"
 ;
+
+
+
+// ---------------------------------------------------------------------------
+// REGIONS
+
+@import "regions/*";
+
+
+
+// ---------------------------------------------------------------------------
+// HELPERS
+
+@import
+  "helpers/*"
+, "vendor/html5boilerplate/helpers"
+;
+
+
+
+// ---------------------------------------------------------------------------
+// RESPONSIVE
+
+@import "vendor/html5boilerplate/print";

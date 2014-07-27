@@ -18,8 +18,10 @@ body {
   @extend %background-color-transparent;
 }
 
-::-moz-selection { @include background-color-selection; }
-::selection      { @include background-color-selection; }
+@mixin theme-selection { background: lighten($color-primary, 50); }
+
+::-moz-selection { @include theme-selection; }
+::selection      { @include theme-selection; }
 
 
 

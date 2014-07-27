@@ -5,10 +5,6 @@
   @include breakpoint($<%= resolution.target %>) {
     %border-reset-<%= resolution.target %> { border: 0; }
 
-    %border-top-width-<%= resolution.target %> {
-      @include rem('border-top-width', 1px);
-    }
-
     %border-bottom-width-<%= resolution.target %> {
       @include rem('border-bottom-width', 1px);
     }

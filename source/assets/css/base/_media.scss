@@ -8,9 +8,5 @@ img { @extend %interpolation-mode; }
 
 
 @include breakpoint($mobile-small) {
-  hr {
-    @extend %margin-reset-mobile-small;
-    @extend %margin-hr-mobile-small;
-    @extend %border-top-width-mobile-small;
-  }
+  hr { @extend %margin-hr-mobile-small; }
 }
