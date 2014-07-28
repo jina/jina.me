@@ -1,5 +1,3 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
 source 'http://rubygems.org'
 
 gem "builder",               "~> 3.2.2"

@@ -1,7 +1,4 @@
-.alert {
-  @extend %text-align;
-  @extend %background-white;
-}
+.alert { @extend %background-white; }
 
 .browsehappy { margin: 0; }
 

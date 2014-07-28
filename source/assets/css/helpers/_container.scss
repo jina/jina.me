@@ -1,7 +1,8 @@
-@include breakpoint($tablet-large) {
-  .container {
-    @extend %display-table-cell-tablet-large;
-    @extend %padding-right-large-tablet-large;
-    @extend %padding-left-large-tablet-large;
+.container {
+  @extend %text-align-center;
+
+  @include breakpoint($mobile-small) {
+    @extend %padding-right-large-mobile-small;
+    @extend %padding-left-large-mobile-small;
   }
 }

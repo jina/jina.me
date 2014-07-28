@@ -2,8 +2,12 @@
   .page { @extend %display-table-row-tablet-large; }
 
   .page-body { @extend %height-full-tablet-large; }
+}
 
-  .page-content-wrap {
+.page-content-wrap {
+  @extend %text-align-left;
+
+  @include breakpoint($tablet-large) {
     @extend %display-table-tablet-large;
     @extend %table-layout-tablet-large;
     @extend %width-full-tablet-large;
