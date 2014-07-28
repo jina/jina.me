@@ -11,6 +11,15 @@ module JinaHelpers
     title
   end
 
+  def copyright_years(start_year)
+    end_year = Date.today.year
+    if start_year == end_year
+      start_year.to_s
+    else
+      start_year.to_s + '&ndash;' + end_year.to_s
+    end
+  end
+
   def pages_for_group(group_name)
     group = data.nav.find do |g|
       g.name == group_name

@@ -16,6 +16,8 @@ compass_config do |config|
   config.output_style = :expanded
 end
 
+page "/humans.txt", :layout => false
+
 configure :build do
   activate :minify_css
   activate :minify_javascript
