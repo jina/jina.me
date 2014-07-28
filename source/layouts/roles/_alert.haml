@@ -1,0 +1,32 @@
+/[if lt IE 8]
+  .alert(role="alert")
+    .container
+      %p.browsehappy
+        You are using an
+        %strong outdated
+        browser. Please
+        = link_to "upgrade your browser", "http://browsehappy.com/"
+        to improve your experience.
+</div>
+
+
+
+- if content_for?(:alert)
+  <div class="page">
+  .alert
+    .container= yield_content :alert
+
+<div class="page">
+.alert
+  .container
+    %p
+      - data.speaking.upcoming.each_with_index do |event, index|
+        - if index == 0
+          See me speak at
+          %strong= link_to event.name, event.link
+          on
+          = succeed "," do
+            =event.date
+          2014
+          in
+          = event.location

@@ -52,9 +52,15 @@
   "vendor/html5boilerplate/browsehappy"
 , "components/type"
 , "components/lists"
-, "components/messages"
 , "components/fancy-forms"
 ;
+
+
+
+// ---------------------------------------------------------------------------
+// ROLES
+
+@import "roles/alert";
 
 
 

@@ -1,6 +1,5 @@
-@mixin banner-tablet-small {
-  .banner {
-    @extend %column-tablet-small;
+.banner {
+  @include breakpoint($tablet-small) {
     @extend %vertical-align-top-tablet-small;
     padding-top: 0;
   }

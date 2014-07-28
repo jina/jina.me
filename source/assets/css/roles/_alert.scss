@@ -1,0 +1,16 @@
+.alert {
+  @extend %text-align;
+  @extend %background-white;
+}
+
+.browsehappy { margin: 0; }
+
+
+
+@include breakpoint($tablet-large) {
+  .alert {
+    @extend %display-table-cell-tablet-large;
+
+    p { @extend %padding-block-tablet-large; }
+  }
+}

@@ -1,10 +1,7 @@
 @include breakpoint($tablet-large) {
-  .page {
-    @extend %display-table-row-tablet-large;
-    @extend %height-full-tablet-large;
-  }
+  .page { @extend %display-table-row-tablet-large; }
 
-  .page-content { @extend %display-table-cell-tablet-large; }
+  .page-body { @extend %height-full-tablet-large; }
 
   .page-content-wrap {
     @extend %display-table-tablet-large;

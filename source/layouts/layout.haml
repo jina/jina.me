@@ -3,34 +3,22 @@
   %head
     %meta(charset="utf-8")/
     %meta(http-equiv="X-UA-Compatible" content="IE=edge")/
+
     %title
       = page_title
       | ₍˄ุ.͡˳̫.˄ุ₎
+
     = partial "layouts/head/meta"
-    %meta(content="" name="description")/
-    %meta(content="width=device-width, initial-scale=1" name="viewport")/
-    = stylesheet_link_tag "jina"
-    = javascript_include_tag "vendor/modernizr-2.8.3.custom"
-    = javascript_include_tag  "//use.typekit.net/msm6abf.js"
-    :javascript
-      try{Typekit.load();}catch(e){}
+    = partial "layouts/head/link"
+    = partial "layouts/head/css"
+    = partial "layouts/head/js"
 
   %body{class: page_classes}
-    .message
-      %p
-        - data.speaking.upcoming.each_with_index do |event, index|
-          - if index == 0
-            See me speak at
-            %strong= link_to event.name, event.link
-            on
-            = succeed "," do
-              =event.date
-            2014
-            in
-            = event.location
-
     .page
-      .page-content
+      = partial "layouts/roles/alert"
+
+    .page.page-body
+      .container
         .page-content-wrap
           %aside.complementary(role="complementary")
 
@@ -65,13 +53,5 @@
                     = link_to "http://www.mediatemple.net#a_aid=501cfa93bffd3", title: "Hosted by Media Temple" do
                       (mt)
 
-    = javascript_include_tag "jina"
-    = javascript_include_tag "http://cdn.lanyrd.net/badges/person-v1.min.js"
-    :javascript
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-19273722-2');ga('send','pageview');
+    = partial "layouts/foot/js"
 
