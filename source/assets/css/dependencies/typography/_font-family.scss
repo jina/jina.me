@@ -1,10 +1,10 @@
 /* ---------------------------------------------------------------------------
 /* FONT-FAMILY */
 
-%font-family-text { font-family: "source-serif-pro", Georgia, serif; }
+%font-family-text { font-family: "museo-slab", Georgia, serif; }
 
 %font-family-heading {
-  font-family: "source-sans-pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 %font-family-navigation  { @extend %font-family-heading; }
