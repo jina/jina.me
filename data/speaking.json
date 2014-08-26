@@ -1,13 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Made by Few",
-      "location": "Little Rock, Arkansas",
-      "date": "August 22<sup>nd</sup>&ndash;23<sup>rd</sup>",
-      "link": "http://madebyfew.com/"
-    },
-
-    {
       "name": "CSSconf EU",
       "location": "Berlin, Germany",
       "date": "September 12<sup>th</sup>",
@@ -35,6 +28,13 @@
       "location": "New York, New York",
       "date": "October 2<sup>nd</sup>&ndash;4<sup>th</sup>",
       "link": "http://sassconf.com/"
+    },
+
+    {
+      "name": "Form Function & Class",
+      "location": "Manila, Philippines",
+      "date": "November 8<sup>th</sup>",
+      "link": "http://www.pwdo.org/ffc-2014/"
     }
   ],
 
@@ -43,6 +43,12 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "Made by Few",
+            "location": "Little Rock, Arkansas",
+            "talk": "Living Design Systems",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
           {
             "name": "Foo Camp",
             "location": "Sebastopol, California",
