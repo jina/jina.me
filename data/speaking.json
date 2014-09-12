@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "CSSconf EU",
-      "location": "Berlin, Germany",
-      "date": "September 12<sup>th</sup>",
-      "talk": "Living Design Systems",
-      "link": "http://2014.cssconf.eu/"
-    },
-
-    {
       "name": "Nordic.js",
       "location": "Stockholm, Sweden",
       "date": "September 18<sup>th</sup>&ndash;19<sup>th</sup>",
@@ -51,6 +43,12 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "CSSconf EU",
+            "location": "Berlin, Germany",
+            "talk": "Living Design Systems",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
           {
             "name": "Made by Few",
             "location": "Little Rock, Arkansas",
