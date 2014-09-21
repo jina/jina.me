@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Nordic.js",
-      "location": "Stockholm, Sweden",
-      "date": "September 18<sup>th</sup>&ndash;19<sup>th</sup>",
-      "talk": "Refactoring Web Interfaces",
-      "link": "http://nordicjs.com/"
-    },
-
-    {
       "name": "Creative Works",
       "location": "Memphis, Tennessee",
       "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
@@ -43,6 +35,12 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "Nordic.js",
+            "location": "Stockholm, Sweden",
+            "talk": "Refactoring Web Interfaces",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
           {
             "name": "CSSconf EU",
             "location": "Berlin, Germany",
