@@ -1,17 +1,17 @@
 {
   "upcoming": [
     {
-      "name": "Creative Works",
-      "location": "Memphis, Tennessee",
-      "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
-      "link": "http://creativeworks.co/"
-    },
-
-    {
       "name": "SassConf",
       "location": "New York, New York",
       "date": "October 2<sup>nd</sup>&ndash;4<sup>th</sup>",
       "link": "http://sassconf.com/"
+    },
+
+    {
+      "name": "Creative Works",
+      "location": "Memphis, Tennessee",
+      "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
+      "link": "http://creativeworks.co/"
     },
 
     {
