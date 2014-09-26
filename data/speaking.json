@@ -1,6 +1,13 @@
 {
   "upcoming": [
     {
+      "name": "Gotham Sass",
+      "location": "New York, New York",
+      "date": "October 1<sup>st</sup>",
+      "link": "http://www.meetup.com/gothamsass/events/209205212/"
+    },
+
+    {
       "name": "SassConf",
       "location": "New York, New York",
       "date": "October 2<sup>nd</sup>&ndash;4<sup>th</sup>",
@@ -12,6 +19,13 @@
       "location": "Memphis, Tennessee",
       "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
       "link": "http://creativeworks.co/"
+    },
+
+    {
+      "name": "Dreamforce",
+      "location": "San Francisco, California",
+      "date": "October 13<sup>th</sup>&ndash;16<sup>th</sup>",
+      "link": "http://www.salesforce.com/dreamforce/DF14/"
     },
 
     {
