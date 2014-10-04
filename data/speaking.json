@@ -1,20 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Gotham Sass",
-      "location": "New York, New York",
-      "date": "October 1<sup>st</sup>",
-      "link": "http://www.meetup.com/gothamsass/events/209205212/"
-    },
-
-    {
-      "name": "SassConf",
-      "location": "New York, New York",
-      "date": "October 2<sup>nd</sup>&ndash;4<sup>th</sup>",
-      "link": "http://sassconf.com/"
-    },
-
-    {
       "name": "Creative Works",
       "location": "Memphis, Tennessee",
       "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
@@ -49,6 +35,17 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "Gotham Sass",
+            "location": "New York, New York",
+            "talk": "Panel: Team Sass Design"
+          },
+          {
+            "name": "SassConf",
+            "location": "New York, New York",
+            "talk": "Workshop Co-presented with Elyse Holladay: Choose Your Own Refactoring Adventure",
+            "link": "http://jina.github.io/refactoring"
+          },
           {
             "name": "Nordic.js",
             "location": "Stockholm, Sweden",
@@ -319,7 +316,7 @@
           {
             "name": "Web Directions North",
             "location": "Denver, Colorado",
-            "talk": "I&times;D FTW: Interaction Design for the Web"
+            "talk": "Co-presented with Eris Stassi: I&times;D FTW: Interaction Design for the Web"
           },
           {
             "name": "Webmaster Jam Session",
