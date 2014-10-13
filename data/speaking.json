@@ -1,13 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Creative Works",
-      "location": "Memphis, Tennessee",
-      "date": "October 3<sup>rd</sup>&ndash;5<sup>th</sup>",
-      "link": "http://creativeworks.co/"
-    },
-
-    {
       "name": "Dreamforce",
       "location": "San Francisco, California",
       "date": "October 13<sup>th</sup>&ndash;16<sup>th</sup>",
@@ -36,20 +29,32 @@
         "year": "2014",
         "details": [
           {
-            "name": "Gotham Sass",
-            "location": "New York, New York",
-            "talk": "Panel: Team Sass Design"
+            "name": "Creative Works",
+            "location": "Memphis, Tennessee",
+            "talk": "Designing for Enterprise",
+            "slides": "https://speakerdeck.com/jina/designing-for-enterprise"
           },
           {
             "name": "SassConf",
             "location": "New York, New York",
             "talk": "Workshop Co-presented with Elyse Holladay: Choose Your Own Refactoring Adventure",
-            "link": "http://jina.github.io/refactoring"
+            "slides": "http://jina.github.io/refactoring"
+          },
+          {
+            "name": "SassConf",
+            "location": "New York, New York",
+            "talk": "Panel: Speaker Roundtable"
+          },
+          {
+            "name": "Gotham Sass",
+            "location": "New York, New York",
+            "talk": "Panel: Opening Night Fireside Chat with the Sass Team"
           },
           {
             "name": "Nordic.js",
             "location": "Stockholm, Sweden",
             "talk": "Refactoring Web Interfaces",
+            "video": "https://www.youtube.com/watch?v=m03REUTbDY4",
             "slides": "https://speakerdeck.com/jina/living-design-systems"
           },
           {
