@@ -1,13 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Dreamforce",
-      "location": "San Francisco, California",
-      "date": "October 13<sup>th</sup>&ndash;16<sup>th</sup>",
-      "link": "http://www.salesforce.com/dreamforce/DF14/"
-    },
-
-    {
       "name": "Form Function & Class",
       "location": "Manila, Philippines",
       "date": "November 8<sup>th</sup>",
@@ -28,6 +21,12 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "Dreamforce",
+            "location": "San Francisco, California",
+            "talk": "How We Design & Build Salesforce1",
+            "slides": "https://speakerdeck.com/salesforceux/how-we-design-and-build-salesforce1"
+          },
           {
             "name": "Creative Works",
             "location": "Memphis, Tennessee",
