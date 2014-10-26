@@ -1,3 +1,7 @@
+form li { @extend %padding-block-mobile-small; }
+
+legend { @extend h1; }
+
 input,
 select,
 textarea,
@@ -13,7 +17,7 @@ select,
 textarea { @extend %font-size-base; }
 
 button {
-  @extend %font-size-medium;
+  @extend %font-size-base;
   @extend %background-primary;
   @extend %color-text-invert;
 }

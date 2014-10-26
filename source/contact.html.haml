@@ -2,8 +2,40 @@
 title: Contact
 ---
 
-#wufoo-rgsmehz1v7yv2j
-  :markdown
-    Fill out my [online form](https://jina.wufoo.com/forms/rgsmehz1v7yv2j).
+= form_tag 'https://formkeep.com/f/fa2f10857195', class: "contact-form" do
+  = field_set_tag 'Contact Jina' do
+    %ol
+      %li
+        = label_tag :name
+        (required)
+        %br/
+        = text_field_tag :name, size: 20, required: true
 
-= javascript_include_tag  "vendor/wufoo"
+      %li
+        = label_tag :email
+        (required)
+        %br/
+        = email_field_tag :email, size: 20, required: true
+
+      %li
+        = label_tag :organization
+        %br/
+        = text_field_tag :organization, size: 20
+
+      %li
+        = label_tag :website
+        %br/
+        = url_field_tag :website, size: 20
+
+      %li
+        = label_tag :subject
+        %br/
+        = select_tag :subject, :options => ['Just saying hello.', 'I’d like you to speak at my event.']
+
+      %li
+        = label_tag :message
+        (required)
+        %br/
+        = text_area_tag :message, rows: 3, cols: 20, required: true
+
+    %p= button_tag "Submit"
