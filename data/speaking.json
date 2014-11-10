@@ -1,13 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Form Function & Class",
-      "location": "Manila, Philippines",
-      "date": "November 8<sup>th</sup>",
-      "link": "http://www.pwdo.org/ffc-2014/"
-    },
-
-    {
       "name": "Squares",
       "location": "Grapevine, Texas",
       "date": "March 26<sup>th</sup>&ndash;27<sup>th</sup>",
@@ -21,6 +14,11 @@
       {
         "year": "2014",
         "details": [
+          {
+            "name": "Form Function & Class",
+            "location": "Manila, Philippines",
+            "link": "Living Design Systems"
+          },
           {
             "name": "Dreamforce",
             "location": "San Francisco, California",
