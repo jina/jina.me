@@ -28,8 +28,10 @@
 // ---------------------------------------------------------------------------
 // BASE
 
+@include border-box-sizing;
+
 @import
-  "normalize-rails"
+  "vendor/normalize"
 , "vendor/html5boilerplate/base"
 , "dependencies/typography/*"
 , "dependencies/media/*"
@@ -49,7 +51,7 @@
 // COMPONENTS
 
 @import
-  "vendor/html5boilerplate/browsehappy"
+  "vendor/html5boilerplate/browserupgrade"
 , "components/type"
 , "components/lists"
 , "components/forms"
@@ -84,4 +86,7 @@
 // ---------------------------------------------------------------------------
 // RESPONSIVE
 
-@import "vendor/html5boilerplate/print";
+@import
+  "vendor/html5boilerplate/responsive"
+, "vendor/html5boilerplate/print"
+;

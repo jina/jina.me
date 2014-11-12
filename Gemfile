@@ -9,7 +9,6 @@ gem "middleman-gh-pages",    "~> 0.0.3"
 gem "middleman-livereload",  "~> 3.3.4"
 gem "middleman-minify-html", "~> 3.4.0"
 gem "middleman-syntax",      "~> 2.0.0"
-gem "normalize-rails",       "~> 3.0.1", :require => false
 gem "redcarpet",             "~> 3.1.2"
 gem "sass",                  "~> 3.3.11"
 gem "susy",                  "~> 2.1.3"
