@@ -12,7 +12,5 @@ Gemfile.lock
 /.sass
 /.sass-cache
 *.scssc
-/source/assets/css/vendor
-/source/assets/js/vendor
 Thumbs.db
 .Trashes
