@@ -1,6 +1,12 @@
 {
   "articles": [
     {
+      "name": "Why You Should Design for Open Source",
+      "publication": "24 Ways",
+      "date": "December 2014",
+      "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
+    },
+    {
       "name": "Interaction Design Demystified",
       "publication": "SitePoint",
       "date": "February 2011",
