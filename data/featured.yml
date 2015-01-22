@@ -67,10 +67,6 @@ audio:
     date: 'February 2007'
 
 written:
-  - name: 'What It Takes to Build a Website'
-    publication: '24 Ways'
-    link: 'http://24ways.org/2014/what-it-takes-to-build-a-website/'
-    date: 'December 2014'
   - name: 'Iconshock interview: CSS mastermind and sushi addict Jina Bolton'
     publication: 'The Iconshock Blog'
     link: 'http://iconlibrary.iconshock.com/tutorials/iconshock-interview-css-mastermind-and-sushi-addict-jina-bolton/'
@@ -101,6 +97,10 @@ written:
     date: 'March 2007'
 
 quoted:
+  - name: 'What It Takes to Build a Website'
+    publication: '24 Ways'
+    link: 'http://24ways.org/2014/what-it-takes-to-build-a-website/'
+    date: 'December 2014'
   - name: 'A Comprehensive Reading List for and by Designers'
     publication: 'InvisionApp Blog'
     link: 'http://blog.invisionapp.com/reading-list-for-designers/'
