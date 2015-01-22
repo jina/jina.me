@@ -11,6 +11,13 @@ title: Speaking
 
 %h2 Upcoming Events
 %ul.list-details
+  %li
+    %strong= link_to "The Mixin", "http://themixinsf.com"
+    %br/
+    Roughly every 3 months
+    %br/
+    I organize this San Francisco Sass & Frontend Meet up! Come see us!
+
   - data.speaking.upcoming.each do |event|
     %li
       %strong= link_to event.name, event.link

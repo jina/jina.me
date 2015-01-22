@@ -30,6 +30,10 @@ video:
     date: 'September 2008'
 
 audio:
+  - name: 'Style Guides with Jina Bolton'
+    link: 'http://styleguides.io/podcast/jina-bolton/'
+    publication: 'Website Style Guide Resources'
+    date: 'January 2015'
   - name: 'Code Refactoring with Jina Bolton'
     link: 'http://ctrlclickcast.com/episodes/code-refactoring'
     publication: 'Ctrl+Click Cast'
@@ -63,6 +67,10 @@ audio:
     date: 'February 2007'
 
 written:
+  - name: 'What It Takes to Build a Website'
+    publication: '24 Ways'
+    link: 'http://24ways.org/2014/what-it-takes-to-build-a-website/'
+    date: 'December 2014'
   - name: 'Iconshock interview: CSS mastermind and sushi addict Jina Bolton'
     publication: 'The Iconshock Blog'
     link: 'http://iconlibrary.iconshock.com/tutorials/iconshock-interview-css-mastermind-and-sushi-addict-jina-bolton/'
