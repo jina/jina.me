@@ -35,13 +35,6 @@
     },
 
     {
-      "name": "Make it Modular",
-      "publication": ".net Magazine",
-      "date": "May 2008",
-      "link": "http://www.netmag.co.uk/zine/opinion/make-it-modular"
-    },
-
-    {
       "name": "23 Beautiful Examples of Web Site Archives",
       "publication": "SitePoint",
       "date": "August 2008",
@@ -60,6 +53,13 @@
       "publication": "SitePoint",
       "date": "June 2008",
       "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
+    },
+
+    {
+      "name": "Make it Modular",
+      "publication": ".net Magazine",
+      "date": "May 2008",
+      "link": "http://www.netmag.co.uk/zine/opinion/make-it-modular"
     },
 
     {
