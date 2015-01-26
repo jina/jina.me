@@ -1,11 +1,22 @@
 {
   "upcoming": [
     {
+      "name": "CascadeSF: UX Night",
+      "location": "San Francisco, California",
+      "date": "February 18<sup>th</sup>",
+      "link": "http://www.eventbrite.com/e/uxnight-tickets-15431337546"
+    },
+    {
       "name": "Squares",
       "location": "Grapevine, Texas",
       "date": "March 26<sup>th</sup>&ndash;27<sup>th</sup>",
-      "talk": "Sass & Style Guides",
       "link": "http://squaresconference.com/"
+    },
+    {
+      "name": "Camp Sass",
+      "location": "Atlanta, Georgia",
+      "date": "April 4<sup>th</sup>",
+      "link": "http://campsass.com"
     }
   ],
 
