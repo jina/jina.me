@@ -1,8 +1,6 @@
 .navigation {
-  padding: $spacing-vertical 0;
-  font: {
-    weight: $font-weight-strong;
-    family: $font-family-heading;
-  }
-  background-color: lighten(mix($white, $silver), 20);
+  padding: $spacing-vertical-large 0;
+  font: $font-weight-strong #{1.8rem}/#{1.25} $font-family-heading;
+  text-transform: uppercase;
+  background-color: $white;
 }

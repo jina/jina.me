@@ -2,13 +2,7 @@
   padding: $spacing-vertical-large 0;
   font-family: $font-family-heading;
   text-align: center;
-  background-color: $gray;
-  color: rgba($white, .875);
-
-  a {
-    &:link,
-    &:visited { color: $white; }
-  }
+  background-color: $white;
 
   ul { font-weight: $font-weight-strong; }
 }
