@@ -1,8 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* BOX-SIZING */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %box-sizing-<%= resolution.target %> { @include box-sizing(border-box); }
-  }
-<% end %>

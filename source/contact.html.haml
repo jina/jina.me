@@ -7,13 +7,13 @@ title: Contact
     %ol
       %li
         = label_tag :name
-        (required)
+        %span.required (required)
         %br/
         = text_field_tag :name, size: 20, required: true
 
       %li
         = label_tag :email
-        (required)
+        %span.required (required)
         %br/
         = email_field_tag :email, size: 20, required: true
 
@@ -34,7 +34,7 @@ title: Contact
 
       %li
         = label_tag :message
-        (required)
+        %span.required (required)
         %br/
         = text_area_tag :message, rows: 3, cols: 20, required: true
 

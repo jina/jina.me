@@ -17,41 +17,32 @@
     .page
       = partial "layouts/roles/alert"
 
-    .page.page-body
+      %nav.navigation(role="navigation")
+        .container
+          %ul.list-menu
+            %li= link_to "About",        "/"
+            %li= link_to "Speaking",     "/speaking"
+            %li= link_to "Publications", "/publications"
+            %li= link_to "Featured",     "/featured"
+            %li= link_to "Contact",      "/contact"
+
       .container
-        .page-content-wrap
-          %aside.complementary(role="complementary")
+        %aside.column.complementary(role="complementary")= image_tag "jina.jpg"
 
-          %main.main(role="main")
-            .main-content
-              %nav.navigation(role="navigation")
-                .navigation-content
-                  %ul.list-menu
-                    %li= link_to "About",        "/"
-                    %li= link_to "Speaking",     "/speaking"
-                    %li= link_to "Publications", "/publications"
-                    %li= link_to "Featured",     "/featured"
-                    %li= link_to "Contact",      "/contact"
+        %main.column.main(role="main")
+          - unless data.page.title == "Contact"
+            %h1= Typogruby.improve(data.page.title)
+          = Typogruby.improve(yield)
 
-              .body
-                .body-content
-                  - unless data.page.title == "Contact"
-                    %h1= Typogruby.improve(data.page.title)
-                  = Typogruby.improve(yield)
+    %footer.contentinfo(role="contentinfo")
+      .container
+        %ul.list-menu
+          %li= link_to "Twitter",   "http://twitter.com/jina"
+          %li= link_to "Instagram", "http://instagram.com/jina"
+          %li= link_to "Dribbble",  "http://dribbble.com/jina"
+          %li= link_to "Github",    "http://github.com/jina"
 
-              %footer.contentinfo(role="contentinfo")
-                .contentinfo-content
-                  %hr/
-                  %ul.list-menu
-                    %li= link_to "Twitter",   "http://twitter.com/jina"
-                    %li= link_to "Instagram", "http://instagram.com/jina"
-                    %li= link_to "Dribbble",  "http://dribbble.com/jina"
-                    %li= link_to "Github",    "http://github.com/jina"
-
-                  %p
-                    Copyright &copy; 2000&ndash;2014 Jina, all rights reserved.
-                    = link_to "http://www.mediatemple.net#a_aid=501cfa93bffd3", title: "Hosted by Media Temple" do
-                      (mt)
+        %p Copyright &copy; 2000&ndash;2015 Jina, all rights reserved.
 
     = partial "layouts/foot/js"
 

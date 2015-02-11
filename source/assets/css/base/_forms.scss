@@ -1,45 +1,66 @@
-form li { @extend %padding-block-mobile-small; }
+form {
+  li { padding: $spacing-vertical 0; }
+
+  br { display: none; }
+}
+
+fieldset {
+   margin: 0;
+   border: 0;
+  padding: 0;
+}
 
 legend { @extend h1; }
+
+label {
+  display: block;
+
+  &.error {
+    padding: $spacing-vertical 0 0;
+    color: mix($red, $maroon);
+  }
+}
+
+.required {
+  position: relative;
+  top: -#{$line-height}em;
+  float: right;
+  margin-bottom: -$spacing-vertical-large;
+}
 
 input,
 select,
 textarea,
 button {
-  @extend %font-weight-text;
-  @extend %line-height;
-  @extend %font-family-text;
-  @extend %background-white;
+  border: 1px solid $color-border;
+  padding: $spacing-vertical-small $gutter-width;
+  width: 100%;
+  line-height: inherit;
+  vertical-align: middle;
+  background-color: $white;
+
+  &.error {
+    outline: .1rem solid $red;
+    border-color: $red;
+    background: rgba($red, .0625);
+  }
 }
 
-input,
-select,
-textarea { @extend %font-size-base; }
+textarea {
+  padding: {
+       top: $spacing-vertical;
+    bottom: $spacing-vertical;
+  }
+  resize: vertical;
+}
 
 button {
-  @extend %font-size-base;
-  @extend %background-primary;
-  @extend %color-text-invert;
-}
+  border-color: $color-primary;
+  background-color: $color-primary;
+  color: $white;
 
-@include breakpoint($mobile-small) {
-  input,
-  select,
-  button {
-    @extend %padding-reset-mobile-small;
-    @extend %height-line-height-mobile-small;
-  }
+  &:hover,
+  &:focus { background-color: darken($color-primary, 12.5%); }
 
-  input,
-  select,
-  textarea,
-  button {
-    @extend %margin-reset-mobile-small;
-    @extend %border-reset-mobile-small;
-    @extend %padding-right-mobile-small;
-    @extend %padding-left-mobile-small;
-    @extend %width-full-mobile-small;
-  }
-
-  textarea { @extend %padding-block-mobile-small; }
+  &:active { background-color: darken($color-primary, 25%); }
 }

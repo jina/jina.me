@@ -1,5 +1,5 @@
 .caps {
-  @extend %font-size-reduce;
-  @extend %letter-spacing;
-  @extend %text-transform;
+  font-size: 75%;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
 }

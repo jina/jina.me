@@ -23,14 +23,10 @@ title: Publications
         - if book.also?
           %span.caps Also:
           = book.also
-%p
-  See my
-  = succeed "." do
-    = link_to "Amazon Author Page", "http://amazon.com/author/jina"
 
-%hr/
+  %hr/
 
-%h2 Articles
+%h2 Articles & External Blog Posts
 
 %ul.list-details
   - data.publications.articles.each do |article|

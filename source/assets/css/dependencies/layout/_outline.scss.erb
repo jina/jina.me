@@ -1,9 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* OUTLINE */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %outline-dotted-<%= resolution.target %> { outline: thin dotted; }
-    %outline-reset-<%= resolution.target %>  { outline: 0          ; }
-  }
-<% end %>

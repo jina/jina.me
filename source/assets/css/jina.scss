@@ -2,91 +2,14 @@
  *  by @jina
  */
 
-
-
-// ---------------------------------------------------------------------------
-// VENDOR LIBRARIES
-
 @import
   "compass"
 , "susy"
 , "breakpoint"
-;
-
-
-
-// ---------------------------------------------------------------------------
-// DEPENDENCIES
-
-@import
-  "vendor/rem"
+, "clrs-saturated/variables"
 , "dependencies/*"
-;
-
-
-
-// ---------------------------------------------------------------------------
-// BASE
-
-@include border-box-sizing;
-
-@import
-  "vendor/normalize"
-, "vendor/html5boilerplate/base"
-, "dependencies/typography/*"
-, "dependencies/media/*"
-, "dependencies/layout/*"
-, "dependencies/themes/*"
-, "dependencies/interaction/*"
-, "base/site"
-, "base/block-text"
-, "base/inline-text"
-, "base/media"
-, "base/forms"
-;
-
-
-
-// ---------------------------------------------------------------------------
-// COMPONENTS
-
-@import
-  "vendor/html5boilerplate/browserupgrade"
-, "components/type"
-, "components/lists"
-, "components/forms"
-;
-
-
-
-// ---------------------------------------------------------------------------
-// ROLES
-
-@import "roles/alert";
-
-
-
-// ---------------------------------------------------------------------------
-// REGIONS
-
-@import "regions/*";
-
-
-
-// ---------------------------------------------------------------------------
-// HELPERS
-
-@import
-  "helpers/*"
-, "vendor/html5boilerplate/helpers"
-;
-
-
-
-// ---------------------------------------------------------------------------
-// RESPONSIVE
-
-@import
-  "vendor/html5boilerplate/responsive"
-, "vendor/html5boilerplate/print"
-;
+, "base/*"
+, "components/*"
+, "regions/*"
+, "helpers/*"
+, "vendor/html5boilerplate-print";

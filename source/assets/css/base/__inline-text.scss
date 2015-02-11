@@ -1,0 +1,28 @@
+// ===========================================================================
+// INLINE TEXT
+
+a,
+abbr { border-bottom: 1px dotted $color-border; }
+
+a {
+  padding-bottom: .1rem;
+  text-decoration: none;
+  color: $color-primary;
+
+  &:hover,
+  &:focus  {
+    border-bottom-style: solid;
+    color: darken($color-primary, 12.5);
+  }
+
+  &:focus { outline: thin dotted; }
+
+  &:hover,
+  &:active { outline: 0; }
+
+  &:active { color: darken($color-primary, 25); }
+}
+
+abbr[title] { cursor: help; }
+
+strong { font-weight: $font-weight-strong; }

@@ -1,8 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* FONT-WEIGHT */
-
-%font-weight-heading            { font-weight: 100; }
-%font-weight-text               { font-weight: 300; }
-%font-weight-text-strong        { font-weight: 500; }
-%font-weight-navigation         { @extend %font-weight-text-strong; }
-%font-weight-contentinfo-strong { @extend %font-weight-text-strong; }

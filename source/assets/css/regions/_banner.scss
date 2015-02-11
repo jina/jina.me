@@ -1,6 +1,0 @@
-.banner {
-  @include breakpoint($tablet-small) {
-    @extend %vertical-align-top-tablet-small;
-    padding-top: 0;
-  }
-}

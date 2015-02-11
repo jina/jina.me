@@ -1,10 +1,22 @@
 {
   "articles": [
     {
+      "name": "Min & Me",
+      "publication": "The Pastry Box",
+      "date": "February 2015",
+      "link": "https://the-pastry-box-project.net/jina-bolton/2015-february-7"
+    },
+    {
       "name": "Why You Should Design for Open Source",
       "publication": "24 Ways",
       "date": "December 2014",
       "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
+    },
+    {
+      "name": "CSSConf Oakland",
+      "publication": "CSSConf Oakland",
+      "date": "December 2014",
+      "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
     },
     {
       "name": "Interaction Design Demystified",

@@ -1,22 +1,3 @@
-/[if lt IE 8]
-  .alert(role="alert")
-    .container
-      %p.browserupgrade
-        You are using an
-        %strong outdated
-        browser. Please
-        = link_to "upgrade your browser", "http://browsehappy.com/"
-        to improve your experience.
-</div>
-
-
-
-- if content_for?(:alert)
-  <div class="page">
-  .alert
-    .container= yield_content :alert
-
-<div class="page">
 .alert
   .container
     %p

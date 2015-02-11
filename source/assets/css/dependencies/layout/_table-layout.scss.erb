@@ -1,8 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* TABLE-LAYOUT */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %table-layout-<%= resolution.target %> { table-layout: fixed ; }
-  }
-<% end %>

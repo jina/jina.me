@@ -1,17 +1,14 @@
 .contentinfo {
-  @extend %font-family-contentinfo;
+  padding: $spacing-vertical-large 0;
+  font-family: $font-family-heading;
+  text-align: center;
+  background-color: $gray;
+  color: rgba($white, .875);
 
-  ul { @extend %font-weight-contentinfo-strong; }
-}
-
-@include breakpoint($mobile-small) {
-  .contentinfo-content { @extend %padding-block-large-mobile-small; }
-}
-
-@include breakpoint($tablet-large) {
-  .contentinfo {
-    @extend %display-table-row-tablet-large;
+  a {
+    &:link,
+    &:visited { color: $white; }
   }
 
-  .contentinfo-content { @extend %display-table-cell-tablet-large; }
+  ul { font-weight: $font-weight-strong; }
 }

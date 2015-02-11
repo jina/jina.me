@@ -1,8 +1,0 @@
-.container {
-  @extend %text-align-center;
-
-  @include breakpoint($mobile-small) {
-    @extend %padding-right-large-mobile-small;
-    @extend %padding-left-large-mobile-small;
-  }
-}

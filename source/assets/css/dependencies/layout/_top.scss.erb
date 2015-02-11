@@ -1,8 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* TOP */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %top-<%= resolution.target %> { top: 0; }
-  }
-<% end %>

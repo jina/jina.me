@@ -1,12 +1,24 @@
 // ===========================================================================
 // MEDIA
 
-hr { @extend %border-color; }
+hr {
+  display: block;
+  margin: 1.1rem 0;
+  border: 0 {
+    top: .1rem solid $color-border;
+  };
+  padding: 0;
+  height: .1rem;
+}
 
-img { @extend %interpolation-mode; }
+audio,
+canvas,
+iframe,
+img,
+svg,
+video { vertical-align: middle; }
 
-
-
-@include breakpoint($mobile-small) {
-  hr { @extend %margin-hr-mobile-small; }
+img {
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
 }

@@ -1,9 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* POSITION */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %position-relative-<%= resolution.target %> { position: relative ; }
-    %position-static-<%= resolution.target %>   { position: static   ; }
-  }
-<% end %>

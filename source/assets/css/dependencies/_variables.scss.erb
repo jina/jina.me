@@ -1,0 +1,29 @@
+<% data.layout.resolutions.each_with_index do |resolution, index| %>
+$<%= resolution.target %>: <%= resolution.width %>px;
+<% end %>
+
+$line-height: 1.5;
+
+$base-font-size: 16px;
+$base-line-height: $base-font-size * $line-height;
+
+$breakpoint-to-ems: true;
+
+$spacing-vertical:         ($base-line-height / 20px) * 1rem;
+$spacing-vertical-small:   $spacing-vertical / 2;
+$spacing-vertical-large:   $spacing-vertical * 2;
+$spacing-vertical-x-large: $spacing-vertical * 4;
+
+$gutter-width: ($base-font-size / 10px) * 1rem;
+$gutter-width-large: $gutter-width * 2;
+
+$height-footer: 12rem;
+
+$font-weight-strong: 500;
+
+$font-size-regular: ($base-font-size / 10px) * 1rem;
+
+$font-family-heading: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+
+$color-primary: $navy;
+$color-border:  rgba($black, .0625);

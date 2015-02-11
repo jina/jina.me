@@ -1,8 +1,0 @@
-/* ---------------------------------------------------------------------------
-/* MAX-HEIGHT */
-
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %max-height-full-<%= resolution.target %> { max-height: 100%; }
-  }
-<% end %>

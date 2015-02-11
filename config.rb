@@ -4,6 +4,10 @@ require 'middleman-syntax'
 require 'susy'
 require 'typogruby'
 
+activate :autoprefixer do |config|
+  config.cascade = true
+  config.inline  = true
+end
 activate :directory_indexes
 activate :syntax
 
@@ -16,11 +20,6 @@ set :js_dir,     'assets/js'
 set :images_dir, 'assets/img'
 
 page "/humans.txt", :layout => false
-page "/index.html", :layout => :layout_2_column
-
-with_layout :styleguide do
-  page "/styleguide/*"
-end
 
 
 

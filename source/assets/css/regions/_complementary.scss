@@ -1,25 +1,14 @@
 .complementary {
-  @extend %border-color;
-  @include background-size(50% auto);
-  background: {
-    image: image-url("jina.jpg");
-    position: 0 100%;
-    attachment: fixed;
-    repeat: no-repeat;
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    max-width: 32rem;
   }
-
-
-
-  @include breakpoint($mobile-small) {
-    @extend %border-bottom-width-mobile-small;
-    @extend %border-bottom-solid-mobile-small;
-    @extend %padding-right-large-mobile-small;
-    @extend %padding-left-large-mobile-small;
-  }
-
-
 
   @include breakpoint($tablet-large) {
-    @extend %display-table-cell-tablet-large;
+    width: 25%;
+
+    img { max-width: 100%; }
   }
 }

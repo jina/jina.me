@@ -1,34 +1,37 @@
-.list-details li { @extend %padding-block-mobile-small; }
+.list {
+  &-menu,
+  &-details { list-style: none; }
 
-<% data.layout.resolutions.each_with_index do |resolution, index| %>
-  @include breakpoint($<%= resolution.target %>) {
-    %horizontal-list-<%= resolution.target %> {
-      @extend %clearfix-<%= resolution.target %>;
-      @extend %margin-right-shrink-large-<%= resolution.target %>;
-      @extend %margin-left-shrink-large-<%= resolution.target %>;
-      @extend %list-style-reset-<%= resolution.target %>;
+  &-details li { @extend %block-text; }
 
-      li {
-        @extend %float-left-<%= resolution.target %>;
-        @extend %padding-right-large-<%= resolution.target %>;
-        @extend %padding-left-large-<%= resolution.target %>;
-      }
-    }
-  }
-<% end %>
-
-@include breakpoint($tablet-small) {
-  .list-menu { @extend %horizontal-list-tablet-small; }
+  &-menu { text-align: center; }
 }
 
-@include breakpoint($tablet-large) {
-  .list-details {
-    @extend %horizontal-list-tablet-large;
+@include breakpoint($tablet-small) {
+  .list {
+    &-menu,
+    &-details {
+      margin: {
+        right: -$gutter-width;
+         left: -$gutter-width;
+      }
+      list-style: none;
 
-    li {
-      @extend %width-half-tablet-large;
+      li {
+        display: inline-block;
+        margin-right: -0.4rem;
+        padding: {
+          right: $gutter-width;
+           left: $gutter-width;
+        }
+      }
+    }
 
-      &:nth-child(odd) { clear: both; }
+    &-details li {
+      width: 50%;
+      vertical-align: top;
+
+      &:nth-child(2) { padding-top: 0 }
     }
   }
 }

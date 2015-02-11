@@ -1,22 +1,15 @@
-@include breakpoint($tablet-large) {
-  .main {
-    @extend %display-table-cell-tablet-large;
-    @extend %padding-right-large-tablet-large;
-    @extend %padding-left-large-tablet-large;
-    @extend %vertical-align-middle-tablet-large;
-  }
+.main {
+  &.column { padding-bottom: $spacing-vertical-x-large; }
 
-  .main-content {
-    @extend %display-table-tablet-large;
-    @extend %width-full-tablet-large;
-    @extend %height-full-tablet-large;
-  }
+  @include breakpoint($tablet-large) {
+    float: right;
+    width: 75%;
 
-  .body { @extend %display-table-row-tablet-large; }
-
-  .body-content {
-    @extend %display-table-cell-tablet-large;
-    @extend %height-full-tablet-large;
-    @extend %vertical-align-middle-tablet-large;
+    &.column {
+      padding: {
+        top: $spacing-vertical-x-large;
+        left: $gutter-width-large;
+      }
+    }
   }
 }
