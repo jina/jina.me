@@ -21,6 +21,7 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end
+activate :clowncar
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote   = 'git@github.com:jina/jina.me.git'
