@@ -27,6 +27,13 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote   = 'git@github.com:jina/jina.me.git'
+  deploy.branch   = 'gh-pages'
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+end
 activate :directory_indexes
 activate :livereload
 activate :relative_assets
