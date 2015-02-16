@@ -1,0 +1,10 @@
+%link(rel="apple-touch-icon" href="apple-touch-icon.png")
+%link(rel="shortcut icon" href="/favicon.png" type="image/x-icon")
+%link(rel="icon"          href="/favicon.png" type="image/x-icon")
+
+= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+
+- if current_page.data.googleplus
+  %link(rel="author" href="https://plus.google.com/#{current_page.data.googleplus}")
+
+%link(rel="author" href="http://jina.me/humans.txt")

@@ -1,15 +1,12 @@
 .main {
-  &.column { padding-bottom: $spacing-vertical-x-large; }
+  @extend %column;
+  margin: 0 auto;
+  max-width: 64rem;
 
   @include breakpoint($tablet-large) {
-    float: right;
-    width: 60%;
-
-    &.column {
-      padding: {
-        top: $spacing-vertical-x-large;
-        left: $gutter-width-large;
-      }
+    .two-column & {
+      margin-right: 32rem;
+      padding-right: $gutter-width-large;
     }
   }
 }

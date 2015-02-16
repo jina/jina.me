@@ -1,22 +1,25 @@
 {
   "upcoming": [
     {
-      "name": "CascadeSF: UX Night",
+      "name": "CascadeSF: <span class=\"caps\">UX</span> Night",
       "location": "San Francisco, California",
       "date": "February 18<sup>th</sup>",
-      "link": "http://www.eventbrite.com/e/uxnight-tickets-15431337546"
+      "link": "http://www.eventbrite.com/e/uxnight-tickets-15431337546",
+      "type": "Keynote Presentation"
     },
     {
       "name": "Squares",
       "location": "Grapevine, Texas",
       "date": "March 26<sup>th</sup>&ndash;27<sup>th</sup>",
-      "link": "http://squaresconference.com/"
+      "link": "http://squaresconference.com/",
+      "type": "Talk"
     },
     {
       "name": "Camp Sass",
       "location": "Atlanta, Georgia",
       "date": "April 4<sup>th</sup>",
-      "link": "http://campsass.com"
+      "link": "http://campsass.com",
+      "type": "Talk"
     }
   ],
 
@@ -28,98 +31,114 @@
           {
             "name": "Form Function & Class",
             "location": "Manila, Philippines",
-            "link": "Living Design Systems"
+            "talk": "Living Design Systems",
+            "type": "Talk"
           },
           {
             "name": "Dreamforce",
             "location": "San Francisco, California",
             "talk": "How We Design & Build Salesforce1",
-            "slides": "https://speakerdeck.com/salesforceux/how-we-design-and-build-salesforce1"
+            "slides": "https://speakerdeck.com/salesforceux/how-we-design-and-build-salesforce1",
+            "type": "Panel"
           },
           {
             "name": "Creative Works",
             "location": "Memphis, Tennessee",
             "talk": "Designing for Enterprise",
-            "slides": "https://speakerdeck.com/jina/designing-for-enterprise"
+            "slides": "https://speakerdeck.com/jina/designing-for-enterprise",
+            "type": "Talk"
           },
           {
             "name": "SassConf",
             "location": "New York, New York",
-            "talk": "Workshop Co-presented with Elyse Holladay: Choose Your Own Refactoring Adventure",
-            "slides": "http://jina.github.io/refactoring"
+            "talk": "Choose Your Own Refactoring Adventure",
+            "slides": "http://jina.github.io/refactoring",
+            "type": "Co-presented Workshop with <a href=\"http://www.elyseholladay.com/\" rel=\"acquaintance met colleague\">Elyse Holladay</a>"
           },
           {
             "name": "SassConf",
             "location": "New York, New York",
-            "talk": "Panel: Speaker Roundtable"
+            "talk": "Speaker Roundtable",
+            "type": "Panel"
           },
           {
             "name": "Gotham Sass",
             "location": "New York, New York",
-            "talk": "Panel: Opening Night Fireside Chat with the Sass Team"
+            "talk": "Opening Night Fireside Chat with the Sass Team",
+            "type": "Panel"
           },
           {
             "name": "Nordic.js",
             "location": "Stockholm, Sweden",
             "talk": "Refactoring Web Interfaces",
             "video": "https://www.youtube.com/watch?v=m03REUTbDY4",
-            "slides": "https://speakerdeck.com/jina/living-design-systems"
+            "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "type": "Talk"
           },
           {
-            "name": "CSSconf EU",
+            "name": "<span class=\"caps\">CSS</span>conf <span class=\"caps\">EU</span>",
             "location": "Berlin, Germany",
             "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
-            "video": "http://youtu.be/-CRp5Cx7NZw?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R"
+            "video": "http://youtu.be/-CRp5Cx7NZw?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R",
+            "type": "Talk"
           },
           {
             "name": "Made by Few",
             "location": "Little Rock, Arkansas",
             "talk": "Living Design Systems",
-            "slides": "https://speakerdeck.com/jina/living-design-systems"
+            "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "type": "Talk"
           },
           {
             "name": "Foo Camp",
             "location": "Sebastopol, California",
-            "talk": "Discussion: Design & Frontend Systems & Patterns for the Enterprise"
+            "talk": "Design & Frontend Systems & Patterns for the Enterprise",
+            "type": "Discussion"
           },
           {
             "name": "DevConFu",
             "location": "Jūrmala, Latvia",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "DevConFu",
             "location": "Jūrmala, Latvia",
             "talk": "In Search of the Single Source of Truth",
             "slides": "https://speakerdeck.com/jina/in-search-of-the-single-source-of-truth",
-            "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ"
+            "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ",
+            "type": "Talk"
           },
           {
-            "name": "ConvergeSE",
+            "name": "Converge<span class=\"caps\">SE</span>",
             "location": "Columbia, South Carolina",
             "talk": "Refactoring Web Interfaces",
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
-            "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ"
+            "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ",
+            "type": "Keynote Presentation"
           },
           {
             "name": "Codemotion",
             "location": "Roma, Italia",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
-            "name": "Salesforce UX Internal",
+            "name": "Salesforce <span class=\"caps\">UX</span> Internal",
             "location": "San Francisco, California",
             "talk": "Sass Basics #2",
-            "slides": "https://speakerdeck.com/jina/sass-basics-number-2"
+            "slides": "https://speakerdeck.com/jina/sass-basics-number-2",
+            "type": "Talk"
           },
           {
-            "name": "Salesforce UX Internal",
+            "name": "Salesforce <span class=\"caps\">UX</span> Internal",
             "location": "San Francisco, California",
             "talk": "Sass Basics #1",
-            "slides": "https://speakerdeck.com/jina/sass-basics-number-1"
+            "slides": "https://speakerdeck.com/jina/sass-basics-number-1",
+            "type": "Talk"
           }
         ]
       },
@@ -127,71 +146,82 @@
         "year": "2013",
         "details": [
           {
-            "name": "HTML5 Dev Conf",
+            "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "SassConf",
             "location": "New York, New York",
-            "talk": "Workshop: Refactoring Web Interfaces",
+            "talk": "Refactoring Web Interfaces",
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
-            "video": "http://vimeo.com/86306816"
+            "video": "http://vimeo.com/86306816",
+            "type": "Workshop"
           },
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "BlendConf",
             "location": "Charlotte, North Carolina",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
-            "name": "Salesforce UX Meetup",
+            "name": "Salesforce <span class=\"caps\">UX</span> Meetup",
             "location": "San Francisco, California",
             "talk": "Harnessing the Power of Sass",
-            "slides": "https://speakerdeck.com/jina/harnessing-the-power-of-sass"
+            "slides": "https://speakerdeck.com/jina/harnessing-the-power-of-sass",
+            "type": "Talk"
           },
           {
             "name": "Distill",
             "location": "San Francisco, California",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "Open Web Camp V",
             "location": "San Jose, California",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "Nordic Ruby",
             "location": "Stockholm, Sweden",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "Codemotion",
             "location": "Berlin, Germany",
             "month": "May",
             "talk": "Refactoring User Interfaces",
-            "slides": "http://www.slideshare.net/Codemotion/ui-realigning-refactoring-by-jina-bolton"
+            "slides": "http://www.slideshare.net/Codemotion/ui-realigning-refactoring-by-jina-bolton",
+            "type": "Talk"
           },
           {
-            "name": "HTML5 Dev Conf",
+            "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
             "talk": "Refactoring Web Interfaces",
-            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces"
+            "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
+            "type": "Talk"
           },
           {
             "name": "RailsGirls",
             "location": "San Francisco, California",
-            "talk": "Tutoring + Lightning Talk: Sass 101"
+            "talk": "Tutoring + Lightning Talk: Sass 101",
+            "type": "Talk"
           }
         ]
       },
@@ -199,44 +229,51 @@
         "year": "2012",
         "details": [
           {
-            "name": "CSS Dev Conf",
+            "name": "<span class=\"caps\">CSS</span> Dev Conf",
             "location": "Honolulu, Hawaii",
-            "talk": "Style-Guide Driven UI Design with Sass",
-            "slides": "https://speakerdeck.com/jina/css-dev-conf"
+            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design with Sass",
+            "slides": "https://speakerdeck.com/jina/css-dev-conf",
+            "type": "Talk"
           },
           {
-            "name": "HTML5 Dev Conf",
+            "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
             "talk": "Maintainable Workflow with Sass",
-            "video": "http://www.youtube.com/watch?v=fPAf8dN4G4w"
+            "video": "http://www.youtube.com/watch?v=fPAf8dN4G4w",
+            "type": "Talk"
           },
           {
-            "name": "ConvergeFL",
+            "name": "Converge<span class=\"caps\">FL</span>",
             "location": "Tallahassee, Florida",
-            "talk": "Why CSS Preprocessors Matter",
-            "slides": "https://speakerdeck.com/jina/why-css-preprocessors-matter"
+            "talk": "Why <span class=\"caps\">CSS</span> Preprocessors Matter",
+            "slides": "https://speakerdeck.com/jina/why-css-preprocessors-matter",
+            "type": "Talk"
           },
           {
-            "name": "Refresh LX",
+            "name": "Refresh <span class=\"caps\">LX</span>",
             "location": "Lisbon, Portugal",
-            "talk": "Maintainable Workflow with Sass"
+            "talk": "Maintainable Workflow with Sass",
+            "type": "Talk"
           },
           {
-            "name": "CSS Summit",
+            "name": "<span class=\"caps\">CSS</span> Summit",
             "location": "Online",
-            "talk": "Style-Guide Driven UI Design with Sass"
+            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design with Sass",
+            "type": "Talk"
           },
           {
             "name": "Interlink",
             "location": "Vancouver, Canada",
-            "talk": "Why CSS Preprocessors Matter",
-            "video": "http://vimeo.com/46213777"
+            "talk": "Why <span class=\"caps\">CSS</span> Preprocessors Matter",
+            "video": "http://vimeo.com/46213777",
+            "type": "Talk"
           },
           {
             "name": "Front-Trends",
             "location": "Warsaw, Poland",
-            "talk": "Style Guide-driven UI Design with Sass",
-            "video": "http://vimeo.com/45897176"
+            "talk": "Style Guide-driven <span class=\"caps\">UI</span> Design with Sass",
+            "video": "http://vimeo.com/45897176",
+            "type": "Talk"
           }
         ]
       },
@@ -247,23 +284,27 @@
             "name": "Keeping It Realtime",
             "location": "Portland, Oregon",
             "talk": "Style Guides and Sass",
-            "video": "http://vimeo.com/41881539"
+            "video": "http://vimeo.com/41881539",
+            "type": "Talk"
           },
           {
             "name": "Madison Ruby",
             "location": "Madison, Wisconsin",
-            "talk": "CSS Workflow with Sass"
+            "talk": "<span class=\"caps\">CSS</span> Workflow with Sass",
+            "type": "Talk"
           },
           {
             "name": "ValioCon",
             "location": "Carlsbad, California",
-            "talk": "CSS Workflow with Sass",
-            "video": "https://www.youtube.com/watch?v=gG5ChInxZdI"
+            "talk": "<span class=\"caps\">CSS</span> Workflow with Sass",
+            "video": "https://www.youtube.com/watch?v=gG5ChInxZdI",
+            "type": "Talk"
           },
           {
-            "name": "AIGA: ThinkTank",
+            "name": "<span class=\"caps\">AIGA</span>: ThinkTank",
             "location": "Nashville, Tennessee",
-            "talk": "CSS Workflow"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "type": "Talk"
           }
         ]
       },
@@ -273,43 +314,51 @@
           {
             "name": "Web Design World",
             "location": "Las Vegas, Nevada",
-            "talk": "CSS Workflow"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "type": "Talk"
           },
           {
             "name": "Web Design World",
             "location": "Las Vegas, Nevada",
-            "talk": "Process Meets Presentation: Visual Interaction Design"
+            "talk": "Process Meets Presentation: Visual Interaction Design",
+            "type": "Talk"
           },
           {
-            "name": "Think Vitamin: CSS3",
+            "name": "Think Vitamin: <span class=\"caps\">CSS</span>3",
             "location": "Online",
-            "talk": "CSS Workflow"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "type": "Talk"
           },
           {
             "name": "Fronteers",
             "location": "Amsterdam, Netherlands",
-            "talk": "CSS Workflow",
-            "video": "http://vimeo.com/15982903"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "video": "http://vimeo.com/15982903",
+            "type": "Talk"
           },
           {
             "name": "Frontend",
             "location": "Oslo, Norway",
-            "talk": "CSS Workflow"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "type": "Talk"
           },
           {
             "name": "Front-End Design",
             "location": "St. Petersburg, Florida",
-            "talk": "CSS Workflow"
+            "talk": "<span class=\"caps\">CSS</span> Workflow",
+            "type": "Talk"
           },
           {
-            "name": "Think Vitamin: CSS3",
+            "name": "Think Vitamin: <span class=\"caps\">CSS</span>3",
             "location": "Online",
-            "talk": "Visual Effects with CSS3"
+            "talk": "Visual Effects with <span class=\"caps\">CSS</span>3",
+            "type": "Talk"
           },
           {
-            "name": "SXSW Interactive",
+            "name": "<span class=\"caps\">S&times;SW</span> Interactive",
             "location": "Austin, Texas",
-            "talk": "Panel: Is Wordpress Killing Web Design?"
+            "talk": "Is Wordpress Killing Web Design?",
+            "type": "Panel"
           }
         ]
       },
@@ -317,30 +366,35 @@
         "year": "2009",
         "details": [
           {
-            "name": "Delve:UI",
+            "name": "Delve:<span class=\"caps\">UI</span>",
             "location": "Brooklyn, New York",
-            "talk": "Mastering CSS Layouts",
-            "slides": "http://noteandpoint.com/2010/05/mastering-css-layouts/"
+            "talk": "Mastering <span class=\"caps\">CSS</span> Layouts",
+            "slides": "http://noteandpoint.com/2010/05/mastering-css-layouts/",
+            "type": "Talk"
           },
           {
             "name": "Web Visions",
             "location": "Portland, Oregon",
-            "talk": "Process Meets Presentation: Visual Interaction Design"
+            "talk": "Process Meets Presentation: Visual Interaction Design",
+            "type": "Talk"
           },
           {
             "name": "Web Directions North",
             "location": "Denver, Colorado",
-            "talk": "Co-presented with Eris Stassi: I&times;D FTW: Interaction Design for the Web"
+            "talk": "<span class=\"caps\">I&times;D</span> <span class=\"caps\">FTW</span>: Interaction Design for the Web",
+            "type": "Co-presentation with <a href=\"http://www.erisfree.com/\" rel=\"friend met colleague muse\">Eris Stassi</a>"
           },
           {
             "name": "Webmaster Jam Session",
             "location": "Atlanta, Georgia",
-            "talk": "Creating Sexy Stylesheets"
+            "talk": "Creating Sexy Stylesheets",
+            "type": "Talk"
           },
           {
             "name": "Webmaster Jam Session",
             "location": "Atlanta, Georgia",
-            "talk": "Panel: Web Design Critique"
+            "talk": "Web Design Critique",
+            "type": "Panel"
           }
         ]
       },
@@ -351,30 +405,35 @@
             "name": "Web Directions South",
             "location": "Sydney, Australia",
             "talk": "Creating Sexy Stylesheets",
-            "audio": "http://www.webdirections.org/podcasts/WD08/WDS08-Jina-Bolton.mp3"
+            "audio": "http://www.webdirections.org/podcasts/WD08/WDS08-Jina-Bolton.mp3",
+            "type": "Talk"
           },
           {
             "name": "Future of Web Design",
             "location": "London, England",
-            "talk": "Workshop: Creating Sexy Stylesheets",
-            "video": "http://vimeo.com/933068"
+            "talk": "Creating Sexy Stylesheets",
+            "video": "http://vimeo.com/933068",
+            "type": "Workshop"
           },
           {
             "name": "Future of Web Design",
             "location": "London, England",
-            "talk": "Panel: Photoshop Battle of the Sexes",
-            "video": "http://vimeo.com/933068"
+            "talk": "Photoshop Battle of the Sexes",
+            "video": "http://vimeo.com/933068",
+            "type": "Panel"
           },
           {
-            "name": "SXSW Interactive",
+            "name": "<span class=\"caps\">S&times;SW</span> Interactive",
             "location": "Austin, Texas",
-            "talk": "Panel: Social Networking and Your Brand"
+            "talk": "Social Networking and Your Brand",
+            "type": "Panel"
           },
           {
             "name": "2&times;20",
             "location": "Austin, Texas",
             "talk": "What&rsquo;s the Difference?",
-            "video": "http://www.youtube.com/watch?v=WYgpNjZdw2k"
+            "video": "http://www.youtube.com/watch?v=WYgpNjZdw2k",
+            "type": "Talk"
           }
         ]
       },
@@ -384,23 +443,27 @@
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
-            "talk": "CSS3 and What Could Be",
-            "slides": "http://www.slideshare.net/carsonified/jina-bolton"
+            "talk": "<span class=\"caps\">CSS</span>3 and What Could Be",
+            "slides": "http://www.slideshare.net/carsonified/jina-bolton",
+            "type": "Talk"
           },
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
-            "talk": "Workshop: Advanced CSS"
+            "talk": "Advanced <span class=\"caps\">CSS</span>",
+            "type": "Workshop"
           },
           {
             "name": "An Event Apart",
             "location": "San Francisco, California",
-            "talk": "Interface Cosmetology"
+            "talk": "Interface Cosmetology",
+            "type": "Talk"
           },
           {
             "name": "Web Visions",
             "location": "Portland, Oregon",
-            "talk": "Creating Sexy Stylesheets"
+            "talk": "Creating Sexy Stylesheets",
+            "type": "Talk"
           }
         ]
       }

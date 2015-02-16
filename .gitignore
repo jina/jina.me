@@ -1,16 +1,6 @@
-._*
-/build
 /.bundle
-bundle
+/build
 /.cache
 .DS_Store
-.DS_Store?
 Gemfile.lock
-/Icon
-"Icon\r"
-.ruby-version
-/.sass
 /.sass-cache
-*.scssc
-Thumbs.db
-.Trashes

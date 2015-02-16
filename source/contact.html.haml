@@ -2,40 +2,68 @@
 title: Contact
 ---
 
-= form_tag 'https://formkeep.com/f/fa2f10857195', class: "contact-form" do
-  = field_set_tag 'Contact Jina' do
-    %ol
-      %li
-        = label_tag :name
-        %span.required (required)
-        %br/
-        = text_field_tag :name, size: 20, required: true
+%main.main(role="main")
+  %h1 Contact
+  %address.vcard#hcard-Jina-Anne-Bolton
+    You can email
+    %span.fn(title="Jina Bolton")
+      %span.given-name Jina
+    by using this form or at
+    :javascript
+      //<![CDATA[
+        <!--
+          var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+          "=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+          ".substr(0,ol);}f(\")401,\\\"%>=+\\\"\\\\PC530\\\\TF420\\\\720\\\\420\\\\X60" +
+          "0\\\\000\\\\430\\\\020\\\\630\\\\200\\\\310\\\\000\\\\410\\\\500\\\\300\\\\" +
+          "130\\\\430\\\\330\\\\'700\\\\310\\\\r\\\\t\\\\\\\\\\\\C<>04620\\\\{609:320\\"+
+          "\\w010\\\\n7=$&:mn720\\\\%%$\\\"\\\\610\\\\e130\\\\&/o!QWWg600\\\\NZ]]T@G41" +
+          "0\\\\_^S100\\\\]YCIE[LIGLLPWR`~ptv!umt~wx6O/wu}f-.Wf`ijc'X>qra220\\\\630\\\\"+
+          "\\\\\\\\230\\\\F[P130\\\\230\\\\020\\\\000\\\\230\\\\000\\\\600\\\\^330\\\\" +
+          "000\\\\010\\\\100\\\\630\\\\t\\\\600\\\\410\\\\\\\"(f};o nruter};))++y(^)i(" +
+          "tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;2=*y))y+401(>i(fi{)++i;l<i;0=i(r" +
+          "of;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                           ;
+          while(x=eval(x));
+        //-->
+      //]]>
+    <noscript>jina at sushi and robots dot com.</noscript>
 
-      %li
-        = label_tag :email
-        %span.required (required)
-        %br/
-        = email_field_tag :email, size: 20, required: true
+  %hr
 
-      %li
-        = label_tag :organization
-        %br/
-        = text_field_tag :organization, size: 20
+  = form_tag 'https://formkeep.com/f/fa2f10857195', class: "contact-form" do
+    = field_set_tag 'Contact Form' do
+      %ol
+        %li
+          = label_tag :name
+          %span.required (required)
+          %br
+          = text_field_tag :name, size: 20, required: true
 
-      %li
-        = label_tag :website
-        %br/
-        = url_field_tag :website, size: 20
+        %li
+          = label_tag :email
+          %span.required (required)
+          %br
+          = email_field_tag :email, size: 20, required: true
 
-      %li
-        = label_tag :subject
-        %br/
-        = select_tag :subject, :options => ['Just saying hello.', 'I’d like you to speak at my event.']
+        %li
+          = label_tag :organization
+          %br
+          = text_field_tag :organization, size: 20
 
-      %li
-        = label_tag :message
-        %span.required (required)
-        %br/
-        = text_area_tag :message, rows: 3, cols: 20, required: true
+        %li
+          = label_tag :website
+          %br
+          = url_field_tag :website, size: 20
 
-    %p= button_tag "Submit"
+        %li
+          = label_tag :subject
+          %br
+          = select_tag :subject, :options => ['Just saying hello.', 'I’d like you to speak at my event.']
+
+        %li
+          = label_tag :message
+          %span.required (required)
+          %br
+          = text_area_tag :message, rows: 3, cols: 20, required: true
+
+      %p= button_tag "Submit"

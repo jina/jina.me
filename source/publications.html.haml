@@ -2,41 +2,39 @@
 title: Publications
 ---
 
-%h2 Books
+%h1 Publications
+.two-column
+  %aside.complementary(role="complementary")
+    %h2 Books
+    - data.publications.books.roles.each do |books|
+      %h3= books.role
 
-- data.publications.books.roles.each do |books|
-  %h3= books.role
+      %ul.list-details
+        - books.details.each do |book|
+          %li
+            %strong= link_to book.name, book.link
 
-  %ul.list-details
-    - books.details.each do |book|
-      %li
-        %strong= link_to book.name, book.link
+            = precede "&mdash; " do
+              %span.caps by
 
-        %br/
+            = book.authors
 
-        %span.caps by
+            %br
 
-        = book.authors
+            - if book.also?
+              %span.caps Also:
+              = book.also
 
-        %br/
+  %main.main(role="main")
+    %h2 Articles & External Blog Posts
 
-        - if book.also?
-          %span.caps Also:
-          = book.also
+    %ul.list-details
+      - data.publications.articles.each do |article|
+        %li
+          %strong= link_to article.name, article.link
 
-  %hr/
+          = precede "&mdash; " do
+            %span= article.publication
 
-%h2 Articles & External Blog Posts
-
-%ul.list-details
-  - data.publications.articles.each do |article|
-    %li
-      %strong= link_to article.name, article.link
-
-      %br/
-
-      = article.publication
-
-      %br/
-
-      = article.date
+          = precede "&mdash; " do
+            %span= article.date

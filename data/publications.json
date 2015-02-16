@@ -13,8 +13,8 @@
       "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
     },
     {
-      "name": "CSSConf Oakland",
-      "publication": "CSSConf Oakland",
+      "name": "<span class=\"caps\">CSS</span>Conf Oakland",
+      "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
       "date": "December 2014",
       "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
     },
@@ -26,7 +26,7 @@
     },
 
     {
-      "name": "Front-end Maintainability with Sass & Style Guides",
+      "name": "Front-end Maintainability with Sass <span class=\"amp\">&</span> Style Guides",
       "publication": "Engine Yard Blog",
       "date": "January 2011",
       "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
@@ -61,7 +61,7 @@
     },
 
     {
-      "name": "Breaking Out of the Box with CSS Layouts",
+      "name": "Breaking Out of the Box with <span class=\"caps\">CSS</span> Layouts",
       "publication": "SitePoint",
       "date": "June 2008",
       "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
@@ -93,9 +93,9 @@
             "authors": "Jina Bolton, Tim Connell, &amp;&nbsp;Derek Featherstone"
           },
           {
-            "name": "The Art & Science of CSS",
+            "name": "The Art <span class=\"amp\">&</span> Science of <span class=\"caps\">CSS</span>",
             "link": "http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W",
-            "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, &amp;&nbsp;Jonathan Snook"
+            "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, <span class=\"amp\">&amp;</span>&nbsp;Jonathan Snook"
           }
         ]
       },
@@ -111,7 +111,7 @@
             "name": "Sexy Web Design",
             "link": "http://www.amazon.com/gp/product/0980455235/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980455235&linkCode=as2&tag=jinabolcom-20&linkId=V74HGVS4LTAWDD32",
             "authors": "Elliot Jay Stocks",
-            "also": "wrote outline & foreword"
+            "also": "wrote outline <span class=\"amp\">&amp;</span> foreword"
           }
         ]
       }

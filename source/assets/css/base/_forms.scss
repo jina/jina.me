@@ -10,7 +10,7 @@ fieldset {
   padding: 0;
 }
 
-legend { @extend h1; }
+legend { @extend h2; }
 
 label {
   display: block;
@@ -32,7 +32,7 @@ input,
 select,
 textarea,
 button {
-  border: 0;
+  border: 1px solid $color-border;
   padding: $spacing-vertical-small $gutter-width;
   width: 100%;
   line-height: inherit;
@@ -55,6 +55,7 @@ textarea {
 }
 
 button {
+  border-radius: .4rem;
   background-color: $color-primary;
   color: $white;
 

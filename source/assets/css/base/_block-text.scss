@@ -1,19 +1,15 @@
 // ===========================================================================
 // BLOCK TEXT
 
-%block-text {
-  padding: $spacing-vertical 0;
-
-  &:first-child { padding-top:    0; }
-  &:last-child  { padding-bottom: 0; }
-}
+%block-text { padding: $spacing-vertical 0; }
 
 h1,
 h2,
 h3,
 p,
 ul,
-ol {
+ol,
+address {
   @extend %block-text;
   margin: 0;
   text: {
@@ -41,8 +37,11 @@ h3 {
 
 h1 {
   font-size: 4.4rem;
+
   @include breakpoint($tablet-large) {
+    padding-top: $spacing-vertical-x-large;
     font-size: 7.2rem;
+    line-height: 1;
   }
 }
 
@@ -55,3 +54,5 @@ h3 {
 
 nav ul,
 form ol { list-style: none; }
+
+address { font-style: normal; }

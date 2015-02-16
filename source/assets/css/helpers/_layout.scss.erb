@@ -3,21 +3,9 @@
     right: $gutter-width-large;
      left: $gutter-width-large;
   }
-
-  @include breakpoint($tablet-large) {
-    @extend %clearfix-tablet-large;
-    margin: 0 auto;
-    max-width: 128rem;
-  }
 }
 
-.column {
-  padding: $spacing-vertical-large 0;
-
-  @include breakpoint($tablet-large) {
-    float: left;
-  }
-}
+%column { padding: $spacing-vertical-large 0; }
 
 <% data.layout.resolutions.each_with_index do |resolution, index| %>
   @include breakpoint($<%= resolution.target %>) {
@@ -32,3 +20,35 @@
     }
   }
 <% end %>
+
+
+
+@include breakpoint($tablet-large) {
+  .container {
+    @extend %clearfix-tablet-large;
+    margin: 0 auto;
+    max-width: 102.4rem;
+  }
+
+  %column {
+    padding: {
+      top: 0;
+      bottom: $spacing-vertical-xx-large;
+    }
+  }
+
+  .tile-photos-2,
+  .tile-photos-3 {
+    @extend %clearfix-tablet-large;
+    margin-right: -32rem;
+
+    a {
+      float: left;
+      border: 0;
+      padding: 0;
+    }
+  }
+
+  .tile-photos-2 a { width: 50%; }
+  .tile-photos-3 a { width: (100 / 3) * 1%; }
+}

@@ -1,38 +1,53 @@
 !!!5
-%html.no-js(lang="en"){:class => data.page.head_classes}
-  %head
+%html.no-js(lang="en"){class: page_classes}
+  %head(profile="http://gmpg.org/xfn/11")
     %meta(charset="utf-8")
     %meta(http-equiv="X-UA-Compatible" content="IE=edge")
 
     %title
-      = page_title
-      | ₍˄ุ.͡˳̫.˄ุ₎
+      - if current_page.data.title
+        = current_page.data.title
+      - else
+        jina
 
-    = partial "layouts/head/meta"
-    = partial "layouts/head/link"
-    = partial "layouts/head/css"
-    = partial "layouts/head/js"
+    = partial "head/meta"
+    = partial "head/link"
+    = partial "head/css"
+    = partial "head/js"
 
-  %body{class: page_classes}
+  %body
     .page
-      = partial "layouts/roles/alert"
-
-      %nav.navigation(role="navigation")
+      .alert
         .container
-          %ul.list-menu
-            %li= link_to "About",        "/"
-            %li= link_to "Speaking",     "/speaking"
-            %li= link_to "Publications", "/publications"
-            %li= link_to "Featured",     "/featured"
-            %li= link_to "Contact",      "/contact"
+          %p
+            - data.speaking.upcoming.each_with_index do |event, index|
+              - if index == 0
+                See Jina speak at
+                %strong= link_to event.name, event.link
+                on
+                = succeed "," do
+                  =event.date
+                2015
+                in
+                = event.location
 
-      .container
-        %aside.column.complementary(role="complementary")= image_tag "jina.jpg"
 
-        %main.column.main(role="main")
-          - unless data.page.title == "Contact"
-            %h1= Typogruby.improve(data.page.title)
-          = Typogruby.improve(yield)
+      %header.banner(role="banner")
+        .container
+          %h1= link_to image_tag("jina.jpg", alt: "Jina"), "/"
+
+          %nav.navigation(role="navigation")
+            %ul.list-menu
+              %li= link_to "About",        "/"
+              %li= link_to "Journal",      "/journal"
+              %li= link_to "Speaking",     "/speaking"
+              %li= link_to "Publications", "/publications"
+              %li= link_to "Featured",     "/featured"
+              %li= link_to "Contact",      "/contact"
+
+          %hr
+
+      .container= yield
 
     %footer.contentinfo(role="contentinfo")
       .container
@@ -44,5 +59,4 @@
 
         %p Copyright &copy; 2000&ndash;2015 Jina, all rights reserved.
 
-    = partial "layouts/foot/js"
-
+    = partial "foot/js"

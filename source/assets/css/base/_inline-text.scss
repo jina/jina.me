@@ -2,16 +2,20 @@
 // INLINE TEXT
 
 a,
-abbr { border-bottom: 1px dotted $color-border; }
+abbr[title] { border-bottom-color: $color-border; }
 
 a {
+  border-bottom: {
+    width: 1px;
+    style: solid;
+  }
   padding-bottom: .1rem;
   text-decoration: none;
   color: $color-primary;
 
   &:hover,
   &:focus  {
-    border-bottom-style: solid;
+    border-bottom-width: 2px;
     color: darken($color-primary, 12.5);
   }
 

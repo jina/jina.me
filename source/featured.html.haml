@@ -2,110 +2,25 @@
 title: Featured
 ---
 
-%h2 Video
-%ul.list-details
-  - data.featured.video.each do |mention|
-    %li
-      %strong= link_to mention.name, mention.link
+%main.main(role="main")
+  %h1 Featured
+  - data.featured.years.each do |feature|
+    %h2= feature.year
+    %ul.list-details
+      - feature.details.each do |feature_item|
+        %li
+          = succeed ":" do
+            %span.caps= feature_item.medium
 
-      - if mention.publication?
-        %br/
+          %strong= link_to feature_item.name, feature_item.link
+          - if feature_item.publication?
+            = precede "&mdash; " do
+              %span= feature_item.publication
 
-        = mention.publication
+          - if feature_item.event?
+            = precede "&mdash; " do
+              %span= feature_item.event
+              - if feature_item.location?
+                %span= feature_item.location
 
-      - if mention.event?
-        %br/
-
-        = mention.event
-
-      %br/
-
-      = mention.date
-
-%hr/
-
-%h2 Audio
-%ul.list-details
-  - data.featured.audio.each do |mention|
-    %li
-      %strong= link_to mention.name, mention.link
-
-      - if mention.publication?
-        %br/
-
-        = mention.publication
-
-      - if mention.event?
-        %br/
-
-        = mention.event
-
-      %br/
-
-      = mention.date
-
-%hr/
-
-%h2 Written
-%ul.list-details
-  - data.featured.written.each do |mention|
-    %li
-      %strong= link_to mention.name, mention.link
-
-      - if mention.publication?
-        %br/
-
-        = mention.publication
-
-      - if mention.event?
-        %br/
-
-        = mention.event
-
-      %br/
-
-      = mention.date
-
-%hr/
-
-%h2 Quoted
-%ul.list-details
-  - data.featured.quoted.each do |mention|
-    %li
-      %strong= link_to mention.name, mention.link
-
-      - if mention.publication?
-        %br/
-
-        = mention.publication
-
-      - if mention.event?
-        %br/
-
-        = mention.event
-
-      %br/
-
-      = mention.date
-
-%hr/
-
-%h2 Mentions
-%ul.list-details
-  - data.featured.mentions.each do |mention|
-    %li
-      %strong= link_to mention.name, mention.link
-
-      - if mention.publication?
-        %br/
-
-        = mention.publication
-
-      - if mention.event?
-        %br/
-
-        = mention.event
-
-      %br/
-
-      = mention.date
+    %hr

@@ -2,5 +2,15 @@
   padding: $spacing-vertical-large 0;
   font: $font-weight-strong #{1.8rem}/#{1.25} $font-family-heading;
   text-transform: uppercase;
-  background-color: $white;
+
+  a { border: 0; }
+
+  @include breakpoint($tablet-large) {
+    margin-right: -#{$gutter-width-large * 2};
+    padding: {
+         top: $spacing-vertical-x-large;
+      bottom: $spacing-vertical-large;
+    }
+    text-align: right;
+  }
 }

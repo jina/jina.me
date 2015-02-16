@@ -1,17 +1,10 @@
 .complementary {
-  img {
-    display: block;
-    margin: 0 auto;
-    border-bottom: {
-      right-radius: 100%;
-       left-radius: 100%;
+  @extend %column;
+
+  .two-column & {
+    @include breakpoint($tablet-large) {
+      float: right;
+      width: 32rem;
     }
-    max-width: 32rem;
-  }
-
-  @include breakpoint($tablet-large) {
-    width: 40%;
-
-    img { max-width: 100%; }
   }
 }

@@ -9,11 +9,10 @@
 
 @include breakpoint($tablet-small) {
   .list {
-    &-menu,
-    &-details {
+    &-menu {
       margin: {
-        right: -$gutter-width;
-         left: -$gutter-width;
+        right: -$gutter-width-small;
+         left: -$gutter-width-small;
       }
       list-style: none;
 
@@ -21,17 +20,12 @@
         display: inline-block;
         margin-right: -0.4rem;
         padding: {
-          right: $gutter-width;
-           left: $gutter-width;
+          right: $gutter-width-small;
+           left: $gutter-width-small;
         }
       }
     }
 
-    &-details li {
-      width: 50%;
-      vertical-align: top;
-
-      &:nth-child(2) { padding-top: 0 }
-    }
+    &-details span { white-space: nowrap; }
   }
 }

@@ -1,0 +1,28 @@
+---
+title: Journal
+---
+
+%h1 Journal
+
+.two-column
+  %aside.complementary(role="complementary")
+    - if paginate && num_pages > 1
+      %p
+        Page #{page_number} of #{num_pages}
+      - if prev_page
+        %p= link_to 'Previous page', prev_page
+
+  %main.main(role="main")
+    %ul.list-details
+      - page_articles.each_with_index do |article, i|
+        %li
+          %hr
+          %h2= link_to article.title, article
+          %time.caps.published(datetime="#{article.date.strftime('%Y')}-#{article.date.strftime('%m')}-#{article.date.strftime('%d')} #{article.date.strftime('%H:%M:%S')}")
+            = ordinal_date article.date
+          = article.body
+
+    - if paginate
+      - if next_page
+        %hr
+        %p= link_to 'Next page', next_page
