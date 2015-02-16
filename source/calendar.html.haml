@@ -1,31 +1,32 @@
 ---
 pageable: true
 ---
-%h1
-  Journal Archive for
-  - case page_type
-  - when 'day'
-    = Date.new(year, month, day).strftime('%b %e %Y')
-  - when 'month'
-    = Date.new(year, month, 1).strftime('%b %Y')
-  - when 'year'
-    = year
+%main.main(role="main")
+  %h1
+    Journal Archive for
+    - case page_type
+    - when 'day'
+      = Date.new(year, month, day).strftime('%b %e %Y')
+    - when 'month'
+      = Date.new(year, month, 1).strftime('%b %Y')
+    - when 'year'
+      = year
 
-- if paginate && num_pages > 1
-  %p
-    Page #{page_number} of #{num_pages}
-  - if prev_page
-    %p= link_to 'Previous page', prev_page
+  - if paginate && num_pages > 1
+    %p
+      Page #{page_number} of #{num_pages}
+    - if prev_page
+      %p= link_to 'Previous page', prev_page
 
-%ul.list-details
-  - page_articles.each_with_index do |article, i|
-    %li
-      %hr
-      %strong= link_to article.title, article
-      = precede "&mdash; " do
-        %span= article.date.strftime('%b %e')
+  %ul.list-details
+    - page_articles.each_with_index do |article, i|
+      %li
+        %hr
+        %strong= link_to article.title, article
+        = precede "&mdash; " do
+          %span= article.date.strftime('%b %e')
 
-- if paginate
-  - if next_page
-    %hr/
-    %p= link_to 'Next page', next_page
+  - if paginate
+    - if next_page
+      %hr/
+      %p= link_to 'Next page', next_page
