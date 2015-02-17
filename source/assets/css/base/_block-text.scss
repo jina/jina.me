@@ -36,19 +36,18 @@ h3 {
 }
 
 h1 {
-  font-size: 4.4rem;
+  @include ms-respond(font-size, 4.20014);
 
   @include breakpoint($tablet-large) {
     padding-top: $spacing-vertical-x-large;
-    font-size: 7.2rem;
     line-height: 1;
   }
 }
 
-h2 { font-size: 3.6rem; }
+h2 { @include ms-respond(font-size, 2.72537); }
 
 h3 {
-  font-size: 1.8rem;
+  @include ms-respond(font-size, 1.2506);
   text-transform: uppercase;
 }
 

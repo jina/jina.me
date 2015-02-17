@@ -1,86 +1,121 @@
 {
-  "articles": [
-    {
-      "name": "Min & Me",
-      "publication": "The Pastry Box",
-      "date": "February 2015",
-      "link": "https://the-pastry-box-project.net/jina-bolton/2015-february-7"
-    },
-    {
-      "name": "Why You Should Design for Open Source",
-      "publication": "24 Ways",
-      "date": "December 2014",
-      "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
-    },
-    {
-      "name": "<span class=\"caps\">CSS</span>Conf Oakland",
-      "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
-      "date": "December 2014",
-      "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
-    },
-    {
-      "name": "Interaction Design Demystified",
-      "publication": "SitePoint",
-      "date": "February 2011",
-      "link": "http://www.sitepoint.com/interaction-design-demystified/"
-    },
+  "articles": {
+    "years": [
+      {
+        "year": "2015",
+        "posts": [
+          {
+            "name": "Min & Me",
+            "publication": "The Pastry Box",
+            "date": "February",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-february-7"
+          }
+        ]
+      },
 
-    {
-      "name": "Front-end Maintainability with Sass <span class=\"amp\">&</span> Style Guides",
-      "publication": "Engine Yard Blog",
-      "date": "January 2011",
-      "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
-    },
+      {
+        "year": "2014",
+        "posts": [
+          {
+            "name": "Why You Should Design for Open Source",
+            "publication": "24 Ways",
+            "date": "December",
+            "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
+          },
 
-    {
-      "name": "Make Out Like a Bandit",
-      "publication": "24 Ways",
-      "date": "December 2009",
-      "link": "http://24ways.org/2009/make-out-like-a-bandit/"
-    },
+          {
+            "name": "<span class=\"caps\">CSS</span>Conf Oakland",
+            "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
+            "date": "December",
+            "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
+          }
+        ]
+      },
 
-    {
-      "name": "The Foolproof Form Design Formula",
-      "publication": "SitePoint",
-      "date": "October 2009",
-      "link": "http://www.sitepoint.com/foolproof-form-design-formula/"
-    },
+      {
+        "year": "2011",
+        "posts": [
+          {
+            "name": "Interaction Design Demystified",
+            "publication": "SitePoint",
+            "date": "February",
+            "link": "http://www.sitepoint.com/interaction-design-demystified/"
+          },
 
-    {
-      "name": "23 Beautiful Examples of Web Site Archives",
-      "publication": "SitePoint",
-      "date": "August 2008",
-      "link": "http://www.sitepoint.com/beautiful-web-site-archives/"
-    },
+          {
+            "name": "Front-end Maintainability with Sass <span class=\"amp\">&</span> Style Guides",
+            "publication": "Engine Yard Blog",
+            "date": "January",
+            "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
+          }
+        ]
+      },
 
-    {
-      "name": "Writing an Interface Style Guide",
-      "publication": "A List Apart",
-      "date": "June 2008",
-      "link": "http://alistapart.com/article/writingainterfacestyleguide"
-    },
+      {
+        "year": "2009",
+        "posts": [
+          {
+            "name": "Make Out Like a Bandit",
+            "publication": "24 Ways",
+            "date": "December",
+            "link": "http://24ways.org/2009/make-out-like-a-bandit/"
+          },
 
-    {
-      "name": "Breaking Out of the Box with <span class=\"caps\">CSS</span> Layouts",
-      "publication": "SitePoint",
-      "date": "June 2008",
-      "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
-    },
+          {
+            "name": "The Foolproof Form Design Formula",
+            "publication": "SitePoint",
+            "date": "October",
+            "link": "http://www.sitepoint.com/foolproof-form-design-formula/"
+          }
+        ]
+      },
 
-    {
-      "name": "Make it Modular",
-      "publication": ".net Magazine",
-      "date": "May 2008",
-      "link": "http://www.netmag.co.uk/zine/opinion/make-it-modular"
-    },
+      {
+        "year": "2008",
+        "posts": [
+          {
+            "name": "23 Beautiful Examples of Web Site Archives",
+            "publication": "SitePoint",
+            "date": "August",
+            "link": "http://www.sitepoint.com/beautiful-web-site-archives/"
+          },
 
-    {
-      "name": "Creating Sexy Stylesheets",
-      "publication": "Treehouse",
-      "date": "December 2007",
-      "link": "http://blog.teamtreehouse.com/creating-sexy-stylesheets"
-    }
-  ],
+          {
+            "name": "Writing an Interface Style Guide",
+            "publication": "A List Apart",
+            "date": "June",
+            "link": "http://alistapart.com/article/writingainterfacestyleguide"
+          },
+
+          {
+            "name": "Breaking Out of the Box with <span class=\"caps\">CSS</span> Layouts",
+            "publication": "SitePoint",
+            "date": "June",
+            "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
+          },
+
+          {
+            "name": "Make it Modular",
+            "publication": ".net Magazine",
+            "date": "May",
+            "link": "http://www.netmag.co.uk/zine/opinion/make-it-modular"
+          }
+        ]
+      },
+
+      {
+        "year": "2007",
+        "posts": [
+          {
+            "name": "Creating Sexy Stylesheets",
+            "publication": "Treehouse",
+            "date": "December",
+            "link": "http://blog.teamtreehouse.com/creating-sexy-stylesheets"
+          }
+        ]
+      }
+    ]
+  },
 
   "books": {
     "roles": [
@@ -92,6 +127,7 @@
             "link": "http://www.amazon.com/gp/product/0980576849/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980576849&linkCode=as2&tag=jinabolcom-20&linkId=DBSDFZO725CRYPKG",
             "authors": "Jina Bolton, Tim Connell, &amp;&nbsp;Derek Featherstone"
           },
+
           {
             "name": "The Art <span class=\"amp\">&</span> Science of <span class=\"caps\">CSS</span>",
             "link": "http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W",
@@ -99,6 +135,7 @@
           }
         ]
       },
+
       {
         "role": "Technical Editor",
         "details": [
@@ -107,6 +144,7 @@
             "link": "http://www.amazon.com/gp/product/193755712X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193755712X&linkCode=as2&tag=jinabolcom-20&linkId=M5MF4B3LH2GVKXG7",
             "authors": "Dan Cederholm"
           },
+
           {
             "name": "Sexy Web Design",
             "link": "http://www.amazon.com/gp/product/0980455235/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980455235&linkCode=as2&tag=jinabolcom-20&linkId=V74HGVS4LTAWDD32",

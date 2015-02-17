@@ -7,6 +7,7 @@ title: Publications
   %aside.complementary(role="complementary")
     %h2 Books
     - data.publications.books.roles.each do |books|
+      %hr
       %h3= books.role
 
       %ul.list-details
@@ -28,13 +29,13 @@ title: Publications
   %main.main(role="main")
     %h2 Articles & External Blog Posts
 
-    %ul.list-details
-      - data.publications.articles.each do |article|
-        %li
-          %strong= link_to article.name, article.link
+    - data.publications.articles.years.each do |article|
+      %hr
+      %h3= article.year
+      %ul.list-details
+        - article.posts.each do |post|
+          %li
+            %strong= link_to post.name, post.link
 
-          = precede "&mdash; " do
-            %span= article.publication
-
-          = precede "&mdash; " do
-            %span= article.date
+            = precede "&mdash; " do
+              %span= post.publication

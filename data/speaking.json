@@ -7,6 +7,7 @@
       "link": "http://www.eventbrite.com/e/uxnight-tickets-15431337546",
       "type": "Keynote Presentation"
     },
+
     {
       "name": "Squares",
       "location": "Grapevine, Texas",
@@ -14,6 +15,7 @@
       "link": "http://squaresconference.com/",
       "type": "Talk"
     },
+
     {
       "name": "Camp Sass",
       "location": "Atlanta, Georgia",
@@ -21,6 +23,7 @@
       "link": "http://campsass.com",
       "type": "Talk"
     },
+
     {
       "name": "<span class=\"caps\">CSS</span> Dev Conf",
       "location": "Long Beach, California",
@@ -42,6 +45,7 @@
             "slides": "https://speakerdeck.com/jina/living-design-systems",
             "type": "Talk"
           },
+
           {
             "name": "Dreamforce",
             "location": "San Francisco, California",
@@ -49,6 +53,7 @@
             "slides": "https://speakerdeck.com/salesforceux/how-we-design-and-build-salesforce1",
             "type": "Panel"
           },
+
           {
             "name": "Creative Works",
             "location": "Memphis, Tennessee",
@@ -56,6 +61,7 @@
             "slides": "https://speakerdeck.com/jina/designing-for-enterprise",
             "type": "Talk"
           },
+
           {
             "name": "SassConf",
             "location": "New York, New York",
@@ -63,18 +69,21 @@
             "slides": "http://jina.github.io/refactoring",
             "type": "Co-presented Workshop with <a href=\"http://www.elyseholladay.com/\" rel=\"acquaintance met colleague\">Elyse Holladay</a>"
           },
+
           {
             "name": "SassConf",
             "location": "New York, New York",
             "talk": "Speaker Roundtable",
             "type": "Panel"
           },
+
           {
             "name": "Gotham Sass",
             "location": "New York, New York",
             "talk": "Opening Night Fireside Chat with the Sass Team",
             "type": "Panel"
           },
+
           {
             "name": "Nordic.js",
             "location": "Stockholm, Sweden",
@@ -83,6 +92,7 @@
             "slides": "https://speakerdeck.com/jina/living-design-systems",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">CSS</span>conf <span class=\"caps\">EU</span>",
             "location": "Berlin, Germany",
@@ -91,6 +101,7 @@
             "video": "http://youtu.be/-CRp5Cx7NZw?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R",
             "type": "Talk"
           },
+
           {
             "name": "Made by Few",
             "location": "Little Rock, Arkansas",
@@ -98,12 +109,14 @@
             "slides": "https://speakerdeck.com/jina/living-design-systems",
             "type": "Talk"
           },
+
           {
             "name": "Foo Camp",
             "location": "Sebastopol, California",
             "talk": "Design & Frontend Systems & Patterns for the Enterprise",
             "type": "Discussion"
           },
+
           {
             "name": "DevConFu",
             "location": "Jūrmala, Latvia",
@@ -111,6 +124,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "DevConFu",
             "location": "Jūrmala, Latvia",
@@ -119,6 +133,7 @@
             "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ",
             "type": "Talk"
           },
+
           {
             "name": "Converge<span class=\"caps\">SE</span>",
             "location": "Columbia, South Carolina",
@@ -127,6 +142,7 @@
             "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ",
             "type": "Keynote Presentation"
           },
+
           {
             "name": "Codemotion",
             "location": "Roma, Italia",
@@ -134,6 +150,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "Salesforce <span class=\"caps\">UX</span> Internal",
             "location": "San Francisco, California",
@@ -141,6 +158,7 @@
             "slides": "https://speakerdeck.com/jina/sass-basics-number-2",
             "type": "Talk"
           },
+
           {
             "name": "Salesforce <span class=\"caps\">UX</span> Internal",
             "location": "San Francisco, California",
@@ -150,6 +168,7 @@
           }
         ]
       },
+
       {
         "year": "2013",
         "details": [
@@ -160,6 +179,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "SassConf",
             "location": "New York, New York",
@@ -168,6 +188,7 @@
             "video": "http://vimeo.com/86306816",
             "type": "Workshop"
           },
+
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
@@ -175,6 +196,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "BlendConf",
             "location": "Charlotte, North Carolina",
@@ -182,6 +204,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "Salesforce <span class=\"caps\">UX</span> Meetup",
             "location": "San Francisco, California",
@@ -189,6 +212,7 @@
             "slides": "https://speakerdeck.com/jina/harnessing-the-power-of-sass",
             "type": "Talk"
           },
+
           {
             "name": "Distill",
             "location": "San Francisco, California",
@@ -196,6 +220,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "Open Web Camp V",
             "location": "San Jose, California",
@@ -203,6 +228,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "Nordic Ruby",
             "location": "Stockholm, Sweden",
@@ -210,6 +236,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "Codemotion",
             "location": "Berlin, Germany",
@@ -218,6 +245,7 @@
             "slides": "http://www.slideshare.net/Codemotion/ui-realigning-refactoring-by-jina-bolton",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
@@ -225,6 +253,7 @@
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
             "type": "Talk"
           },
+
           {
             "name": "RailsGirls",
             "location": "San Francisco, California",
@@ -233,6 +262,7 @@
           }
         ]
       },
+
       {
         "year": "2012",
         "details": [
@@ -243,6 +273,7 @@
             "slides": "https://speakerdeck.com/jina/css-dev-conf",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
@@ -250,6 +281,7 @@
             "video": "http://www.youtube.com/watch?v=fPAf8dN4G4w",
             "type": "Talk"
           },
+
           {
             "name": "Converge<span class=\"caps\">FL</span>",
             "location": "Tallahassee, Florida",
@@ -257,18 +289,21 @@
             "slides": "https://speakerdeck.com/jina/why-css-preprocessors-matter",
             "type": "Talk"
           },
+
           {
             "name": "Refresh <span class=\"caps\">LX</span>",
             "location": "Lisbon, Portugal",
             "talk": "Maintainable Workflow with Sass",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">CSS</span> Summit",
             "location": "Online",
             "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design with Sass",
             "type": "Talk"
           },
+
           {
             "name": "Interlink",
             "location": "Vancouver, Canada",
@@ -276,6 +311,7 @@
             "video": "http://vimeo.com/46213777",
             "type": "Talk"
           },
+
           {
             "name": "Front-Trends",
             "location": "Warsaw, Poland",
@@ -285,6 +321,7 @@
           }
         ]
       },
+
       {
         "year": "2011",
         "details": [
@@ -295,12 +332,14 @@
             "video": "http://vimeo.com/41881539",
             "type": "Talk"
           },
+
           {
             "name": "Madison Ruby",
             "location": "Madison, Wisconsin",
             "talk": "<span class=\"caps\">CSS</span> Workflow with Sass",
             "type": "Talk"
           },
+
           {
             "name": "ValioCon",
             "location": "Carlsbad, California",
@@ -308,6 +347,7 @@
             "video": "https://www.youtube.com/watch?v=gG5ChInxZdI",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">AIGA</span>: ThinkTank",
             "location": "Nashville, Tennessee",
@@ -316,6 +356,7 @@
           }
         ]
       },
+
       {
         "year": "2010",
         "details": [
@@ -325,18 +366,21 @@
             "talk": "<span class=\"caps\">CSS</span> Workflow",
             "type": "Talk"
           },
+
           {
             "name": "Web Design World",
             "location": "Las Vegas, Nevada",
             "talk": "Process Meets Presentation: Visual Interaction Design",
             "type": "Talk"
           },
+
           {
             "name": "Think Vitamin: <span class=\"caps\">CSS</span>3",
             "location": "Online",
             "talk": "<span class=\"caps\">CSS</span> Workflow",
             "type": "Talk"
           },
+
           {
             "name": "Fronteers",
             "location": "Amsterdam, Netherlands",
@@ -344,24 +388,28 @@
             "video": "http://vimeo.com/15982903",
             "type": "Talk"
           },
+
           {
             "name": "Frontend",
             "location": "Oslo, Norway",
             "talk": "<span class=\"caps\">CSS</span> Workflow",
             "type": "Talk"
           },
+
           {
             "name": "Front-End Design",
             "location": "St. Petersburg, Florida",
             "talk": "<span class=\"caps\">CSS</span> Workflow",
             "type": "Talk"
           },
+
           {
             "name": "Think Vitamin: <span class=\"caps\">CSS</span>3",
             "location": "Online",
             "talk": "Visual Effects with <span class=\"caps\">CSS</span>3",
             "type": "Talk"
           },
+
           {
             "name": "<span class=\"caps\">S&times;SW</span> Interactive",
             "location": "Austin, Texas",
@@ -370,6 +418,7 @@
           }
         ]
       },
+
       {
         "year": "2009",
         "details": [
@@ -380,24 +429,28 @@
             "slides": "http://noteandpoint.com/2010/05/mastering-css-layouts/",
             "type": "Talk"
           },
+
           {
             "name": "Web Visions",
             "location": "Portland, Oregon",
             "talk": "Process Meets Presentation: Visual Interaction Design",
             "type": "Talk"
           },
+
           {
             "name": "Web Directions North",
             "location": "Denver, Colorado",
             "talk": "<span class=\"caps\">I&times;D</span> <span class=\"caps\">FTW</span>: Interaction Design for the Web",
             "type": "Co-presentation with <a href=\"http://www.erisfree.com/\" rel=\"friend met colleague muse\">Eris Stassi</a>"
           },
+
           {
             "name": "Webmaster Jam Session",
             "location": "Atlanta, Georgia",
             "talk": "Creating Sexy Stylesheets",
             "type": "Talk"
           },
+
           {
             "name": "Webmaster Jam Session",
             "location": "Atlanta, Georgia",
@@ -406,6 +459,7 @@
           }
         ]
       },
+
       {
         "year": "2008",
         "details": [
@@ -416,6 +470,7 @@
             "audio": "http://www.webdirections.org/podcasts/WD08/WDS08-Jina-Bolton.mp3",
             "type": "Talk"
           },
+
           {
             "name": "Future of Web Design",
             "location": "London, England",
@@ -423,6 +478,7 @@
             "video": "http://vimeo.com/933068",
             "type": "Workshop"
           },
+
           {
             "name": "Future of Web Design",
             "location": "London, England",
@@ -430,12 +486,14 @@
             "video": "http://vimeo.com/933068",
             "type": "Panel"
           },
+
           {
             "name": "<span class=\"caps\">S&times;SW</span> Interactive",
             "location": "Austin, Texas",
             "talk": "Social Networking and Your Brand",
             "type": "Panel"
           },
+
           {
             "name": "2&times;20",
             "location": "Austin, Texas",
@@ -445,6 +503,7 @@
           }
         ]
       },
+
       {
         "year": "2007",
         "details": [
@@ -455,18 +514,21 @@
             "slides": "http://www.slideshare.net/carsonified/jina-bolton",
             "type": "Talk"
           },
+
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
             "talk": "Advanced <span class=\"caps\">CSS</span>",
             "type": "Workshop"
           },
+
           {
             "name": "An Event Apart",
             "location": "San Francisco, California",
             "talk": "Interface Cosmetology",
             "type": "Talk"
           },
+
           {
             "name": "Web Visions",
             "location": "Portland, Oregon",

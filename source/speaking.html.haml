@@ -33,7 +33,6 @@ title: Speaking
 
   %main.main(role="main")
     %h2 Past Events
-    -#.lanyrd-target-splat= link_to "My conferences on Lanyrd", "http://lanyrd.com/profile/jina/", class: "lanyrd-splat lanyrd-number-100 lanyrd-type-speaking lanyrd-context-past lanyrd-template-detailed", rel: "me"
     - data.speaking.past.years.each do |past|
       %h3= past.year
       %ul.list-details
