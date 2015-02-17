@@ -18,16 +18,20 @@ title: Speaking
       - data.speaking.upcoming.each do |event|
         %li
           %strong= link_to event.name, event.link
-          = precede "&mdash; " do
-            = event.date
-          = precede "&mdash; " do
-            = event.location
+          %span
+            = precede "&mdash; " do
+              = event.date
+          %span
+            = precede "&mdash; " do
+              = event.location
       %li
         %strong= link_to "The Mixin", "http://themixinsf.com"
-        = precede "&mdash; " do
-          Roughly every 3 months
-        = precede "&mdash; " do
-          San Francisco, California
+        %span
+          = precede "&mdash; " do
+            Roughly every 3 months
+        %span
+          = precede "&mdash; " do
+            San Francisco, California
         %br
         Jina organizes this San Francisco Sass & Frontend Meet up.
 

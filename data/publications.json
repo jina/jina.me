@@ -5,7 +5,7 @@
         "year": "2015",
         "posts": [
           {
-            "name": "Min & Me",
+            "name": "Min <span class=\"amp\">&amp;</span> Me",
             "publication": "The Pastry Box",
             "date": "February",
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-february-7"
@@ -17,7 +17,7 @@
         "year": "2014",
         "posts": [
           {
-            "name": "Why You Should Design for Open Source",
+            "name": "Why You Should Design <i>for</i> Open Source",
             "publication": "24 Ways",
             "date": "December",
             "link": "http://24ways.org/2014/why-you-should-design-for-open-source/"
@@ -43,7 +43,7 @@
           },
 
           {
-            "name": "Front-end Maintainability with Sass <span class=\"amp\">&</span> Style Guides",
+            "name": "Front-end Maintainability <i>with</i> Sass <span class=\"amp\">&amp;</span> Style Guides",
             "publication": "Engine Yard Blog",
             "date": "January",
             "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
@@ -74,7 +74,7 @@
         "year": "2008",
         "posts": [
           {
-            "name": "23 Beautiful Examples of Web Site Archives",
+            "name": "23 Beautiful Examples <i>of</i> Web Site Archives",
             "publication": "SitePoint",
             "date": "August",
             "link": "http://www.sitepoint.com/beautiful-web-site-archives/"
@@ -88,7 +88,7 @@
           },
 
           {
-            "name": "Breaking Out of the Box with <span class=\"caps\">CSS</span> Layouts",
+            "name": "Breaking Out of the Box <i>with</i> <span class=\"caps\">CSS</span> Layouts",
             "publication": "SitePoint",
             "date": "June",
             "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
@@ -125,11 +125,11 @@
           {
             "name": "Fancy Form Design",
             "link": "http://www.amazon.com/gp/product/0980576849/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980576849&linkCode=as2&tag=jinabolcom-20&linkId=DBSDFZO725CRYPKG",
-            "authors": "Jina Bolton, Tim Connell, &amp;&nbsp;Derek Featherstone"
+            "authors": "Jina Bolton, Tim Connell, <span class=\"amp\">&amp;</span>&nbsp;Derek Featherstone"
           },
 
           {
-            "name": "The Art <span class=\"amp\">&</span> Science of <span class=\"caps\">CSS</span>",
+            "name": "The Art <span class=\"amp\">&amp;</span> Science of <span class=\"caps\">CSS</span>",
             "link": "http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W",
             "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, <span class=\"amp\">&amp;</span>&nbsp;Jonathan Snook"
           }
@@ -140,7 +140,7 @@
         "role": "Technical Editor",
         "details": [
           {
-            "name": "Sass for Web Designers",
+            "name": "Sass <i>for</i> Web Designers",
             "link": "http://www.amazon.com/gp/product/193755712X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193755712X&linkCode=as2&tag=jinabolcom-20&linkId=M5MF4B3LH2GVKXG7",
             "authors": "Dan Cederholm"
           },

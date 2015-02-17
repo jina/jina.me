@@ -39,7 +39,7 @@
         "year": "2014",
         "details": [
           {
-            "name": "Form Function & Class",
+            "name": "Form Function <span class=\"amp\">&amp;</span> Class",
             "location": "Manila, Philippines",
             "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
@@ -49,7 +49,7 @@
           {
             "name": "Dreamforce",
             "location": "San Francisco, California",
-            "talk": "How We Design & Build Salesforce1",
+            "talk": "How We Design <span class=\"amp\">&amp;</span> Build Salesforce1",
             "slides": "https://speakerdeck.com/salesforceux/how-we-design-and-build-salesforce1",
             "type": "Panel"
           },
@@ -57,7 +57,7 @@
           {
             "name": "Creative Works",
             "location": "Memphis, Tennessee",
-            "talk": "Designing for Enterprise",
+            "talk": "Designing <i>for</i> Enterprise",
             "slides": "https://speakerdeck.com/jina/designing-for-enterprise",
             "type": "Talk"
           },
@@ -67,7 +67,7 @@
             "location": "New York, New York",
             "talk": "Choose Your Own Refactoring Adventure",
             "slides": "http://jina.github.io/refactoring",
-            "type": "Co-presented Workshop with <a href=\"http://www.elyseholladay.com/\" rel=\"acquaintance met colleague\">Elyse Holladay</a>"
+            "type": "Co-presented Workshop <i>with</i> <a href=\"http://www.elyseholladay.com/\" rel=\"acquaintance met colleague\">Elyse Holladay</a>"
           },
 
           {
@@ -80,7 +80,7 @@
           {
             "name": "Gotham Sass",
             "location": "New York, New York",
-            "talk": "Opening Night Fireside Chat with the Sass Team",
+            "talk": "Opening Night Fireside Chat <i>with</i> the Sass Team",
             "type": "Panel"
           },
 
@@ -103,7 +103,7 @@
           },
 
           {
-            "name": "Made by Few",
+            "name": "Made <i>by</i> Few",
             "location": "Little Rock, Arkansas",
             "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
@@ -113,7 +113,7 @@
           {
             "name": "Foo Camp",
             "location": "Sebastopol, California",
-            "talk": "Design & Frontend Systems & Patterns for the Enterprise",
+            "talk": "Design <span class=\"amp\">&amp;</span> Frontend Systems <span class=\"amp\">&</span> Patterns <i>for</i> the Enterprise",
             "type": "Discussion"
           },
 
@@ -128,7 +128,7 @@
           {
             "name": "DevConFu",
             "location": "Jūrmala, Latvia",
-            "talk": "In Search of the Single Source of Truth",
+            "talk": "In Search <i>of</i> the Single Source <i>of</i> Truth",
             "slides": "https://speakerdeck.com/jina/in-search-of-the-single-source-of-truth",
             "video": "http://www.youtube.com/watch?v=hMphZVs6dtQ",
             "type": "Talk"
@@ -208,7 +208,7 @@
           {
             "name": "Salesforce <span class=\"caps\">UX</span> Meetup",
             "location": "San Francisco, California",
-            "talk": "Harnessing the Power of Sass",
+            "talk": "Harnessing the Power <i>of</i> Sass",
             "slides": "https://speakerdeck.com/jina/harnessing-the-power-of-sass",
             "type": "Talk"
           },
@@ -269,7 +269,7 @@
           {
             "name": "<span class=\"caps\">CSS</span> Dev Conf",
             "location": "Honolulu, Hawaii",
-            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design with Sass",
+            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design <i>with</i> Sass",
             "slides": "https://speakerdeck.com/jina/css-dev-conf",
             "type": "Talk"
           },
@@ -277,7 +277,7 @@
           {
             "name": "<span class=\"caps\">HTML</span>5 Dev Conf",
             "location": "San Francisco, California",
-            "talk": "Maintainable Workflow with Sass",
+            "talk": "Maintainable Workflow <i>with</i> Sass",
             "video": "http://www.youtube.com/watch?v=fPAf8dN4G4w",
             "type": "Talk"
           },
@@ -293,14 +293,14 @@
           {
             "name": "Refresh <span class=\"caps\">LX</span>",
             "location": "Lisbon, Portugal",
-            "talk": "Maintainable Workflow with Sass",
+            "talk": "Maintainable Workflow <i>with</i> Sass",
             "type": "Talk"
           },
 
           {
             "name": "<span class=\"caps\">CSS</span> Summit",
             "location": "Online",
-            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design with Sass",
+            "talk": "Style-Guide Driven <span class=\"caps\">UI</span> Design <i>with</i> Sass",
             "type": "Talk"
           },
 
@@ -315,7 +315,7 @@
           {
             "name": "Front-Trends",
             "location": "Warsaw, Poland",
-            "talk": "Style Guide-driven <span class=\"caps\">UI</span> Design with Sass",
+            "talk": "Style Guide-driven <span class=\"caps\">UI</span> Design <i>with</i> Sass",
             "video": "http://vimeo.com/45897176",
             "type": "Talk"
           }
@@ -328,7 +328,7 @@
           {
             "name": "Keeping It Realtime",
             "location": "Portland, Oregon",
-            "talk": "Style Guides and Sass",
+            "talk": "Style Guides <span class=\"amp\">&amp;</span> Sass",
             "video": "http://vimeo.com/41881539",
             "type": "Talk"
           },
@@ -336,14 +336,14 @@
           {
             "name": "Madison Ruby",
             "location": "Madison, Wisconsin",
-            "talk": "<span class=\"caps\">CSS</span> Workflow with Sass",
+            "talk": "<span class=\"caps\">CSS</span> Workflow <i>with</i> Sass",
             "type": "Talk"
           },
 
           {
             "name": "ValioCon",
             "location": "Carlsbad, California",
-            "talk": "<span class=\"caps\">CSS</span> Workflow with Sass",
+            "talk": "<span class=\"caps\">CSS</span> Workflow <i>with</i> Sass",
             "video": "https://www.youtube.com/watch?v=gG5ChInxZdI",
             "type": "Talk"
           },
@@ -406,7 +406,7 @@
           {
             "name": "Think Vitamin: <span class=\"caps\">CSS</span>3",
             "location": "Online",
-            "talk": "Visual Effects with <span class=\"caps\">CSS</span>3",
+            "talk": "Visual Effects <i>with</i> <span class=\"caps\">CSS</span>3",
             "type": "Talk"
           },
 
@@ -440,7 +440,7 @@
           {
             "name": "Web Directions North",
             "location": "Denver, Colorado",
-            "talk": "<span class=\"caps\">I&times;D</span> <span class=\"caps\">FTW</span>: Interaction Design for the Web",
+            "talk": "<span class=\"caps\">I&times;D</span> <span class=\"caps\">FTW</span>: Interaction Design <i>for</i> the Web",
             "type": "Co-presentation with <a href=\"http://www.erisfree.com/\" rel=\"friend met colleague muse\">Eris Stassi</a>"
           },
 
@@ -490,7 +490,7 @@
           {
             "name": "<span class=\"caps\">S&times;SW</span> Interactive",
             "location": "Austin, Texas",
-            "talk": "Social Networking and Your Brand",
+            "talk": "Social Networking <span class=\"amp\">&amp;</span> Your Brand",
             "type": "Panel"
           },
 
@@ -510,7 +510,7 @@
           {
             "name": "Future of Web Design",
             "location": "New York, New York",
-            "talk": "<span class=\"caps\">CSS</span>3 and What Could Be",
+            "talk": "<span class=\"caps\">CSS</span>3 <span class=\"amp\">&amp;</span> What Could Be",
             "slides": "http://www.slideshare.net/carsonified/jina-bolton",
             "type": "Talk"
           },

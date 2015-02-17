@@ -22,13 +22,14 @@
           %p
             - data.speaking.upcoming.each_with_index do |event, index|
               - if index == 0
-                See Jina speak at
+                See Jina speak
+                %i at
                 %strong= link_to event.name, event.link
-                on
+                %i on
                 = succeed "," do
                   =event.date
                 2015
-                in
+                %i in
                 = event.location
 
 
