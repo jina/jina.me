@@ -28,7 +28,6 @@ activate :deploy do |deploy|
 end
 activate :directory_indexes
 activate :livereload
-activate :relative_assets
 activate :syntax
 
 compass_config do |config|
