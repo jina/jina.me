@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "CascadeSF: <span class=\"caps\">UX</span> Night",
-      "location": "San Francisco, California",
-      "date": "February 18<sup>th</sup>",
-      "link": "http://www.eventbrite.com/e/uxnight-tickets-15431337546",
-      "type": "Keynote Presentation"
-    },
-
-    {
       "name": "Squares",
       "location": "Grapevine, Texas",
       "date": "March 26<sup>th</sup>&ndash;27<sup>th</sup>",
@@ -35,6 +27,19 @@
 
   "past": {
     "years": [
+      {
+        "year": "2015",
+        "details": [
+          {
+            "name": "CascadeSF: <span class=\"caps\">UX</span> Night",
+            "location": "San Francisco, California",
+            "talk": "Living Design Systems",
+            "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "type": "Keynote Presentation"
+          }
+        ]
+      },
+
       {
         "year": "2014",
         "details": [
