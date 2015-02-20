@@ -2,7 +2,17 @@
   &-menu,
   &-details { list-style: none; }
 
-  &-details li { @extend %block-text; }
+  &-details {
+    li {
+      @extend %block-text;
+
+      + li > hr { margin-top: 9.5rem; }
+    }
+
+    article > h1:first-child {
+      @include ms-respond(font-size, 3.588057);
+    }
+  }
 
   &-menu { text-align: center; }
 }
@@ -26,6 +36,10 @@
       }
     }
 
-    &-details span { white-space: nowrap; }
+    &-details {
+      span { white-space: nowrap; }
+
+      article > h1 { margin-right: -35.2rem; }
+    }
   }
 }

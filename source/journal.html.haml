@@ -17,10 +17,11 @@ title: Journal
       - page_articles.each_with_index do |article, i|
         %li
           %hr
-          %h2= link_to article.title, article
-          %time.caps.published(datetime="#{article.date.strftime('%Y')}-#{article.date.strftime('%m')}-#{article.date.strftime('%d')} #{article.date.strftime('%H:%M:%S')}")
-            = ordinal_date article.date
-          = article.body
+          %article
+            %h1= link_to article.title, article
+            %time.caps.published(datetime="#{article.date.strftime('%Y')}-#{article.date.strftime('%m')}-#{article.date.strftime('%d')} #{article.date.strftime('%H:%M:%S')}")
+              = ordinal_date article.date
+            = article.body
 
     - if paginate
       - if next_page

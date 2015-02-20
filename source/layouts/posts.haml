@@ -1,11 +1,12 @@
 = wrap_layout :layout do
-  %h1.entry-title= current_page.title
-  .two-column
-    %aside.complementary(role="complementary")
-    %main.main.hentry(role="main")
+  %article
+    %h1.entry-title= current_page.title
+    .two-column
+      %aside.complementary(role="complementary")
+      %main.main.hentry(role="main")
 
-      %p
-        %time.caps.published(datetime="#{current_article.date.strftime('%Y')}-#{current_article.date.strftime('%m')}-#{current_article.date.strftime('%d')} #{current_article.date.strftime('%H:%M:%S')}")
-          = ordinal_date current_article.date
+        %p
+          %time.caps.published(datetime="#{current_article.date.strftime('%Y')}-#{current_article.date.strftime('%m')}-#{current_article.date.strftime('%d')} #{current_article.date.strftime('%H:%M:%S')}")
+            = ordinal_date current_article.date
 
-      .entry-content= yield
+        .entry-content= yield
