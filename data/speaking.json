@@ -195,7 +195,7 @@
           },
 
           {
-            "name": "Future of Web Design",
+            "name": "Future <i>of</i> Web Design",
             "location": "New York, New York",
             "talk": "Refactoring Web Interfaces",
             "slides": "https://speakerdeck.com/jina/refactoring-web-interfaces",
@@ -477,7 +477,7 @@
           },
 
           {
-            "name": "Future of Web Design",
+            "name": "Future <i>of</i> Web Design",
             "location": "London, England",
             "talk": "Creating Sexy Stylesheets",
             "video": "http://vimeo.com/933068",
@@ -485,9 +485,9 @@
           },
 
           {
-            "name": "Future of Web Design",
+            "name": "Future <i>of</i> Web Design",
             "location": "London, England",
-            "talk": "Photoshop Battle of the Sexes",
+            "talk": "Photoshop Battle <i>of</i> the Sexes",
             "video": "http://vimeo.com/933068",
             "type": "Panel"
           },
@@ -513,7 +513,7 @@
         "year": "2007",
         "details": [
           {
-            "name": "Future of Web Design",
+            "name": "Future <i>of</i> Web Design",
             "location": "New York, New York",
             "talk": "<span class=\"caps\">CSS</span>3 <span class=\"amp\">&amp;</span> What Could Be",
             "slides": "http://www.slideshare.net/carsonified/jina-bolton",
@@ -521,7 +521,7 @@
           },
 
           {
-            "name": "Future of Web Design",
+            "name": "Future <i>of</i> Web Design",
             "location": "New York, New York",
             "talk": "Advanced <span class=\"caps\">CSS</span>",
             "type": "Workshop"
