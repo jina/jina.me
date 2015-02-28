@@ -4,6 +4,13 @@
       "year": "2015",
       "details": [
         {
+          "name": "Sass Bites #70 &mdash; Front-end Architecture with Jina Bolton",
+          "link": "https://www.youtube.com/watch?v=WrXATA0IejE",
+          "publication": "Sass Bites",
+          "medium": "video",
+          "date": "February"
+        },
+        {
           "name": "Style Guides <i>with</i> Jina Bolton",
           "link": "http://styleguides.io/podcast/jina-bolton/",
           "publication": "Website Style Guide Resources",

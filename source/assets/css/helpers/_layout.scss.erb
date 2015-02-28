@@ -37,18 +37,22 @@
     }
   }
 
-  .tile-photos-2,
-  .tile-photos-3 {
-    @extend %clearfix-tablet-large;
-    margin-right: -32rem;
+  .tile-photos {
+    &-2,
+    &-3,
+    &-4 {
+      @extend %clearfix-tablet-large;
+      margin-right: -32rem;
 
-    a {
-      float: left;
-      border: 0;
-      padding: 0;
+      a {
+        float: left;
+        border: 0;
+        padding: 0;
+      }
     }
-  }
 
-  .tile-photos-2 a { width: 50%; }
-  .tile-photos-3 a { width: (100 / 3) * 1%; }
+    &-2 a { width: 50%; }
+    &-3 a { width: (100 / 3) * 1%; }
+    &-4 a { width: 25%; }
+  }
 }
