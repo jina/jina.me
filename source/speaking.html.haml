@@ -5,14 +5,18 @@ title: Speaking
 %h1 Speaking
 
 .two-column
-  %p
-    If you would like Jina to speak at your event, please
-    = link_to "contact her", "contact"
-    with&nbsp;details.
-
-  %hr
-
   %aside.complementary(role="complementary")
+    %h2 Let&rsquo;s Talk
+    %p
+      If you would like me to speak at your event, please
+      = link_to "contact me", "/contact"
+      with:
+    %ul
+      %li short description of your conference
+      %li event date and location
+      %li talk type (keynote/session, workshop, panel&hellip;)
+      %li speaker honorarium and/or travel arrangements
+    %hr
     %h2 Upcoming Events
     %ul.list-details
       - data.speaking.upcoming.each do |event|
@@ -34,8 +38,110 @@ title: Speaking
             San Francisco, California
         %br
         Jina organizes this San Francisco Sass & Frontend Meet up.
+    %hr
+    %h2 What we can expect from each other
+    %h3 Before the Event
+    %ul
+      %li
+        Your event
+        = link_to "must have a Code of Conduct", "http://alistapart.com/article/tweaking-the-moral-ui"
+        for me to accept the invitation.
+      %li
+        Tell me about your audience (creative, technical, skill levels, etc).
+      %li Let me know in advance how much time I have.
+      %li
+        I will make sure my content is up-to-date with current standards and
+        best practices, to the best of my knowledge.
+      %li
+        I will design my slides myself. I will not use a slide template
+        provided by the event.
+      %li
+        I will wait until your event gets the opportunity to make the
+        announcement, and then I will promote my speaking engagement at your
+        event on Twitter, Facebook, and my website.
+      %li Let me know in advance if talks are recorded.
+      %li
+        I will give priority to events that pay a speaker honorarium. For
+        workshops and talks over one hour, this is required.
+      %li
+        I will give priority to events that cover my travel and
+        accommodations. I want to arrive the day before the event begins, and
+        depart the day after the event ends, unless I request otherwise. This
+        is so I can see your full event! Please cover this and all days of the
+        event. If&nbsp;I decide to stay additional days, I will cover that on
+        my own.
+      %li
+        If you need my company to cover travel or accommodations, please list
+        them as a sponsor.
+    %hr
+
+    %h3 During the Event
+    %ul
+      %li
+        I will hang out with attendees and go to the surrounding events
+        (breakfasts, lunches, dinners, parties, etc).
+      %li I will post interesting quotes and photos on social networks.
+      %li
+        Do not schedule for 1-on-1 consultations with your attendees without
+        = surround "my&nbsp;", "." do
+          %em explicit, written&nbsp;consent
+    %hr
+
+    %h3 During the Presentation
+    %ul
+      %li
+        Help me get set up with A/V. Usually it&rsquo;s not a problem, but in
+        the past I have been left to set myself up and was delayed due to
+        technical difficulties against my control.
+      %li
+        I will present on my own computer, and I will advance my own slides.
+      %li
+        I will do my best to stay within my allotted time. If there is extra
+        time left, I can do
+        = succeed "." do
+          %abbr(title="Questions &amp; Answers") Q&amp;A
+      %li I won&rsquo;t do live code demos or design battles.
+      %li
+        I will not participate in anything involving a &ldquo;battle of the
+        sexes&rdquo;. I made this mistake early in my career. Never again.
+    %hr
+
+    %h3 After the Event
+    %ul
+      %li I will publish my slides and tweet out the link.
+      %li I will provide feedback on how the event went from my experience.
+
+    %hr
+
+    %ul.list-details
+      %li= link_to "Lanyrd",       "lanyrd.com/profile/jina/"
+      %li= link_to "Speakerdeck",  "http://speakerdeck.com/jina"
+      %li= link_to "Speakerpedia", "http://speakerpedia.com/speakers/jina-bolton"
+      %li= link_to "Speakerrate",  "http://speakerrate.com/speakers/158-jina-bolton"
 
   %main.main(role="main")
+    %h2 Invite Me to Speak
+    %p
+      I&rsquo;ve been
+      = link_to "speaking at events", "/speaking"
+      for 9 years across 13 countries, 32 cities, and online. I really enjoy
+      it a lot. Lately, I feel fortunate to have had many great opportunities
+      to speak, learn and travel. If I could, I would accept every invitation
+      to speak!
+    %p
+      However, I really
+      %em love
+      what I&rsquo;m working on at my job &mdash; and I want to be good at it!
+      So I need to limit the engagements I take on each year.
+    %p
+      To help me get your event prioritized (and to make the booking process
+      as smooth as possible), I&rsquo;ve put together this list of what you
+      can expect from me, and what I will expect from you. If all looks good,
+      get in touch!
+    %p
+      = link_to image_tag("https://farm6.staticflickr.com/5560/15048989877_e80ecbc0be_z.jpg", width: "640", height: "480", alt: "Jina Bolton"), "https://www.flickr.com/photos/see_also/15048989877", title: "Jina Bolton by Nicolas Zimmel, on Flickr"
+    %hr
+
     %h2 Past Events
     - data.speaking.past.years.each do |past|
       %h3= past.year
@@ -72,10 +178,5 @@ title: Speaking
 
             - else
               %span= event.talk
-      %hr
 
-    %ul.list-menu
-      %li= link_to "Lanyrd",       "lanyrd.com/profile/jina/"
-      %li= link_to "Speakerdeck",  "http://speakerdeck.com/jina"
-      %li= link_to "Speakerpedia", "http://speakerpedia.com/speakers/jina-bolton"
-      %li= link_to "Speakerrate",  "http://speakerrate.com/speakers/158-jina-bolton"
+

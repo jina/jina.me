@@ -17,6 +17,14 @@
     },
 
     {
+      "name": "So Coded",
+      "location": "Hamburg, Germany",
+      "date": "July 23<sup>rd</sup>&ndash;24<sup>th</sup>",
+      "link": "http://2015-info.socoded.com/",
+      "type": "Talk"
+    },
+
+    {
       "name": "<span class=\"caps\">CSS</span> Dev Conf",
       "location": "Long Beach, California",
       "date": "October 26<sup>th</sup>&ndash;28<sup>th</sup>",
