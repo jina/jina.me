@@ -43,6 +43,7 @@
             "location": "San Francisco, California",
             "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "video": "https://thenewcircle.com/s/post/1713/living_design_systems_jina_bolton_video",
             "type": "Keynote Presentation"
           }
         ]
@@ -100,7 +101,7 @@
           {
             "name": "Nordic.js",
             "location": "Stockholm, Sweden",
-            "talk": "Refactoring Web Interfaces",
+            "talk": "Living Design Systems",
             "video": "https://www.youtube.com/watch?v=m03REUTbDY4",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
             "type": "Talk"
