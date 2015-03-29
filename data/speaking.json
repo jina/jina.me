@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Squares",
-      "location": "Grapevine, Texas",
-      "date": "March 26<sup>th</sup>&ndash;27<sup>th</sup>",
-      "link": "http://squaresconference.com/",
-      "type": "Talk"
-    },
-
-    {
       "name": "Camp Sass",
       "location": "Atlanta, Georgia",
       "date": "April 4<sup>th</sup>",
@@ -38,6 +30,13 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "Squares",
+            "location": "Grapevine, Texas",
+            "type": "Talk",
+            "talk": "Sass & Style Guides",
+            "slides": "https://speakerdeck.com/jina/sass-and-style-guides"
+          },
           {
             "name": "CascadeSF: <span class=\"caps\">UX</span> Night",
             "location": "San Francisco, California",
