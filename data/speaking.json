@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Camp Sass",
-      "location": "Atlanta, Georgia",
-      "date": "April 4<sup>th</sup>",
-      "link": "http://campsass.com",
-      "type": "Talk"
-    },
-
-    {
       "name": "So Coded",
       "location": "Hamburg, Germany",
       "date": "July 23<sup>rd</sup>&ndash;24<sup>th</sup>",
@@ -30,6 +22,13 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "Camp Sass",
+            "link": "http://campsass.com",
+            "location": "Atlanta, Georgia",
+            "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "type": "Talk"
+          },
           {
             "name": "Squares",
             "location": "Grapevine, Texas",
