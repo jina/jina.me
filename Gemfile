@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem "breakpoint",             "~> 2.5.0"
 gem "builder",                "~> 3.2.2"
 gem "clrs",                   "~> 2.0.1"
-gem "middleman",              "~> 3.3.8"
+gem "middleman",              "~> 3.3.10"
 gem "middleman-autoprefixer", "~> 2.4.3"
 gem "middleman-blog",         "~> 3.5.3"
 gem "middleman-deploy",       "~> 1.0"

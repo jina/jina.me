@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Modeling School",
+            "publication": "The Pastry Box",
+            "date": "April",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-april-28"
+          },
+          {
             "name": "In Search of a Living Design System",
             "publication": "The Pastry Box",
             "date": "March",
