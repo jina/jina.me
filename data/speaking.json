@@ -9,6 +9,14 @@
     },
 
     {
+      "name": "SmashingConf",
+      "location": "Barcelona, Spain",
+      "date": "October 20<sup>th</sup>&ndash;21<sup>th</sup>",
+      "link": "http://lanyrd.com/2015/smashingconf-barcelona/",
+      "type": "Talk"
+    },
+
+    {
       "name": "<span class=\"caps\">CSS</span> Dev Conf",
       "location": "Long Beach, California",
       "date": "October 26<sup>th</sup>&ndash;28<sup>th</sup>",
