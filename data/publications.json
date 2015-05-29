@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Persist! Resist!",
+            "publication": "The Pastry Box",
+            "date": "May",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-may-28"
+          },
+          {
             "name": "Modeling School",
             "publication": "The Pastry Box",
             "date": "April",
