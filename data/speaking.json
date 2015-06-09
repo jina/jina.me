@@ -9,6 +9,14 @@
     },
 
     {
+      "name": "MakingWeb",
+      "location": "Oslo, Norway",
+      "date": "September 22<sup>nd</sup>&ndash;23<sup>rd</sup>",
+      "link": "http://makingweb.no/",
+      "type": "Talk"
+    },
+
+    {
       "name": "SmashingConf",
       "location": "Barcelona, Spain",
       "date": "October 20<sup>th</sup>&ndash;21<sup>th</sup>",
