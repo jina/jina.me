@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Nicole Sullivan & Mark Otto talk Front End",
+            "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
+            "date": "June",
+            "link": "https://medium.com/salesforce-ux/nicole-sullivan-mark-otto-talk-front-end-e60b814f0bda"
+          },
+          {
             "name": "Persist! Resist!",
             "publication": "The Pastry Box",
             "date": "May",
