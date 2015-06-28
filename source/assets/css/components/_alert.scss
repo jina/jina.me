@@ -8,3 +8,25 @@
     &:visited { color: $white; }
   }
 }
+
+$colours: #FF4136, #FF851B, #FFDC00, #2ECC40, #0074D9, #B10DC9, #F012BE;
+
+@function stripes($position, $colours) {
+  $colours: if(type-of($colours) != 'list', compact($colours), $colours);
+  $gradient: compact();
+  $width: 100% / length($colours);
+
+  @for $i from 1 through length($colours) {
+    $pop: nth($colours,$i);
+    $new: $pop ($width * ($i - 1)), $pop ($width * $i);
+    $gradient: join($gradient, $new, comma);
+  }
+
+  @return linear-gradient($position, $gradient);
+}
+
+.love-wins {
+  @include background-image(stripes(left, ($colours)));
+  height: 2px;
+  text-indent: -9999em;
+}
