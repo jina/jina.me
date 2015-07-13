@@ -9,6 +9,14 @@
     },
 
     {
+      "name": "Dreamforce",
+      "location": "San Francisco, California",
+      "date": "September 15<sup>th</sup>&ndash;18<sup>th</sup>",
+      "link": "http://www.salesforce.com/dreamforce/DF15/",
+      "type": "Talk & Workshops"
+    },
+
+    {
       "name": "MakingWeb",
       "location": "Oslo, Norway",
       "date": "September 22<sup>nd</sup>&ndash;23<sup>rd</sup>",
@@ -29,7 +37,7 @@
       "location": "Long Beach, California",
       "date": "October 26<sup>th</sup>&ndash;28<sup>th</sup>",
       "link": "http://2015.cssdevconf.com/",
-      "type": "Talk"
+      "type": "Keynote Address"
     },
 
     {
@@ -50,6 +58,7 @@
             "name": "Camp Sass",
             "link": "http://campsass.com",
             "location": "Atlanta, Georgia",
+            "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
             "type": "Talk"
           },

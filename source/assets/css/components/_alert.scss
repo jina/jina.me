@@ -9,7 +9,7 @@
   }
 }
 
-$colours: #FF4136, #FF851B, #FFDC00, #2ECC40, #0074D9, #B10DC9, #F012BE;
+$colours: #ff218c, #ffd800, #21b1ff;
 
 @function stripes($position, $colours) {
   $colours: if(type-of($colours) != 'list', compact($colours), $colours);
@@ -27,6 +27,6 @@ $colours: #FF4136, #FF851B, #FFDC00, #2ECC40, #0074D9, #B10DC9, #F012BE;
 
 .love-wins {
   @include background-image(stripes(left, ($colours)));
-  height: 2px;
+  height: 4px;
   text-indent: -9999em;
 }

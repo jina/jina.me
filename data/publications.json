@@ -5,8 +5,14 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Notes from Movement",
+            "publication": "The Pastry Box",
+            "date": "June",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-june-28"
+          },
+          {
             "name": "Nicole Sullivan & Mark Otto talk Front End",
-            "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
+            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
             "date": "June",
             "link": "https://medium.com/salesforce-ux/nicole-sullivan-mark-otto-talk-front-end-e60b814f0bda"
           },
@@ -54,8 +60,8 @@
           },
 
           {
-            "name": "<span class=\"caps\">CSS</span>Conf Oakland",
-            "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
+            "name": "<span class=\"caps\">CSS</span> Conf Oakland",
+            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
             "date": "December",
             "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
           }
