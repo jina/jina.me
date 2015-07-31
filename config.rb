@@ -28,7 +28,6 @@ activate :deploy do |deploy|
 end
 activate :directory_indexes
 activate :livereload
-activate :syntax
 
 compass_config do |config|
   config.output_style = :expanded
@@ -36,6 +35,9 @@ end
 
 page "/feed.xml",   layout: false
 page "/humans.txt", layout: false
+with_layout :slides do
+  page "/speaking/living-design-systems/developers"
+end
 
 set :css_dir,    'assets/css'
 set :fonts_dir,  'assets/fonts'
@@ -47,11 +49,6 @@ set :markdown, :tables => true,
                :fenced_code_blocks => true,
                :with_toc_data => true
 set :markdown_engine, :redcarpet
-set :partials_dir, 'layouts/partials'
-
-configure :development do
-  set :debug_assets, true
-end
 
 configure :build do
   activate :asset_hash, ignore: "/assets/img/"
@@ -65,4 +62,13 @@ configure :build do
   end
 
   set :relative_links, true
+end
+
+ready do
+  sprockets.import_asset 'vendor/reveal-js/lib/classList.js'
+  sprockets.import_asset 'vendor/reveal-js/plugin/markdown/markdown.js'
+  sprockets.import_asset 'vendor/reveal-js/plugin/markdown/marked.js'
+  sprockets.import_asset 'vendor/reveal-js/plugin/highlight/highlight.js'
+  sprockets.import_asset 'vendor/reveal-js/plugin/zoom-js/zoom.js'
+  sprockets.import_asset 'vendor/reveal-js/plugin/notes/notes.js'
 end

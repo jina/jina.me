@@ -1,64 +1,62 @@
-!!!5
-%html.no-js(lang="en"){class: page_classes}
-  %head(profile="http://gmpg.org/xfn/11")
-    %meta(charset="utf-8")
-    %meta(http-equiv="X-UA-Compatible" content="IE=edge")
+= wrap_layout :minimal do
+  - content_for :head_meta do
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    %title
-      - if current_page.data.title
-        = current_page.data.title
-      - else
-        jina
+  - content_for :head_link do
+    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
-    = partial "head/meta"
-    = partial "head/link"
-    = partial "head/css"
-    = partial "head/js"
+  - content_for :head_css do
+    = stylesheet_link_tag "jina"
 
-  %body
-    .love-wins Love Wins
-    .page
-      .alert
-        .container
-          %p
-            - data.speaking.upcoming.each_with_index do |event, index|
-              - if index == 0
-                See Jina speak
-                %i at
-                %strong= link_to event.name, event.link
-                %i on
-                = succeed "," do
-                  =event.date
-                2015
-                %i in
-                = event.location
+  - content_for :head_js do
+    = javascript_include_tag  "//use.typekit.net/msm6abf.js"
+    :javascript
+      try{Typekit.load();}catch(e){}
 
+  - content_for :foot_js do
+    = javascript_include_tag "jina"
 
-      %header.banner(role="banner")
-        .container
-          %h1= link_to image_tag("jina.jpg", alt: "Jina"), "/"
-
-          %nav.navigation(role="navigation")
-            %ul.list-menu
-              %li= link_to "About",        "/"
-              %li= link_to "Journal",      "/journal"
-              %li= link_to "Speaking",     "/speaking"
-              %li= link_to "Publications", "/publications"
-              %li= link_to "Featured",     "/featured"
-              %li= link_to "Contact",      "/contact"
-
-          %hr
-
-      .container= yield
-
-    %footer.contentinfo(role="contentinfo")
+  .love-wins Love Wins
+  .page
+    .alert
       .container
-        %ul.list-menu
-          %li= link_to "Twitter",   "http://twitter.com/jina"
-          %li= link_to "Instagram", "http://instagram.com/jina"
-          %li= link_to "Dribbble",  "http://dribbble.com/jina"
-          %li= link_to "Github",    "http://github.com/jina"
+        %p
+          - data.speaking.upcoming.each_with_index do |event, index|
+            - if index == 0
+              See Jina speak
+              %i at
+              %strong= link_to event.name, event.link
+              %i on
+              = succeed "," do
+                =event.date
+              2015
+              %i in
+              = event.location
 
-        %p Copyright &copy; 2000&ndash;2015 Jina, all rights reserved.
 
-    = partial "foot/js"
+    %header.banner(role="banner")
+      .container
+        %h1= link_to image_tag("jina.jpg", alt: "Jina"), "/"
+
+        %nav.navigation(role="navigation")
+          %ul.list-menu
+            %li= link_to "About",        "/"
+            %li= link_to "Journal",      "/journal"
+            %li= link_to "Speaking",     "/speaking"
+            %li= link_to "Publications", "/publications"
+            %li= link_to "Featured",     "/featured"
+            %li= link_to "Contact",      "/contact"
+
+        %hr
+
+    .container= yield
+
+  %footer.contentinfo(role="contentinfo")
+    .container
+      %ul.list-menu
+        %li= link_to "Twitter",   "http://twitter.com/jina"
+        %li= link_to "Instagram", "http://instagram.com/jina"
+        %li= link_to "Dribbble",  "http://dribbble.com/jina"
+        %li= link_to "Github",    "http://github.com/jina"
+
+      %p Copyright &copy; 2000&ndash;2015 Jina, all rights reserved.

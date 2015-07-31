@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "So Coded",
-      "location": "Hamburg, Germany",
-      "date": "July 23<sup>rd</sup>&ndash;24<sup>th</sup>",
-      "link": "http://2015-info.socoded.com/",
-      "type": "Talk"
-    },
-
-    {
       "name": "Dreamforce",
       "location": "San Francisco, California",
       "date": "September 15<sup>th</sup>&ndash;18<sup>th</sup>",
@@ -54,6 +46,13 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "So Coded",
+            "location": "Hamburg, Germany",
+            "talk": "Living Design Systems",
+            "slides": "https://speakerdeck.com/jina/living-design-systems",
+            "type": "Talk"
+          },
           {
             "name": "Camp Sass",
             "link": "http://campsass.com",

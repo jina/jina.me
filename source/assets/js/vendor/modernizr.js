@@ -1,5 +1,5 @@
 /* Modernizr 2.8.3 (Custom Build) | MIT & BSD
- * Build: http://modernizr.com/download/#-shiv-cssclasses-load
+ * Build: http://modernizr.com/download/#-shiv-load
  */
 ;
 
@@ -11,7 +11,6 @@ window.Modernizr = (function( window, document, undefined ) {
 
     Modernizr = {},
 
-    enableClasses = true,
 
     docElement = document.documentElement,
 
@@ -347,9 +346,6 @@ window.Modernizr = (function( window, document, undefined ) {
 
     Modernizr._version      = version;
 
-    docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2') +
-
-                                                    (enableClasses ? ' js ' + classes.join(' ') : '');
 
     return Modernizr;
 

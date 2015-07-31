@@ -1,16 +1,21 @@
 @import
-  "compass"
-, "susy"
-, "breakpoint"
-, "clrs-saturated/variables"
-, "modular-scale"
-, "dependencies/*"
-, "base/root"
-, "base/block-text"
-, "base/inline-text"
-, "base/forms"
-, "base/media"
-, "components/*"
-, "helpers/*"
-, "regions/*"
-, "vendor/html5boilerplate-print";
+  "compass",
+  "susy",
+  "breakpoint",
+  "clrs-saturated/variables",
+  "modular-scale",
+
+  "dependencies/*",
+  "vendor/normalize",
+
+  "base/root",
+  "base/block-text",
+  "base/inline-text",
+  "base/forms",
+  "base/media",
+
+  "components/*",
+  "helpers/*",
+  "regions/*",
+
+  "vendor/html5boilerplate-print";

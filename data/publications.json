@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Six Truths & a Lie",
+            "publication": "The Pastry Box",
+            "date": "July",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-july-28"
+          },
+          {
             "name": "Notes from Movement",
             "publication": "The Pastry Box",
             "date": "June",
