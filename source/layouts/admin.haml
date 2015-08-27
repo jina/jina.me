@@ -1,0 +1,7 @@
+= wrap_layout :layout do
+  %article
+    %h1.entry-title Admin
+    .two-column
+      %aside.complementary(role="complementary")
+      %main.main.hentry(role="main")
+        .entry-content= yield
