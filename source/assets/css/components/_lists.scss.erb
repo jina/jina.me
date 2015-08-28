@@ -10,14 +10,14 @@
     }
 
     article > h1:first-child {
-      @include ms-respond(font-size, 3.588057);
+      font-size: 4.8rem;
     }
   }
 
   &-menu { text-align: center; }
 }
 
-@include breakpoint($tablet-small) {
+@media screen and (min-width: $tablet-small) {
   .list {
     &-menu {
       margin: {

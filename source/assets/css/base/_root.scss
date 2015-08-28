@@ -1,4 +1,8 @@
-@include border-box-sizing;
+* {
+  &,
+  &:before,
+  &:after { box-sizing: border-box; }
+}
 
 html,
 body {
@@ -9,11 +13,11 @@ body {
 html {
   font-size: 62.5%;
   background-color: #fdfdfd;
-  color: $gray;
+  color: $grey;
 }
 
 body {
-  font: 400 #{$font-size-regular}/#{$line-height} "freight-text-pro", Georgia, serif;
+  font: 400 1.6rem/#{$line-height} "freight-text-pro", Georgia, serif;
   background-color: transparent;
 }
 

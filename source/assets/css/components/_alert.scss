@@ -8,25 +8,3 @@
     &:visited { color: $white; }
   }
 }
-
-$colours: #ff218c, #ffd800, #21b1ff;
-
-@function stripes($position, $colours) {
-  $colours: if(type-of($colours) != 'list', compact($colours), $colours);
-  $gradient: compact();
-  $width: 100% / length($colours);
-
-  @for $i from 1 through length($colours) {
-    $pop: nth($colours,$i);
-    $new: $pop ($width * ($i - 1)), $pop ($width * $i);
-    $gradient: join($gradient, $new, comma);
-  }
-
-  @return linear-gradient($position, $gradient);
-}
-
-.love-wins {
-  @include background-image(stripes(left, ($colours)));
-  height: 4px;
-  text-indent: -9999em;
-}

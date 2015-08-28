@@ -5,6 +5,7 @@ Time.zone = "US/Pacific"
 
 activate :automatic_image_sizes
 activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions']
   config.cascade = true
   config.inline  = true
 end
@@ -21,7 +22,6 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end
-activate :blog_ui
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote   = 'git@github.com:jina/jina.me.git'
@@ -38,9 +38,6 @@ page "/feed.xml",   layout: false
 page "/humans.txt", layout: false
 with_layout :slides do
   page "/speaking/living-design-systems/developers"
-end
-with_layout :admin do
-  page "/admin"
 end
 
 set :css_dir,    'assets/css'
@@ -64,10 +61,6 @@ configure :build do
   compass_config do |config|
     config.output_style = :compressed
   end
-
-  ignore '/admin/*'
-  ignore '/assets/css/admin/*'
-  ignore '/assets/js/admin/*'
 
   set :relative_links, true
 end

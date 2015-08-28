@@ -3,7 +3,7 @@
   margin: 0 auto;
   max-width: 64rem;
 
-  @include breakpoint($tablet-large) {
+  @media screen and (min-width: $tablet-large) {
     .two-column & {
       margin-right: 32rem;
       padding-right: $gutter-width-large;

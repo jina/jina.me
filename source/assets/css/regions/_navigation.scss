@@ -5,7 +5,7 @@
 
   a { border: 0; }
 
-  @include breakpoint($tablet-large) {
+  @media screen and (min-width: $tablet-large) {
     margin-right: -#{$gutter-width-large * 2};
     padding: {
          top: $spacing-vertical-x-large;

@@ -2,7 +2,7 @@
   @extend %column;
 
   .two-column & {
-    @include breakpoint($tablet-large) {
+    @media screen and (min-width: $tablet-large) {
       float: right;
       width: 32rem;
     }

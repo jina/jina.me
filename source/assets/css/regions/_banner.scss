@@ -20,7 +20,7 @@
     }
   }
 
-  @include breakpoint($tablet-large) {
+  @media screen and (min-width: $tablet-large) {
     @extend %clearfix-tablet-large;
 
     h1 {
