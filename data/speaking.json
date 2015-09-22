@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "Dreamforce",
-      "location": "San Francisco, California",
-      "date": "September 15<sup>th</sup>&ndash;18<sup>th</sup>",
-      "link": "http://www.salesforce.com/dreamforce/DF15/",
-      "type": "Talk & Workshops"
-    },
-
-    {
       "name": "SmashingConf",
       "location": "Barcelona, Spain",
       "date": "October 20<sup>th</sup>&ndash;21<sup>th</sup>",
@@ -38,6 +30,30 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "Dreamforce",
+            "location": "San Francisco, California",
+            "talk": "Introducing the Salesforce Lightning Design System",
+            "type": "Co-presentation with <a href=\"https://twitter.com/bferrua\" rel=\"friend met co-worker\">Brandon Ferrua</a>"
+          },
+          {
+            "name": "Dreamforce",
+            "location": "San Francisco, California",
+            "talk": "ISV Talk: Introducing the Salesforce Lightning Design System",
+            "type": "Co-presentation with <a href=\"https://twitter.com/bferrua\" rel=\"friend met co-worker\">Brandon Ferrua</a>"
+          },
+          {
+            "name": "Dreamforce",
+            "location": "San Francisco, California",
+            "talk": "Meet the Team: Salesforce Lightning Design System",
+            "type": "Panel with <a href=\"https://twitter.com/stefsull\" rel=\"friend met co-worker\">Stephanie Rewis</a>, <a href=\"https://twitter.com/soenkerodhe\" rel=\"friend met co-worker\">Sönke Rohde</a>, <a href=\"https://twitter.com/bferrua\" rel=\"friend met co-worker\">Brandon Ferrua</a>"
+          },
+          {
+            "name": "Dreamforce",
+            "location": "San Francisco, California",
+            "talk": "Introducing the Salesforce Lightning Design System (Repeat Session)",
+            "type": "Co-presentation with <a href=\"https://twitter.com/bferrua\" rel=\"friend met co-worker\">Brandon Ferrua</a>"
+          },
           {
             "name": "So Coded",
             "location": "Hamburg, Germany",
