@@ -107,6 +107,14 @@
           },
 
           {
+            "name": "Archer Malmo",
+            "location": "Memphis, Tennessee",
+            "talk": "Designing <i>for</i> Enterprise",
+            "slides": "https://speakerdeck.com/jina/designing-for-enterprise",
+            "type": "Repeat of my Creative Works talk to a design agency"
+          },
+
+          {
             "name": "Creative Works",
             "location": "Memphis, Tennessee",
             "talk": "Designing <i>for</i> Enterprise",
