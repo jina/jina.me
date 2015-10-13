@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "The Salesforce Team Model for Scaling a Design System",
+            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
+            "date": "October",
+            "link": "https://medium.com/salesforce-ux/the-salesforce-team-model-for-scaling-a-design-system-d89c2a2d404b"
+          },
+          {
             "name": "Clarity, Efficiency, Consistency, Beauty",
             "publication": "The Pastry Box",
             "date": "August",
