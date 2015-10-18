@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "<span class=\"caps\">IxDA SF</span>",
-      "location": "San Francisco, California",
-      "date": "October 14<sup>th</sup>",
-      "link": "https://www.eventbrite.com/e/ixda-sf-presents-design-at-scale-tickets-18948792348",
-      "type": "Talk"
-    },
-
-    {
       "name": "SmashingConf",
       "location": "Barcelona, Spain",
       "date": "October 20<sup>th</sup>&ndash;21<sup>th</sup>",
@@ -47,6 +39,13 @@
         "year": "2015",
         "details": [
           {
+            "name": "<span class=\"caps\">IxDA SF</span>",
+            "location": "San Francisco, California",
+            "talk": "Lightning Design System",
+            "slides": "https://speakerdeck.com/jina/lightning-design-system",
+            "type": "Talk"
+          },
+          {
             "name": "Dreamforce",
             "location": "San Francisco, California",
             "talk": "Introducing the Salesforce Lightning Design System",
@@ -79,7 +78,6 @@
           },
           {
             "name": "Camp Sass",
-            "link": "http://campsass.com",
             "location": "Atlanta, Georgia",
             "talk": "Living Design Systems",
             "slides": "https://speakerdeck.com/jina/living-design-systems",
