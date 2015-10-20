@@ -1,14 +1,6 @@
 {
   "upcoming": [
     {
-      "name": "SmashingConf",
-      "location": "Barcelona, Spain",
-      "date": "October 20<sup>th</sup>&ndash;21<sup>th</sup>",
-      "link": "http://smashingconf.com/barcelona-2015/",
-      "type": "Talk"
-    },
-
-    {
       "name": "<span class=\"caps\">CSS</span> Dev Conf",
       "location": "Long Beach, California",
       "date": "October 26<sup>th</sup>&ndash;28<sup>th</sup>",
@@ -38,6 +30,13 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "SmashingConf",
+            "location": "Barcelona, Spain",
+            "talk": "Living Design Systems",
+            "type": "Talk",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
           {
             "name": "<span class=\"caps\">IxDA SF</span>",
             "location": "San Francisco, California",
