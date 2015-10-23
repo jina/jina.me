@@ -22,6 +22,22 @@
       "date": "November 4<sup>th</sup>",
       "link": "http://alistapart.com/blog/post/front-end-dev-talk/",
       "type": "Panel"
+    },
+
+    {
+      "name": "Smashing Conference",
+      "location": "Oxford, England",
+      "date": "March 15<sup>th</sup>&ndash;16<sup>th</sup>",
+      "link": "http://smashingconf.com/oxford-2016/",
+      "type": "Talk"
+    },
+
+    {
+      "name": "Smashing Conference",
+      "location": "San Francisco, California",
+      "date": "April 5<sup>th</sup>&ndash;6<sup>th</sup>",
+      "link": "http://smashingconf.com/sf-2016/",
+      "type": "Talk"
     }
   ],
 
@@ -31,7 +47,7 @@
         "year": "2015",
         "details": [
           {
-            "name": "SmashingConf",
+            "name": "Smashing Conference",
             "location": "Barcelona, Spain",
             "talk": "Living Design Systems",
             "type": "Talk",
