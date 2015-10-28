@@ -5,6 +5,12 @@
         "year": "2015",
         "posts": [
           {
+            "name": "I Suck at CSS",
+            "publication": "The Pastry Box",
+            "date": "October",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-october-28"
+          },
+          {
             "name": "The Salesforce Team Model for Scaling a Design System",
             "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
             "date": "October",
