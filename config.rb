@@ -3,10 +3,10 @@ require "active_support/inflector"
 
 Time.zone = "US/Pacific"
 
-activate :automatic_image_sizes
 activate :autoprefixer do |config|
-  config.browsers = ['last 2 versions']
-  config.cascade = true
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.remove   = false
+  config.cascade = false
   config.inline  = true
 end
 activate :blog do |blog|
@@ -34,6 +34,8 @@ compass_config do |config|
   config.output_style = :expanded
 end
 
+Sass::Script::Number.precision = 8
+
 page "/feed.xml",   layout: false
 page "/humans.txt", layout: false
 with_layout :slides do
@@ -57,6 +59,7 @@ configure :build do
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
+  activate :relative_assets
 
   compass_config do |config|
     config.output_style = :compressed
