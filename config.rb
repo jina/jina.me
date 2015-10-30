@@ -1,5 +1,5 @@
 require "builder"
-require "active_support/inflector"
+require 'active_support/core_ext/integer/inflections'
 
 Time.zone = "US/Pacific"
 
