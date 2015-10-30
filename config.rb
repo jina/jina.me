@@ -22,22 +22,12 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end
-activate :blog_page do |page|
-  # page.prefix = "page"
-  # page.permalink = ":title.html"
-  # page.sources = "pages/:title.html"
-  # page.layout = "layout"
-  # page.default_extension = ".markdown"
-end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote   = 'git@github.com:jina/jina.me.git'
   deploy.branch   = 'gh-pages'
 end
 activate :directory_indexes
-activate :drafts do |drafts|
-  drafts.build = true if ENV["SHOW_DRAFTS"]
-end
 activate :livereload
 
 compass_config do |config|
