@@ -1,16 +1,8 @@
 {
   "upcoming": [
     {
-      "name": "Future <i>of</i> Web Design",
-      "location": "San Francisco, California",
-      "date": "October 28<sup>th</sup>&ndash;30<sup>th</sup>",
-      "link": "https://futureofwebdesign.com/san-francisco-2015/",
-      "type": "Talk"
-    },
-
-    {
-      "name": "A List Apart",
-      "location": "Online",
+      "name": "A List Apart: The State of Front-End Dev",
+      "location": "an Online Panel",
       "date": "November 4<sup>th</sup>",
       "link": "http://alistapart.com/blog/post/front-end-dev-talk/",
       "type": "Panel"
@@ -46,6 +38,13 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "Future <i>of</i> Web Design",
+            "location": "San Francisco, California",
+            "talk": "Designing a Design System",
+            "slides": "https://speakerdeck.com/jina/designing-a-design-system",
+            "type": "Talk"
+          },
           {
             "name": "<span class=\"caps\">CSS</span> Dev Conf",
             "location": "Long Beach, California",
