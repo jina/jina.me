@@ -15,7 +15,7 @@ title: Publications
           %li
             %strong= link_to book.name, book.link
 
-            = precede "&mdash; " do
+            = precede "-- " do
               %i by
 
             = book.authors
@@ -37,5 +37,5 @@ title: Publications
           %li
             %strong= link_to post.name, post.link
 
-            = precede "&mdash; " do
+            = precede "-- " do
               %span= post.publication

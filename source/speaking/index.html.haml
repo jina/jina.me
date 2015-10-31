@@ -6,139 +6,151 @@ title: Speaking
 
 .two-column
   %aside.complementary(role="complementary")
-    %h2 Let&rsquo;s Talk
+    %p= link_to image_tag("speaking.jpg", width: "960", height: "720", alt: "Jina Bolton"), "https://www.flickr.com/photos/see_also/15048989877/in/photostream/lightbox/", title: "Jina Bolton by Nicolas Zimmel, on Flickr"
+    %h2 I Love Speaking!
     %p
-      If you would like me to speak at your event, please
-      = link_to "contact me", "/contact"
-      with:
-    %ul
-      %li short description of your conference
-      %li event date and location
-      %li talk type (keynote/session, workshop, panel&hellip;)
-      %li speaker honorarium and/or travel arrangements
+      I've been speaking at events for
+      = data.speaking.details.years
+      years across
+      = data.speaking.details.countries
+      countries,
+      = data.speaking.details.cities
+      cities, and online. I really enjoy it a lot. Lately, I feel fortunate
+      to have had many great opportunities to speak, learn and travel. If I
+      could, I would accept every invitation to speak!
+
+    %p
+      However, I really
+      %em love
+      my job, and I want to be good at it! So I need to limit the
+      engagements I take on each year. To help make the process as smooth as
+      possible), I've put together this list of what we can expect from each
+      other. If all looks good, get in touch!
+
     %hr
-    %h2 Upcoming Events
-    %ul.list-details
-      - data.speaking.upcoming.each do |event|
-        %li
-          %strong= link_to event.name, event.link
-          %span
-            = precede "&mdash; " do
-              = event.date
-          %span
-            = precede "&mdash; " do
-              = event.location
-      %li
-        %strong= link_to "The Mixin", "http://themixinsf.com"
-        %span
-          = precede "&mdash; " do
-            Roughly every 3 months
-        %span
-          = precede "&mdash; " do
-            San Francisco, California
-        %br
-        I organize this San Francisco Sass & Frontend Meet up.
-    %hr
-    %h2 What we can expect from each other
-    %h3 Before the Event
+
+    %h2 What to Expect
+
+    %h3 Your Event
+
     %ul
       %li
         Your event
         = link_to "must have a Code of Conduct", "http://alistapart.com/article/tweaking-the-moral-ui"
         for me to accept the invitation.
+
+      %li Let me know in advance if talks are recorded.
+
       %li
         Tell me about your audience (creative, technical, skill levels, etc).
-      %li Let me know in advance how much time I have.
-      %li
-        I will make sure my content is up-to-date with current standards and
-        best practices, to the best of my knowledge.
-      %li
-        I will design my slides myself. I will not use a slide template
-        provided by the event.
+
       %li
         I will wait until your event gets the opportunity to make the
         announcement, and then I will promote my speaking engagement at your
         event on Twitter, Facebook, and my website.
-      %li Let me know in advance if talks are recorded.
-      %li
-        I will give priority to events that pay a speaker honorarium. For
-        workshops and talks over one hour, this is required.
-      %li
-        I will give priority to events that cover my travel and
-        accommodations. I want to arrive the day before the event begins, and
-        depart the day after the event ends, unless I request otherwise. This
-        is so I can see your full event! Please cover this and all days of the
-        event. If&nbsp;I decide to stay additional days, I will cover that on
-        my own.
-      %li
-        If you need my company to cover travel or accommodations, please list
-        them as a sponsor.
-    %hr
 
-    %h3 During the Event
-    %ul
-      %li
-        I will hang out with attendees and go to the surrounding events
-        (breakfasts, lunches, dinners, parties, etc).
-      %li I will post interesting quotes and photos on social networks.
       %li
         Do not schedule me for 1-on-1 consultations with your attendees
-        without
-        = surround "my&nbsp;", "." do
+        without my
+        = succeed "." do
           %em explicit, written&nbsp;consent
+
     %hr
 
-    %h3 During the Presentation
+    %h3 My Presentation
+
     %ul
+      %li Let me know in advance how much time I have.
+
       %li
-        Help me get set up with A/V. Usually it&rsquo;s not a problem, but in
-        the past I have been left to set myself up and was delayed due to
-        technical difficulties against my control.
+        My content will be up-to-date with current standards and best
+        practices, to the best of my knowledge.
+
+      %li I will design my slides myself on my own template.
+
+      %li
+        Help me get set up with
+        = succeed "." do
+          %span.caps A/V
+        Usually it's not a problem, but in the past I have been left to set
+        myself up and was delayed due to technical difficulties against my
+        control.
+
       %li
         I will present on my own computer, and I will advance my own slides.
-      %li
-        I will do my best to stay within my allotted time. If there is extra
-        time left, I can do
-        = succeed "." do
-          %abbr(title="Questions &amp; Answers") Q&amp;A
-      %li I won&rsquo;t do live code demos or design battles.
-      %li
-        I will not participate in anything involving a &ldquo;battle of the
-        sexes&rdquo;. I made this mistake early in my career. Never again.
-    %hr
 
-    %h3 After the Event
-    %ul
+      %li I won't do live code demos or design battles.
+
+      %li
+        I will not participate in anything involving a "battle
+        %i of
+        the sexes". I made this mistake early in my career. Never again.
+
       %li I will publish my slides and tweet out the link.
-      %li I will provide feedback on how the event went from my experience.
 
     %hr
 
-    %ul.list-details
-      %li= link_to "Lanyrd",       "lanyrd.com/profile/jina/"
-      %li= link_to "Speakerdeck",  "http://speakerdeck.com/jina"
-      %li= link_to "Speakerpedia", "http://speakerpedia.com/speakers/jina-bolton"
-      %li= link_to "Speakerrate",  "http://speakerrate.com/speakers/158-jina-bolton"
+    %h3 Compensation & Accommodations
+
+    %ul
+      %li Unless you are a non-profit, I require a speaker honorarium.
+
+      %li
+        I will give priority to events that cover my travel and
+        accommodations. I would like to arrive at least one day before the
+        event begins, and depart at least one day after the event ends,
+        unless I request otherwise.
+        %strong This is so I can see your full event!
+        Please cover this and all days of the event. If I decide to stay
+        additional days, I will cover that on my own.
+
+      %li
+        If Sales<i>f</i>orce covers my travel and accommodations, I ask that you
+        please indicate them as a sponsor.
+
+    %hr
+
+    %h2 Let's Talk
+
+    %p
+      If you would like me to speak at your event, please
+      = link_to "contact me", "/contact"
+      with:
+
+    %ul
+      %li short description of your conference
+
+      %li event date and location
+
+      %li talk type (keynote/session, workshop, panel...)
+
+      %li speaker honorarium and travel arrangements
 
   %main.main(role="main")
-    %h2 Invite Me to Speak
-    %p
-      I&rsquo;ve been speaking at events for 9 years across 13 countries, 34
-      cities, and online. I really enjoy it a lot. Lately, I feel fortunate to
-      have had many great opportunities to speak, learn and travel. If I
-      could, I would accept every invitation to speak!
-    %p
-      However, I really
-      %em love
-      what I&rsquo;m working on at my job &mdash; and I want to be good at it!
-      So I need to limit the engagements I take on each year.
-    %p
-      To help me get your event prioritized (and to make the booking process
-      as smooth as possible), I&rsquo;ve put together this list of what you
-      can expect from me, and what I will expect from you. If all looks good,
-      get in touch!
-    %p
-      = link_to image_tag("https://farm6.staticflickr.com/5560/15048989877_e80ecbc0be_z.jpg", width: "640", height: "480", alt: "Jina Bolton"), "https://www.flickr.com/photos/see_also/15048989877", title: "Jina Bolton by Nicolas Zimmel, on Flickr"
+
+    %h2 Upcoming Events
+
+    %ul.list-details
+      - data.speaking.upcoming.each do |event|
+        %li
+          %strong= link_to event.name, event.link
+          %span
+            = precede "-- " do
+              = event.date
+          %span
+            = precede "-- " do
+              = event.location
+      %li
+        %strong= link_to "The Mixin", "http://themixinsf.com"
+        %span
+          = precede "-- " do
+            Roughly every 3 months
+        %span
+          = precede "-- " do
+            San Francisco, California
+        %br
+        I organize this San Francisco Sass & Frontend Meet up.
+
     %hr
 
     %h2 Past Events
@@ -148,7 +160,7 @@ title: Speaking
         - past.details.each do |event|
           %li
             %strong= event.name
-            = precede "&mdash; " do
+            = precede "-- " do
               = event.location
 
             %br

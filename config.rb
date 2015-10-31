@@ -44,13 +44,19 @@ end
 
 set :css_dir,    'assets/css'
 set :fonts_dir,  'assets/fonts'
+set :haml, {
+ :attr_wrapper => '"',
+ :format => :xhtml,
+ :ugly => false
+}
 set :images_dir, 'assets/img'
 set :js_dir,     'assets/js'
 set :markdown, :tables => true,
                :autolink => true,
                :gh_blockcode => true,
                :fenced_code_blocks => true,
-               :with_toc_data => true
+               :with_toc_data => true,
+               :smartypants => true
 set :markdown_engine, :redcarpet
 
 configure :build do

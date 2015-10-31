@@ -4,7 +4,7 @@ Contributing to jina.me
 jina.me is open source. See a bug or typo? Have an idea? Just do the
 following:
 
-* Write a detailed description of what you&rsquo;re adding in the pull request
+* Write a detailed description of what you're adding in the pull request 
   (screenshots help).
 * Submit the pull request to the `master` branch.
 * Drink whisky.
@@ -29,4 +29,4 @@ middleman
 
 Thanks!
 
-&mdash; Jina
+-- Jina

@@ -6,7 +6,9 @@
 
 .amp {
   font: {
-    weight: normal;
     style: italic;
+    weight: normal;
+    family: Baskerville, Palatino, "Book Antiqua", serif;
   }
+  line-height: 0;
 }

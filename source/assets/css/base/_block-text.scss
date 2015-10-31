@@ -51,6 +51,15 @@ h3 {
   text-transform: uppercase;
 }
 
+p {
+  & + & {
+    text-indent: $spacing-vertical * 3;
+    margin-top: -#{$spacing-vertical * 2};
+
+    form & { text-indent: 0; }
+  }
+}
+
 nav ul,
 form ol { list-style: none; }
 

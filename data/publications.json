@@ -11,8 +11,8 @@
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-october-28"
           },
           {
-            "name": "The Salesforce Team Model for Scaling a Design System",
-            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
+            "name": "The Sales<i>f</i>orce Team Model <i>for</i> Scaling a Design System",
+            "publication": "Sales<i>f</i>orce UX Blog",
             "date": "October",
             "link": "https://medium.com/salesforce-ux/the-salesforce-team-model-for-scaling-a-design-system-d89c2a2d404b"
           },
@@ -29,14 +29,14 @@
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-july-28"
           },
           {
-            "name": "Notes from Movement",
+            "name": "Notes <i>from</i> Movement",
             "publication": "The Pastry Box",
             "date": "June",
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-june-28"
           },
           {
-            "name": "Nicole Sullivan & Mark Otto talk Front End",
-            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
+            "name": "Nicole Sullivan & Mark Otto Talk Front End",
+            "publication": "Sales<i>f</i>orce UX Blog",
             "date": "June",
             "link": "https://medium.com/salesforce-ux/nicole-sullivan-mark-otto-talk-front-end-e60b814f0bda"
           },
@@ -48,7 +48,7 @@
           },
           {
             "name": "Design Your Dream Job",
-            "publication": "Salesforce<span class=\"caps\">UX</span> Blog",
+            "publication": "Sales<i>f</i>orce UX Blog",
             "date": "May",
             "link": "https://medium.com/salesforce-ux/design-your-dream-job-59209e18ad07"
           },
@@ -59,13 +59,13 @@
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-april-28"
           },
           {
-            "name": "In Search of a Living Design System",
+            "name": "In Search <i>of</i> a Living Design System",
             "publication": "The Pastry Box",
             "date": "March",
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-march-28"
           },
           {
-            "name": "Min <span class=\"amp\">&amp;</span> Me",
+            "name": "Min & Me",
             "publication": "The Pastry Box",
             "date": "February",
             "link": "https://the-pastry-box-project.net/jina-bolton/2015-february-7"
@@ -84,8 +84,8 @@
           },
 
           {
-            "name": "<span class=\"caps\">CSS</span> Conf Oakland",
-            "publication": "Salesforce <span class=\"caps\">UX</span> Blog",
+            "name": "<span>CSS</span>conf Oakland",
+            "publication": "Sales<i>f</i>orce UX Blog",
             "date": "December",
             "link": "https://medium.com/salesforce-ux/cssconf-oakland-b24c8b12da25"
           }
@@ -103,7 +103,7 @@
           },
 
           {
-            "name": "Front-end Maintainability <i>with</i> Sass <span class=\"amp\">&amp;</span> Style Guides",
+            "name": "Front-end Maintainability <i>with</i> Sass & Style Guides",
             "publication": "Engine Yard Blog",
             "date": "January",
             "link": "https://blog.engineyard.com/2011/front-end-maintainability-with-sass-and-style-guides"
@@ -148,7 +148,7 @@
           },
 
           {
-            "name": "Breaking Out of the Box <i>with</i> <span class=\"caps\">CSS</span> Layouts",
+            "name": "Breaking Out <i>of</i> the Box <i>with</i> CSS Layouts",
             "publication": "SitePoint",
             "date": "June",
             "link": "http://www.sitepoint.com/breaking-out-of-the-box/"
@@ -185,13 +185,13 @@
           {
             "name": "Fancy Form Design",
             "link": "http://www.amazon.com/gp/product/0980576849/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980576849&linkCode=as2&tag=jinabolcom-20&linkId=DBSDFZO725CRYPKG",
-            "authors": "Jina Bolton, Tim Connell, <span class=\"amp\">&amp;</span>&nbsp;Derek Featherstone"
+            "authors": "Jina Bolton, Tim Connell, & Derek Featherstone"
           },
 
           {
-            "name": "The Art <span class=\"amp\">&amp;</span> Science of <span class=\"caps\">CSS</span>",
+            "name": "The Art & Science <i>of</i> CSS",
             "link": "http://www.amazon.com/gp/product/0975841971/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0975841971&linkCode=as2&tag=jinabolcom-20&linkId=WRC3RI235PPQWI6W",
-            "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, <span class=\"amp\">&amp;</span>&nbsp;Jonathan Snook"
+            "authors": "Cameron Adams, Jina Bolton, David Johnson, Steve Smith, & Jonathan Snook"
           }
         ]
       },
@@ -209,7 +209,7 @@
             "name": "Sexy Web Design",
             "link": "http://www.amazon.com/gp/product/0980455235/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0980455235&linkCode=as2&tag=jinabolcom-20&linkId=V74HGVS4LTAWDD32",
             "authors": "Elliot Jay Stocks",
-            "also": "wrote outline <span class=\"amp\">&amp;</span> foreword"
+            "also": "wrote outline & foreword"
           }
         ]
       }

@@ -28,7 +28,7 @@
     = yield_content :head_js
 
   %body
-    = yield
+    = Typogruby.improve(yield)
 
     = yield_content :foot_js
     :javascript

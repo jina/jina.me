@@ -23,7 +23,7 @@ pageable: true
       %li
         %hr
         %strong= link_to article.title, article
-        = precede "&mdash; " do
+        = precede "-- " do
           %span= article.date.strftime('%b %e')
 
   - if paginate

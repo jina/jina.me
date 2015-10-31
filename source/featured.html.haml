@@ -6,6 +6,7 @@ title: Featured
   %h1 Featured
   - data.featured.years.each do |feature|
     %h2= feature.year
+
     %ul.list-details
       - feature.details.each do |feature_item|
         %li
@@ -14,11 +15,11 @@ title: Featured
 
           %strong= link_to feature_item.name, feature_item.link
           - if feature_item.publication?
-            = precede "&mdash; " do
+            = precede "-- " do
               %span= feature_item.publication
 
           - if feature_item.event?
-            = precede "&mdash; " do
+            = precede "-- " do
               %span= feature_item.event
               - if feature_item.location?
                 %span= feature_item.location
