@@ -7,22 +7,6 @@
 
   "upcoming": [
     {
-      "name": "A List Apart: The State of Front-End Dev",
-      "location": "an Online Panel",
-      "date": "November 4<sup>th</sup>",
-      "link": "http://alistapart.com/blog/post/front-end-dev-talk/",
-      "type": "Panel"
-    },
-
-    {
-      "name": "UX Awards",
-      "location": "New York, New York",
-      "date": "November 16<sup>th</sup>",
-      "link": "https://userexperienceawards.com/",
-      "type": "Talk"
-    },
-
-    {
       "name": "Smashing Conference",
       "location": "Oxford, England",
       "date": "March 15<sup>th</sup>&ndash;16<sup>th</sup>",
@@ -44,6 +28,22 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "UX Awards",
+            "location": "New York, New York",
+            "talk": "Designing a Design System",
+            "slides": "https://speakerdeck.com/jina/designing-a-design-system",
+            "type": "Talk"
+          },
+
+          {
+            "name": "A List Apart Presents",
+            "location": "an Online Panel",
+            "talk": "The State of Front-End Dev",
+            "video": "http://alistapart.com/blog/post/front-end-dev-talk/",
+            "type": "Panel"
+          },
+
           {
             "name": "Future <i>of</i> Web Design",
             "location": "San Francisco, California",
