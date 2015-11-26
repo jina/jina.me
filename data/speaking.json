@@ -7,6 +7,14 @@
 
   "upcoming": [
     {
+      "name": "Salesforce World Tour",
+      "location": "Atlanta, Georgia",
+      "date": "December 9<sup>th</sup>",
+      "link": "http://www.salesforce.com/events/worldtour/atlanta/",
+      "type": "Talk"
+    },
+
+    {
       "name": "Smashing Conference",
       "location": "Oxford, England",
       "date": "March 15<sup>th</sup>&ndash;16<sup>th</sup>",
