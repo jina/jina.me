@@ -73,12 +73,3 @@ configure :build do
 
   set :relative_links, true
 end
-
-ready do
-  sprockets.import_asset 'vendor/reveal-js/lib/classList.js'
-  sprockets.import_asset 'vendor/reveal-js/plugin/markdown/markdown.js'
-  sprockets.import_asset 'vendor/reveal-js/plugin/markdown/marked.js'
-  sprockets.import_asset 'vendor/reveal-js/plugin/highlight/highlight.js'
-  sprockets.import_asset 'vendor/reveal-js/plugin/zoom-js/zoom.js'
-  sprockets.import_asset 'vendor/reveal-js/plugin/notes/notes.js'
-end

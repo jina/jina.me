@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
 gem 'breakpoint',             '~> 2.5.0'
 gem 'builder',                '~> 3.2.2'
@@ -14,7 +13,6 @@ gem 'middleman-minify-html',  '~> 3.4.1'
 gem 'modular-scale',          '~> 2.1.1'
 gem 'nokogiri',               '~> 1.6.6.2'
 gem 'normalize-rails',        '~> 3.0.3',  :require => false
-gem 'rails-assets-reveal.js'
 gem 'redcarpet',              '~> 3.3.2'
 gem 'susy',                   '~> 2.2.6'
 gem 'typogruby',              '~> 1.0.18'
