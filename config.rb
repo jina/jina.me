@@ -61,7 +61,6 @@ set :markdown_engine, :redcarpet
 
 configure :build do
   activate :asset_hash, ignore: "/assets/img/"
-  activate :gzip
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
