@@ -5,6 +5,18 @@
         "year": "2015",
         "posts": [
           {
+            "name": "Vision, Values, Methods, Obstacles, Measures",
+            "publication": "The Pastry Box",
+            "date": "December",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-december-28"
+          },
+          {
+            "name": "Am I?",
+            "publication": "The Pastry Box",
+            "date": "November",
+            "link": "https://the-pastry-box-project.net/jina-bolton/2015-november-28"
+          },
+          {
             "name": "I Suck at CSS",
             "publication": "The Pastry Box",
             "date": "October",

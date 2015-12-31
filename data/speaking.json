@@ -7,14 +7,6 @@
 
   "upcoming": [
     {
-      "name": "Salesforce World Tour",
-      "location": "Atlanta, Georgia",
-      "date": "December 9<sup>th</sup>",
-      "link": "http://www.salesforce.com/events/worldtour/atlanta/",
-      "type": "Talk"
-    },
-
-    {
       "name": "Smashing Conference",
       "location": "Oxford, England",
       "date": "March 15<sup>th</sup>&ndash;16<sup>th</sup>",
@@ -36,6 +28,14 @@
       {
         "year": "2015",
         "details": [
+          {
+            "name": "Salesforce World Tour",
+            "location": "Atlanta, Georgia",
+            "talk": "Create Pixel-Perfect Apps with the Lightning Design System",
+            "slides": "https://docs.google.com/a/salesforce.com/presentation/d/1AaY72QLWhvZMOM-9XqYSa5rtLQYEiOF6qml0zvqgFJM/edit?usp=sharing",
+            "type": "Talk"
+          },
+
           {
             "name": "UX Awards",
             "location": "New York, New York",
