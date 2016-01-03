@@ -38,9 +38,6 @@ Sass::Script::Number.precision = 8
 
 page "/feed.xml",   layout: false
 page "/humans.txt", layout: false
-with_layout :slides do
-  page "/speaking/living-design-systems/developers"
-end
 
 set :css_dir,    'assets/css'
 set :fonts_dir,  'assets/fonts'
