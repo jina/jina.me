@@ -20,6 +20,14 @@
       "date": "April 5<sup>th</sup>&ndash;6<sup>th</sup>",
       "link": "http://smashingconf.com/sf-2016/",
       "type": "Talk"
+    },
+
+    {
+      "name": "Web Design Day",
+      "location": "Pitsburgh, Pennsylvania",
+      "date": "June 23<sup>rd</sup>&ndash;24<sup>th</sup>",
+      "link": "http://www.webdesignday.com/",
+      "type": "Talk"
     }
   ],
 
@@ -57,6 +65,7 @@
             "location": "San Francisco, California",
             "talk": "Designing a Design System",
             "slides": "https://speakerdeck.com/jina/designing-a-design-system",
+            "video": "https://futureinsights-1.wistia.com/medias/kxv0mlthop",
             "type": "Talk"
           },
 
