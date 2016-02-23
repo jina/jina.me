@@ -24,9 +24,17 @@
 
     {
       "name": "Web Design Day",
-      "location": "Pitsburgh, Pennsylvania",
+      "location": "Pittsburgh, Pennsylvania",
       "date": "June 23<sup>rd</sup>&ndash;24<sup>th</sup>",
       "link": "http://www.webdesignday.com/",
+      "type": "Talk"
+    },
+
+    {
+      "name": "You Gotta Love Frontend",
+      "location": "Tel Aviv, Israel",
+      "date": "June 27<sup>th</sup>&ndash;28<sup>th</sup>",
+      "link": "http://yougottalovefrontend.com/",
       "type": "Talk"
     }
   ],
@@ -34,8 +42,21 @@
   "past": {
     "years": [
       {
+        "year": "2016",
+        "details": [
+          {
+            "name": "CascadeSF: Visual Design Series",
+            "location": "San Francisco, California",
+            "talk": "On-Screen Typography",
+            "type": "Interview"
+          }
+        ]
+      },
+
+      {
         "year": "2015",
         "details": [
+
           {
             "name": "Salesforce World Tour",
             "location": "Atlanta, Georgia",
