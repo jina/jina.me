@@ -36,6 +36,14 @@
       "date": "June 27<sup>th</sup>&ndash;28<sup>th</sup>",
       "link": "http://yougottalovefrontend.com/",
       "type": "Talk"
+    },
+
+    {
+      "name": "Pixel Up!",
+      "location": "Johannesburg, South Africa",
+      "date": "September 12<sup>th</sup>&ndash;14<sup>th</sup>",
+      "link": "http://www.pixelup.co.za/",
+      "type": "Talk"
     }
   ],
 
