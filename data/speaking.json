@@ -1,6 +1,6 @@
 {
   "details": {
-    "years": 9,
+    "years": 10,
     "countries": 14,
     "cities": 36
   },
@@ -12,6 +12,14 @@
       "date": "March 15<sup>th</sup>&ndash;16<sup>th</sup>",
       "link": "http://smashingconf.com/oxford-2016/",
       "type": "Talk"
+    },
+
+    {
+      "name": "Clarity",
+      "location": "San Francisco, California",
+      "date": "March 31<sup>st</sup>&ndash;April 1<sup>st</sup>",
+      "link": "http://clarityconf.com/",
+      "type": "Organizing"
     },
 
     {
@@ -35,6 +43,14 @@
       "location": "Tel Aviv, Israel",
       "date": "June 27<sup>th</sup>&ndash;28<sup>th</sup>",
       "link": "http://yougottalovefrontend.com/",
+      "type": "Talk"
+    },
+
+    {
+      "name": "Frontend Conference",
+      "location": "Zurich, Switzerland",
+      "date": "September 1<sup>st</sup>&ndash;2<sup>nd</sup>",
+      "link": "https://frontendconf.ch/",
       "type": "Talk"
     },
 
