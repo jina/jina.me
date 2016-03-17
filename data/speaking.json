@@ -61,6 +61,13 @@
         "year": "2016",
         "details": [
           {
+            "name": "Thames Valley Salesforce Developers User Group",
+            "location": "Reading, England",
+            "type": "Talk",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
+
+          {
             "name": "Smashing Conference",
             "location": "Oxford, England",
             "type": "Talk",
