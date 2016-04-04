@@ -7,14 +7,6 @@
 
   "upcoming": [
     {
-      "name": "Clarity",
-      "location": "San Francisco, California",
-      "date": "March 31<sup>st</sup>&ndash;April 1<sup>st</sup>",
-      "link": "http://clarityconf.com/",
-      "type": "Organizing"
-    },
-
-    {
       "name": "Smashing Conference",
       "location": "San Francisco, California",
       "date": "April 5<sup>th</sup>&ndash;6<sup>th</sup>",
