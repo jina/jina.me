@@ -6,13 +6,6 @@
   },
 
   "upcoming": [
-    {
-      "name": "Smashing Conference",
-      "location": "San Francisco, California",
-      "date": "April 5<sup>th</sup>&ndash;6<sup>th</sup>",
-      "link": "http://smashingconf.com/sf-2016/",
-      "type": "Talk"
-    },
 
     {
       "name": "Web Design Day",
@@ -53,8 +46,17 @@
         "year": "2016",
         "details": [
           {
+            "name": "Smashing Conference",
+            "location": "San Francisco, California",
+            "talk": "Living Design Systems",
+            "type": "Talk",
+            "slides": "https://speakerdeck.com/jina/living-design-systems"
+          },
+
+          {
             "name": "Thames Valley Salesforce Developers User Group",
             "location": "Reading, England",
+            "talk": "Living Design Systems",
             "type": "Talk",
             "slides": "https://speakerdeck.com/jina/living-design-systems"
           },
@@ -62,6 +64,7 @@
           {
             "name": "Smashing Conference",
             "location": "Oxford, England",
+            "talk": "Living Design Systems",
             "type": "Talk",
             "slides": "https://speakerdeck.com/jina/living-design-systems"
           },
