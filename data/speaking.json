@@ -6,23 +6,6 @@
   },
 
   "upcoming": [
-
-    {
-      "name": "Web Design Day",
-      "location": "Pittsburgh, Pennsylvania",
-      "date": "June 23<sup>rd</sup>&ndash;24<sup>th</sup>",
-      "link": "http://www.webdesignday.com/",
-      "type": "Talk"
-    },
-
-    {
-      "name": "You Gotta Love Frontend",
-      "location": "Tel Aviv, Israel",
-      "date": "June 27<sup>th</sup>&ndash;28<sup>th</sup>",
-      "link": "http://yougottalovefrontend.com/",
-      "type": "Talk"
-    },
-
     {
       "name": "Frontend Conference",
       "location": "Zurich, Switzerland",
@@ -37,6 +20,22 @@
       "date": "September 12<sup>th</sup>&ndash;14<sup>th</sup>",
       "link": "http://www.pixelup.co.za/",
       "type": "Talk"
+    },
+
+    {
+      "name": "UX New Zealand",
+      "location": "Wellington, New Zealand",
+      "date": "October 12<sup>th</sup>&ndash;14<sup>th</sup>",
+      "link": "http://www.uxnewzealand.com/",
+      "type": "Talk"
+    },
+
+    {
+      "name": "Mixin",
+      "location": "Perth, Australia",
+      "date": "October 28<sup>th</sup>",
+      "link": "http://mixinconf.com/",
+      "type": "Talk"
     }
   ],
 
@@ -45,6 +44,36 @@
       {
         "year": "2016",
         "details": [
+          {
+            "name": "You Gotta Love Frontend",
+            "location": "Tel Aviv, Israel",
+            "talk": "Designing a Design System",
+            "slides": "https://speakerdeck.com/jina/designing-a-design-system",
+            "type": "Talk"
+          },
+
+          {
+            "name": "Web Design Day",
+            "location": "Pittsburgh, Pennsylvania",
+            "talk": "Designing a Design System",
+            "slides": "https://speakerdeck.com/jina/designing-a-design-system",
+            "type": "Talk"
+          },
+
+          {
+            "name": "AIGA SF + Salesforce UX: SF Design Week",
+            "location": "San Francisco, California",
+            "talk": "Exploring Our Design Principles",
+            "type": "Panel"
+          },
+
+          {
+            "name": "General Assembly",
+            "location": "San Francisco, California",
+            "talk": "Classroom Discussion on Design Systems",
+            "type": "Talk"
+          },
+
           {
             "name": "Smashing Conference",
             "location": "San Francisco, California",
