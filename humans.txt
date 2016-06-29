@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jina -- Designer -- @jina
+
+# THANKS
+
+    Nick Howland
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, Haml, Markdown, 
+    CSS3, Sass, Compass, Susy, Breakpoint, Normalize, 
+    Modernizr, jQuery, Responsive Design Testing, balance-text, 
+    Middleman, HTML5 Boilerplate, GitHub, Sublime Text, iTerm

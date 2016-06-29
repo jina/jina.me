@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-12-31T10:00:00+02:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>2015 Year in Review</title>
+    <link rel="alternate" href="http://blog.url.com/journal/2015/12/31/2015-year-in-review/"/>
+    <id>http://blog.url.com/journal/2015/12/31/2015-year-in-review/</id>
+    <published>2015-12-31T10:00:00+02:00</published>
+    <updated>2016-06-29T10:06:26+03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2&gt;Stats&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Featured in
+    &lt;strong&gt;4 podcasts&lt;/strong&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Wrote
+    &lt;strong&gt;15 articles/blog posts&lt;/strong&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    Gave
+    &lt;strong&gt;16 talks&lt;/strong&gt;
+    at conferences and meet ups
+  &lt;/li&gt;
+  &lt;li&gt;
+    Hosted
+    &lt;strong&gt;8 external meet ups&lt;/strong&gt;
+    at Salesforce
+  &lt;/li&gt;
+  &lt;li&gt;
+    Hosted
+    &lt;strong&gt;3 meet ups&lt;/strong&gt;
+    for
+    &lt;a href="http://themixinsf.com"&gt;The Mixin&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Doing My Best Work&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    We launched my dream project, the
+    &lt;a href="http://salesforce.com/designsystem"&gt;Lightning Design System&lt;/a&gt;
+    and I am ecstatic at how well it was received.
+  &lt;/li&gt;
+  &lt;li&gt;
+    I took lead on our UX Evangelism efforts, including maintaining our
+    &lt;a href="https://medium.com/salesforce-ux"&gt;blog&lt;/a&gt;,
+    &lt;a href="https://twitter.com/salesforceux"&gt;Twitter account&lt;/a&gt;,
+    &lt;a href="https://dribbble.com/salesforce"&gt;Dribbble&lt;/a&gt;,
+    event sponsorships,
+    speaking and encouraging others in my organization to speak,
+    among other team brand initiatives.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Some teammates and I were filmed in the documentary,
+    &lt;a href="http://www.designdisruptors.com/"&gt;Design Disruptors&lt;/a&gt;
+    &amp;mdash; we weren't in the trailer, but we should end up in the final cut.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Personal Details&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    Sushi &amp; Robots is now an LLC. and I filed a trademark for it. This is the
+    entity I will use to organize meet ups and conferences.
+  &lt;/li&gt;
+  &lt;li&gt;
+    I worked on
+    &lt;a href="http://clarityconf.com"&gt;Clarity&lt;/a&gt;
+    which will happen in 2016.
+  &lt;/li&gt;
+  &lt;li&gt;Moved to Little Hollywood.&lt;/li&gt;
+  &lt;li&gt;Dated a nice guy but we broke up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Following, you can see my year in pictures.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Trips&lt;/h2&gt;
+&lt;h3&gt;
+  Seattle with my brother, visiting
+  &lt;a href="https://twitter.com/nex3"&gt;Natalie&lt;/a&gt;
+  &amp;
+  &lt;a href="https://twitter.com/JhoiraArtificer"&gt;Liz&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/zY9Pqmhm7w/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-22T04:25:04+00:00"&gt;Feb 21, 2015 at 8:25pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Dallas/Grapevine, TX with coworkers for
+  &lt;a href="http://squaresconference.com"&gt;Squares&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/0rPohgBm0Q/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Arjun &amp;amp; George getting into the Texas spirit! #squares2015&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-03-26T03:23:28+00:00"&gt;Mar 25, 2015 at 8:23pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Detroit, Michigan with friends for
+  DEMF
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/3C6p0chm0f/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-05-24T01:04:42+00:00"&gt;May 23, 2015 at 6:04pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Berlin, Germany and seeing Andy Warhol Exhibit&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/5bi3owBm1R/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Andy Warhol self portrait #latergram&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-22T07:40:40+00:00"&gt;Jul 22, 2015 at 12:40am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Then to Hamburg, Germany for
+  &lt;a href="http://2015.socoded.com/"&gt;So Coded&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/5ifknshm5I/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;This was the conference venue #socoded&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-25T00:26:33+00:00"&gt;Jul 24, 2015 at 5:26pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Ace Hotel in Palm Springs with Beth &amp; Stacy&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/7QyHXBBm_D/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-05T20:25:02+00:00"&gt;Sep 5, 2015 at 1:25pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Barcelona for
+  &lt;a href="http://smashingconf.com/"&gt;Smashing Conference&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/9JhYZvhm-U/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-22T17:46:55+00:00"&gt;Oct 22, 2015 at 10:46am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Long Beach, California for
+  &lt;a href="http://2015.cssdevconf.com/"&gt;CSS Dev Conf&lt;/a&gt;
+  and staying on the Queen Mary
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/9ZBI7Zhmxt/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-28T18:13:02+00:00"&gt;Oct 28, 2015 at 11:13am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Austin, Texas with my teammate
+  &lt;a href="https://twitter.com/bferrua"&gt;Brandon&lt;/a&gt;
+  for
+  &lt;a href="http://sassconf.com/"&gt;Sass Conf&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/-B7zzChm2l/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-13T15:35:19+00:00"&gt;Nov 13, 2015 at 7:35am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Big Canoe, Georgia for
+  &lt;a href="http://webwhiskyweekend.com"&gt;Web Whisky Weekend&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/-G7-0Shm33/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-15T14:13:02+00:00"&gt;Nov 15, 2015 at 6:13am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  New York, New York for with teammates for
+  &lt;a href="https://userexperienceawards.com/"&gt;UX Awards&lt;/a&gt;
+  &amp;
+  &lt;a href="http://www.salesforce.com/events/worldtour/nyc/"&gt;Salesforce World Tour NYC&lt;/a&gt;,
+  and staying in this gorgeous Airbnb
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/-MdgZmhm6s/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-17T17:42:10+00:00"&gt;Nov 17, 2015 at 9:42am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Atlanta, Georgia for
+  &lt;a href="http://www.salesforce.com/events/worldtour/atlanta/"&gt;Salesforce World Tour ATL&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/_FXh9jBm8_/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-09T20:06:40+00:00"&gt;Dec 9, 2015 at 12:06pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Shows&lt;/h2&gt;
+&lt;h3&gt;New Years Celebration with Beats Antique&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/xUeqpwhmyE/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-01-01T17:38:07+00:00"&gt;Jan 1, 2015 at 9:38am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;The Edwardian Ball&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/yAj_LKhmxX/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-01-18T20:31:11+00:00"&gt;Jan 18, 2015 at 12:31pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;The Book of Mormon&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/2pYTS6Bm4n/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Finally seeing it.&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-05-14T03:03:31+00:00"&gt;May 13, 2015 at 8:03pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h2&gt;Free Metallica Show for Salesforce Employees&lt;/h2&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/zF8jGRBmwt/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;#latergram from the #fy16 Metallica concert&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-14T19:13:24+00:00"&gt;Feb 14, 2015 at 11:13am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Hall &amp; Oates&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/6_loxVBmwY/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Hall &amp;amp; Oates&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-08-30T04:08:55+00:00"&gt;Aug 29, 2015 at 9:08pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Opera Opening Gala with Beth &amp; Stacy&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/7g1h_1Bm5f/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;On my way to the San Francisco Opera! First time!&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-12T02:02:44+00:00"&gt;Sep 11, 2015 at 7:02pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Empire of the Sun&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/71vJUXhm0W/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Empire of the Sun&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-20T04:50:59+00:00"&gt;Sep 19, 2015 at 9:50pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Meeting Garbage in VIP for their 20 Years Queer Tour&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/9zQnwhhm_b/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;#latergram from when I met @garbage. Right before this, I told Shirley she was an awesome Terminator.&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-07T22:48:34+00:00"&gt;Nov 7, 2015 at 2:48pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Seeing Danny Elfman &amp; the SF Symphony Play to The Nightmare Before Christmas&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/-p5MJoBm4H/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Danny Elfman (Tim Burton’s The Nightmare Before Christmas) + SF Symphony = bliss&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-29T04:02:03+00:00"&gt;Nov 28, 2015 at 8:02pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Soundbox with Beth&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/_LrPYXBm1g/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-12T06:54:20+00:00"&gt;Dec 11, 2015 at 10:54pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Other Events&lt;/h2&gt;
+&lt;h3&gt;Learning to sear Foie Gras&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/0EtzW6Bm41/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;I just seared my own foie gras. Women of #WingtipSF event.&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-03-11T04:16:42+00:00"&gt;Mar 10, 2015 at 9:16pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Sailing with My Team&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/1PcmzNBm8Q/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;My rad team&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-04-09T04:49:29+00:00"&gt;Apr 8, 2015 at 9:49pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Moving to Little Hollywood&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/2e5xDGhm80/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Zali, the Explorer&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-05-10T01:24:17+00:00"&gt;May 9, 2015 at 6:24pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;James Bond Party at Wingtip with Caviar Straight From the Sturgeon&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/3VUyikBm7Z/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Caviar dreams #007party&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-05-31T04:39:25+00:00"&gt;May 30, 2015 at 9:39pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Getting Invited to Anchor Steam's Brewery Party&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/4YAQu6Bm_U/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Thanks @anchorbrewing #drinksteam&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-06-26T02:09:09+00:00"&gt;Jun 25, 2015 at 7:09pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Bastille Day Dinner at Wingtip&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/5I5b6GBm-8/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Bastille Day feast with @linhyaopham!&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-15T01:52:18+00:00"&gt;Jul 14, 2015 at 6:52pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Skywalker Ranch&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/5yF0T2hmwl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Security is tight&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-31T01:49:21+00:00"&gt;Jul 30, 2015 at 6:49pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Dying my hair blue, green, and purple&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/50Cn0Qhm7g/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Feeling stylish. 😎&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-31T19:59:54+00:00"&gt;Jul 31, 2015 at 12:59pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Speakeasy Charity Benefit Gala with Beth &amp; Stacy&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/8pOzBsBm77/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Hanging out with some of my favorite people&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-10T04:48:50+00:00"&gt;Oct 9, 2015 at 9:48pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  Speaking at
+  &lt;a href="https://futureofwebdesign.com/"&gt;Future of Web Design&lt;/a&gt;
+  in my Wednesday Addams Halloween Costume
+&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/9eSGA1Bmwd/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Hey #FOWD. Wednesday Addams is gonna talk about Living Design Systems today. Or is it Living Dead?&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-30T19:17:23+00:00"&gt;Oct 30, 2015 at 12:17pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Buying these awesome headphones&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/-U5y_ihm-Y/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Work headphones&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-21T00:23:18+00:00"&gt;Nov 20, 2015 at 4:23pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;Thanksgiving at Wingtip&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;&lt;a href="https://www.instagram.com/p/-nhvuXBmw6/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina)&lt;/a&gt; on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-28T05:58:43+00:00"&gt;Nov 27, 2015 at 9:58pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;The Sinatra Holiday Party at Wingtip&lt;/h3&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"&gt;&lt;div style="padding:8px;"&gt; &lt;div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"&gt; &lt;div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=" margin:8px 0 0 0; padding:0 4px;"&gt; &lt;a href="https://www.instagram.com/p/_PtHcchm0r/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank"&gt;Fun times!&lt;/a&gt;&lt;/p&gt; &lt;p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"&gt;A photo posted by ₍˄ุ.͡˳̫.˄ุ₎ (@jina) on &lt;time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-13T20:27:41+00:00"&gt;Dec 13, 2015 at 12:27pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2016 Changes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    I got the news that starting January 1&lt;sup&gt;st&lt;/sup&gt;, I am promoted to
+    Lead Designer, Design Systems.
+  &lt;/li&gt;
+  &lt;li&gt;
+    My colleague, Ian, will take lead on the blog so I can focus more on our
+    events and social efforts.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Check out my
+    &lt;a href="https://the-pastry-box-project.net/jina-bolton/2015-december-28"&gt;final article at The Pastry Box&lt;/a&gt;
+    for other 2016 goals.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Happy New Year!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Card Review: Thick Lines</title>
+    <link rel="alternate" href="http://blog.url.com/journal/2015/02/27/card-review-thick-lines/"/>
+    <id>http://blog.url.com/journal/2015/02/27/card-review-thick-lines/</id>
+    <published>2015-02-27T10:00:00+02:00</published>
+    <updated>2016-06-29T10:06:26+03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  &lt;a href="http://www.draplin.com/1998/01/ddc113_ddc_thick_lines_edition_playing_card_set.html"&gt;Thick Lines&lt;/a&gt;
+  is the first card deck offered by
+  &lt;a href="https://deckstarter.com/)"&gt;DeckStarter&lt;/a&gt;,
+  designed by
+  &lt;a href="http://www.draplin.com/"&gt;Draplin Design Co&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h2&gt;The Box&lt;/h2&gt;
+&lt;div class="tile-photos-4"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/box-1/fullsize-e8add7ff.jpg"&gt;&lt;img alt="Box Photo 1" src="assets/img/journal/cards/thick-lines/box-1/tablet-61cf37e0.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/box-2/fullsize-67aae7c1.jpg"&gt;&lt;img alt="Box Photo 2" src="assets/img/journal/cards/thick-lines/box-2/tablet-79d576bb.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/box-3/fullsize-2c2e7697.jpg"&gt;&lt;img alt="Box Photo 3" src="assets/img/journal/cards/thick-lines/box-3/tablet-bb4d044a.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/box-4/fullsize-bb53f594.jpg"&gt;&lt;img alt="Box Photo 4" src="assets/img/journal/cards/thick-lines/box-4/tablet-2e2d69f2.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  This deck comes in a pretty cool animating case called MagicPak&amp;trade;.
+  The box is "decked out" (pun totally intended) with thick-lined circles in
+  very vibrant sunny colors. The thick slab type has a retro vibe going.
+&lt;/p&gt;
+&lt;h2&gt;Card Backs&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/back/fullsize-42f6f7fd.jpg"&gt;&lt;img alt="Back" src="assets/img/journal/cards/thick-lines/back/tablet-e6d226aa.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;The backs are attractive with the same mirrored sunny circle designs.&lt;/p&gt;
+&lt;h2&gt;Number Cards&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/numbers/fullsize-86d97a9f.jpg"&gt;&lt;img alt="Numbers" src="assets/img/journal/cards/thick-lines/numbers/tablet-eb56acbc.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  The thick-lined pip shapes match well with the retro slab typeface used for
+  the numbered cards.
+&lt;/p&gt;
+&lt;h2&gt;The Aces&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/aces/fullsize-feaa86e1.jpg"&gt;&lt;img alt="Aces" src="assets/img/journal/cards/thick-lines/aces/tablet-b9414a4c.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  Instead of just the Aces
+  &lt;i&gt;of&lt;/i&gt;
+  Spades, all four Aces get a big, bold pip in the center.
+&lt;/p&gt;
+&lt;h2&gt;The Face Cards&lt;/h2&gt;
+&lt;div class="tile-photos-3"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/jacks/fullsize-403564fc.jpg"&gt;&lt;img alt="Jacks" src="assets/img/journal/cards/thick-lines/jacks/tablet-d0ca3f74.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/queens/fullsize-0c8df127.jpg"&gt;&lt;img alt="Queens" src="assets/img/journal/cards/thick-lines/queens/tablet-abe5a3b8.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/kings/fullsize-9d55d373.jpg"&gt;&lt;img alt="Kings" src="assets/img/journal/cards/thick-lines/kings/tablet-c67d97a1.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  The face cards use the traditional style of mirrored poses that most decks
+  have, but the thick outlines help set them apart. I love the
+  &lt;abbr title="Draplin Design Co."&gt;DDC&lt;/abbr&gt;
+  logos in the center. It almost feels like a big belt buckle.
+&lt;/p&gt;
+&lt;h2&gt;Jokers &amp; Other Cards&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/thick-lines/extras/fullsize-3aec762a.jpg"&gt;&lt;img alt="Extras" src="assets/img/journal/cards/thick-lines/extras/tablet-577d2117.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  The Jokers are very simple and rely on typography instead of an
+  illustration. I like that the corners of the cards say "HA HA". Not many
+  Jokers get corner artwork.
+&lt;/p&gt;
+&lt;p&gt;
+  Finally, the deck also comes with information cards for both
+  &lt;a href="http://burgopak.com/landing/"&gt;Burgopak&lt;/a&gt;
+  (the makers of the MagikPak) and Deckstarter.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Cascade SF: UX Night</title>
+    <link rel="alternate" href="http://blog.url.com/journal/2015/02/18/cascade-sf-ux-night/"/>
+    <id>http://blog.url.com/journal/2015/02/18/cascade-sf-ux-night/</id>
+    <published>2015-02-18T10:00:00+02:00</published>
+    <updated>2016-06-29T10:06:26+03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  In San Francisco,
+  &lt;a href="http://cascadesf.com/"&gt;Cascade SF&lt;/a&gt;
+  holds a monthly meet up called
+  &lt;em&gt;UX Night&lt;/em&gt;,
+  an event in which there are two hours of speed design mentoring and
+  presentations. This week, I had the opportunity to attend and speak. It
+  was a pretty great event!
+&lt;/p&gt;
+&lt;h2&gt;Speed Design Mentoring&lt;/h2&gt;
+&lt;blockquote class="twitter-tweet" lang="en"&gt;
+  &lt;p&gt;
+    The design mentorship board filled up quick!
+    &lt;a href="https://twitter.com/hashtag/uxnight?src=hash"&gt;#uxnight&lt;/a&gt;
+    &lt;a href="https://twitter.com/hashtag/wixevents?src=hash"&gt;#wixevents&lt;/a&gt;
+    SF
+    &lt;a href="https://twitter.com/WixLounge"&gt;@WixLounge&lt;/a&gt;
+    &lt;a href="#"&gt;pic.twitter.com/JOyKevvX6T&lt;/a&gt;
+  &lt;/p&gt;
+  -- WixLounge (@WixLounge)
+  &lt;a href="https://twitter.com/WixLounge/status/568239783664881665"&gt;February 19, 2015&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async="async" charset="utf-8" src="//platform.twitter.com/widgets.js"&gt;&lt;/script&gt;
+&lt;p&gt;
+  When I walked in, I was very impressed. I saw a huge room full of an
+  energetic crowd. At many tables throughout the space, there were attendees
+  meeting 1-on-1 with design mentors. It was speed mentoring, so everyone
+  had a time slot they signed up for to meet. Everyone seemed very talented
+  and passionate. I saw some people getting feedback on their projects, and
+  some just having a conversation. It looked pretty fun.
+&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" lang="en"&gt;
+  &lt;p&gt;
+    Getting our
+    &lt;a href="https://twitter.com/hashtag/uxdesign?src=hash"&gt;#uxdesign&lt;/a&gt;
+    mentorship on with
+    &lt;a href="https://twitter.com/cascadesf"&gt;@cascadesf&lt;/a&gt;
+    in the SF
+    &lt;a href="https://twitter.com/WixLounge"&gt;@WixLounge&lt;/a&gt;.
+    &lt;a href="https://twitter.com/hashtag/wixevents?src=hash"&gt;#wixevents&lt;/a&gt;
+    &lt;a href="https://twitter.com/hashtag/uxnight?src=hash"&gt;#uxnight&lt;/a&gt;
+    &lt;a href="http://t.co/TBaGCQC2Ih"&gt;pic.twitter.com/TBaGCQC2Ih&lt;/a&gt;
+  &lt;/p&gt;
+  -- WixLounge (@WixLounge)
+  &lt;a href="https://twitter.com/WixLounge/status/568237677662879744"&gt;Feburary 19, 2015&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async="async" charset="utf-8" src="//platform.twitter.com/widgets.js"&gt;&lt;/script&gt;
+&lt;h2&gt;The Presentation&lt;/h2&gt;
+&lt;p&gt;
+  After the mentoring sessions were over, it was my turn to present.
+  I spoke about the work my Design Systems team is doing at
+  &lt;a href="http://twitter.com/salesforceux"&gt;Sales&lt;i&gt;f&lt;/i&gt;orce UX&lt;/a&gt;.
+  I was excited to have many conversations afterwards about what other
+  people are doing in this space.
+&lt;/p&gt;
+&lt;blockquote class="instagram-media" data-instgrm-captioned="data-instgrm-captioned" data-instgrm-version="4" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); margin: 1px; max-width: 658px; padding: 0; width: 99.375%; width: -webkit-calc(100% - 2px); width: calc(100% - 2px);"&gt;
+  &lt;div style="padding: 8px;"&gt;
+    &lt;div style="background: #F8F8F8; line-height:0; margin-top: 40px; padding: 50% 0; text-align: center; width: 100%;"&gt;
+      &lt;div style="background: url(data:image/png; base64, iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display: block; height: 44px; margin: 0 auto -44px; position: relative; top: -22px; width: 44px;"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p style="margin: 8px 0 0 0; padding: 0 4px;"&gt;
+      &lt;a style="color: #000; font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" target="_top" href="https://instagram.com/p/zROYa1D-1R/"&gt;@jina talking about designing systems.&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p style="color: #c9c8cd; font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"&gt;
+      A photo posted by Faruk Ateş (@kurafire) on
+      &lt;time datetime="2015-02-19T04:20:53+00:00" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px;"&gt;
+        Feb 18, 2015 at 8:20pm PST
+      &lt;/time&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;script async="async" defer="defer" src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;
+&lt;h3&gt;
+  My slides:
+  &lt;strong&gt;
+    &lt;a href="https://speakerdeck.com/jina/living-design-systems"&gt;Living Design Systems&lt;/a&gt;
+  &lt;/strong&gt;
+&lt;/h3&gt;
+&lt;script async="async" class="speakerdeck-embed" data-id="050f67200ec301329561323b621a35b7" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h2&gt;Next Month&lt;/h2&gt;
+&lt;p&gt;
+  I'm very excited about next month's event. We are hosting it at the
+  &lt;strong&gt;Sales&lt;i&gt;f&lt;/i&gt;orce Rincon Cafe&lt;/strong&gt;.
+  It looks like it's going to be another great event. If you're interested
+  in checking it out,
+  &lt;a href="http://uxnightnot13.eventbrite.com"&gt;grab tickets here&lt;/a&gt;.
+  I look forward to seeing you there!
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Card Review: Flesh + Bones</title>
+    <link rel="alternate" href="http://blog.url.com/journal/2015/02/16/card-review-flesh-bones/"/>
+    <id>http://blog.url.com/journal/2015/02/16/card-review-flesh-bones/</id>
+    <published>2015-02-16T10:00:00+02:00</published>
+    <updated>2016-06-29T10:06:26+03:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  &lt;a href="http://dualoriginals.com/products/cards"&gt;Flesh + Bones&lt;/a&gt;
+  is the most recent deck of playing cards I have received for my collection,
+  so I figured I would review this one first. This is a deck
+  hand-illustrated by
+  &lt;a href="http://dualoriginals.com/"&gt;Dual Originals&lt;/a&gt;
+  for
+  &lt;a href="https://deckstarter.com/"&gt;DeckStarter&lt;/a&gt;,
+  and I was a backer.
+&lt;/p&gt;
+&lt;p&gt;
+  Admittedly, I was very frustrated because my order was really late. But
+  after some back-and-forth over support and social media, DeckStarter made
+  it right with me. I can be a little impatient for things I've paid for,
+  but once I received the deck I was very happy and it was worth the wait.
+&lt;/p&gt;
+&lt;h2&gt;The Box&lt;/h2&gt;
+&lt;div class="tile-photos-2"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/box-1/fullsize-7e2deb33.jpg"&gt;&lt;img alt="Box Photo 1" src="assets/img/journal/cards/flesh-bones/box-1/tablet-bca2806c.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/box-2/fullsize-d280b0b3.jpg"&gt;&lt;img alt="Box Photo 2" src="assets/img/journal/cards/flesh-bones/box-2/tablet-8f8f9795.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  I love the design used for box. It is minimalist-- just black and white.
+  It reminds me of the Bristol Board I used to print on a lot in art school.
+&lt;/p&gt;
+&lt;h2&gt;Card Backs&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/back/fullsize-8dcc0412.jpg"&gt;&lt;img alt="Back" src="assets/img/journal/cards/flesh-bones/back/tablet-76950011.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  Most decks I have sport beautiful backs and have boring fronts. While I
+  think the backs of these cards are very nice, they are less interesting
+  than the fronts, which you'll see soon.
+&lt;/p&gt;
+&lt;h2&gt;Number Cards&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/numbers/fullsize-ae011632.jpg"&gt;&lt;img alt="Numbers" src="assets/img/journal/cards/flesh-bones/numbers/tablet-3f694742.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  The front of the number cards are smaller numbers and pips, a slight
+  departure from the standard style. I like the simplicity.
+&lt;/p&gt;
+&lt;h2&gt;The Aces&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/aces/fullsize-f9b75884.jpg"&gt;&lt;img alt="Aces" src="assets/img/journal/cards/flesh-bones/aces/tablet-6ac5c10f.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  Usually only the Ace
+  &lt;i&gt;of&lt;/i&gt;
+  Spades has a fancy design. I love that all four aces get a nice
+  illustration.
+&lt;/p&gt;
+&lt;h2&gt;The Face Cards&lt;/h2&gt;
+&lt;div class="tile-photos-3"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/jacks/fullsize-c9e913b4.jpg"&gt;&lt;img alt="Jacks" src="assets/img/journal/cards/flesh-bones/jacks/tablet-ef5e6518.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/queens/fullsize-deae1706.jpg"&gt;&lt;img alt="Queens" src="assets/img/journal/cards/flesh-bones/queens/tablet-e00e6f0f.jpg" /&gt;
+  &lt;/a&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/kings/fullsize-57adb5e6.jpg"&gt;&lt;img alt="Kings" src="assets/img/journal/cards/flesh-bones/kings/tablet-e0973191.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  I love these face cards. Instead of typical royal humans in fancy clothes,
+  we get a range of monsters, including mermaids, dragons, unicorns, etc.
+&lt;/p&gt;
+&lt;h2&gt;Jokers &amp; Other Cards&lt;/h2&gt;
+&lt;div class="tile-photos-1"&gt;
+  &lt;a target="_blank" href="assets/img/journal/cards/flesh-bones/extras/fullsize-2b7f4176.jpg"&gt;&lt;img alt="Extras" src="assets/img/journal/cards/flesh-bones/extras/tablet-b09ed8b9.jpg" /&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;
+  The Jokers are stunning. I like the contrast between the two. One card is
+  heavy with a skeleton with long hair filling most of the card. The other
+  joker is stark and clean with the butterfly (or moth?) in the middle.
+&lt;/p&gt;
+&lt;p&gt;
+  Finally, the deck also comes with information cards for both
+  &lt;a href="http://www.artofplay.com/"&gt;Art &lt;i&gt;of&lt;/i&gt; Play&lt;/a&gt;
+  and Dual Originals.
+&lt;/p&gt;
+</content>
+  </entry>
+</feed>
