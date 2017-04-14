@@ -1,3 +1,7 @@
+# This repository is archived. It no longer is tracking the public website, which is now using Squarespace. If you find issues with the website, please feel free to contact me there or leave an issue here. However, contributions to this codebase are no longer accepted.
+
+---
+
 # jina.me
 
 * [@jina](http://twitter.com/jina)
